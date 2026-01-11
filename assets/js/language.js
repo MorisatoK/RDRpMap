@@ -162,11 +162,6 @@ const Language = {
   },
 
   _postTranslation: function () {
-    const wikiPages = { 'de': '-de-DE', 'fr': '-fr-FR', 'pt-BR': '-pt-BR', 'ru': '-ru-RU' };
-    document.querySelector('.wiki-page').setAttribute('href',
-      `https://github.com/jeanropke/RDR2CollectorsMap/wiki/RDO-Collectors-Map-User-Guide${wikiPages[Settings.language] ?? ''}`
-    );
-
     document.getElementById('back-to-top').setAttribute('title', Language.get('menu.back_to_top'));
 
     FME.update();

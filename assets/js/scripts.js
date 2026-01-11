@@ -51,12 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function init() {
-  try {
-    Sentry.init({ release: nocache, tracesSampleRate: isLocalHost() ? 1 : 0.3 });
-  } catch (err) {
-    console.log(`Sentry: ${err}`);
-  }
-
   const navLang = navigator.language;
   const langCodesMap = { 'zh-CN': 'zh-Hans', 'zh-SG': 'zh-Hans', 'zh-HK': 'zh-Hant', 'zh-TW': 'zh-Hant' };
   const mappedLanguage = langCodesMap[navLang] || navLang;
