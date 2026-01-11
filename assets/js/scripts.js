@@ -208,12 +208,10 @@ function downloadAsFile(filename, text) {
 
 function clockTick() {
   'use strict';
-  const now = new Date();
-  const gameTime = new Date(now * 30);
-  const gameHour = gameTime.getUTCHours();
+  const gameTime = new Date();
+  const gameHour = gameTime.getHours();
   const nightTime = gameHour >= 22 || gameHour < 5;
   const clockFormat = {
-    timeZone: 'UTC',
     hour: 'numeric',
     minute: '2-digit',
     hourCycle: Settings.isClock24Hour ? 'h23' : 'h12',
