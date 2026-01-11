@@ -158,6 +158,10 @@ function isLocalHost() {
   return location.hostname === 'localhost' || location.hostname === '127.0.0.1';
 }
 
+function isInternal() {
+  return document.cookie.split("; ").includes("isInternal=1");
+}
+
 function changeCursor() {
   const isCoordsEnabled = Settings.isCoordsOnClickEnabled;
   const pointer = 'url(assets/images/crosshair_thick.png) 12 12, pointer';

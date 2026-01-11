@@ -36,17 +36,17 @@ const MapBase = {
         bounds: mapBoundary,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
       }),
-      'map.layers.detailed': L.tileLayer((isLocalHost() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/detailed/{z}/{x}_{y}.webp', {
+      'map.layers.detailed': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/detailed/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://rdr2map.com/" target="_blank">RDR2Map</a>',
       }),
-      'map.layers.dark': L.tileLayer((isLocalHost() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
+      'map.layers.dark': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://github.com/TDLCTV" target="_blank">TDLCTV</a>',
       }),
-      'map.layers.black': L.tileLayer((isLocalHost() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/black/{z}/{x}_{y}.webp', {
+      'map.layers.black': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/black/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://github.com/AdamNortonUK" target="_blank">AdamNortonUK</a>',
