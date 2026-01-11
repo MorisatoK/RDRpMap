@@ -119,30 +119,6 @@ async function getTopMembers() {
         ordered[key] = users[key];
       });
 
-      try {
-        // Save a file with the latest translation progress.
-        var replacements = {
-          'en-GB': 'en_GB',
-          'es-ES': 'es',
-          'es-MX': 'es_MX',
-          'pt-BR': 'pt_BR',
-          'pt-PT': 'pt',
-          'sv-SE': 'sv',
-          'zh-CN': 'zh_Hans',
-          'zh-TW': 'zh_Hant',
-        };
-
-        Object.keys(replacements).forEach(key => {
-          const value = replacements[key];
-          projectProgress[value] = projectProgress[key];
-          delete projectProgress[key];
-        });
-
-        fs.writeFileSync(path.join(basepath, 'data', 'lang_progress.json'), JSON.stringify(projectProgress));
-      } catch (error) {
-        console.error('langProgress', JSON.stringify(error));
-      }
-
       return ordered;
     } catch (error) {
       console.error('parse', JSON.stringify(error));
