@@ -167,10 +167,10 @@ class Menu {
 
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
-        Shop.locations,
-        GunForHire.locations,
-        Encounter.locations,
-        PlantsCollection.locations,
+        // Shop.locations,
+        // GunForHire.locations,
+        // Encounter.locations,
+        // PlantsCollection.locations,
         CampCollection.locations,
         Location.locations,
         Legendary.animals,
@@ -183,25 +183,25 @@ class Menu {
           if (location.onMap) location.onMap = false;
         });
 
-      AnimalCollection.collection.forEach((collection) => {
-        collection.animals.forEach((animal) => (animal.isEnabled = false));
-      });
+      // AnimalCollection.collection.forEach((collection) => {
+      //   collection.animals.forEach((animal) => (animal.isEnabled = false));
+      // });
 
-      MadamNazar.onMap = false;
+      // MadamNazar.onMap = false;
       Pins.onMap = false;
-      Treasure.treasuresOnMap = false;
-      Bounty.bountiesOnMap = false;
-      CondorEgg.condorEggOnMap = false;
-      Salvage.salvageOnMap = false;
+      // Treasure.treasuresOnMap = false;
+      // Bounty.bountiesOnMap = false;
+      // CondorEgg.condorEggOnMap = false;
+      // Salvage.salvageOnMap = false;
       // CampCollection.onMap = false;
     });
 
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
-        Shop.locations,
-        GunForHire.locations,
-        Encounter.locations,
-        PlantsCollection.locations,
+        // Shop.locations,
+        // GunForHire.locations,
+        // Encounter.locations,
+        // PlantsCollection.locations,
         CampCollection.locations,
         Location.locations,
         Legendary.animals,
@@ -215,16 +215,16 @@ class Menu {
         });
 
       setTimeout(() => {
-        PlantsCollection.layer.redraw();
+        // PlantsCollection.layer.redraw();
         CampCollection.layer.redraw();
       }, 40);
 
-      MadamNazar.onMap = true;
+      // MadamNazar.onMap = true;
       Pins.onMap = true;
-      Treasure.treasuresOnMap = true;
-      Bounty.bountiesOnMap = true;
-      CondorEgg.condorEggOnMap = true;
-      Salvage.salvageOnMap = true;
+      // Treasure.treasuresOnMap = true;
+      // Bounty.bountiesOnMap = true;
+      // CondorEgg.condorEggOnMap = true;
+      // Salvage.salvageOnMap = true;
       // CampCollection.onMap = true;
     });
 
@@ -242,42 +242,42 @@ class Menu {
       CampCollection.refresh();
     });
 
-    document.querySelector('.shops-hide-btn').addEventListener('click', function () {
-      Shop.locations.forEach((shop) => {
-        if (shop.onMap) shop.onMap = !shop.onMap;
-      });
-    });
+    // document.querySelector('.shops-hide-btn').addEventListener('click', function () {
+    //   Shop.locations.forEach((shop) => {
+    //     if (shop.onMap) shop.onMap = !shop.onMap;
+    //   });
+    // });
 
-    document.querySelector('.shops-show-btn').addEventListener('click', function () {
-      Shop.locations.forEach((shop) => {
-        if (!shop.onMap) shop.onMap = !shop.onMap;
-      });
-    });
+    // document.querySelector('.shops-show-btn').addEventListener('click', function () {
+    //   Shop.locations.forEach((shop) => {
+    //     if (!shop.onMap) shop.onMap = !shop.onMap;
+    //   });
+    // });
 
-    document.querySelector('.gfh-hide-btn').addEventListener('click', function () {
-      GunForHire.locations.forEach((_gfh) => {
-        if (_gfh.onMap) _gfh.onMap = !_gfh.onMap;
-      });
-    });
+    // document.querySelector('.gfh-hide-btn').addEventListener('click', function () {
+    //   GunForHire.locations.forEach((_gfh) => {
+    //     if (_gfh.onMap) _gfh.onMap = !_gfh.onMap;
+    //   });
+    // });
 
-    document.querySelector('.gfh-show-btn').addEventListener('click', function () {
-      GunForHire.locations.forEach((_gfh) => {
-        if (!_gfh.onMap) _gfh.onMap = !_gfh.onMap;
-      });
-    });
+    // document.querySelector('.gfh-show-btn').addEventListener('click', function () {
+    //   GunForHire.locations.forEach((_gfh) => {
+    //     if (!_gfh.onMap) _gfh.onMap = !_gfh.onMap;
+    //   });
+    // });
 
-    document.querySelector('.plants-hide-btn').addEventListener('click', function () {
-      PlantsCollection.locations.forEach((_plants) => {
-        if (_plants.onMap) _plants.onMap = !_plants.onMap;
-      });
-    });
+    // document.querySelector('.plants-hide-btn').addEventListener('click', function () {
+    //   PlantsCollection.locations.forEach((_plants) => {
+    //     if (_plants.onMap) _plants.onMap = !_plants.onMap;
+    //   });
+    // });
 
-    document.querySelector('.plants-show-btn').addEventListener('click', function () {
-      PlantsCollection.locations.forEach((_plants) => {
-        if (!_plants.onMap) _plants.onMap = !_plants.onMap;
-      });
-      setTimeout(() => PlantsCollection.layer.redraw(), 40);
-    });
+    // document.querySelector('.plants-show-btn').addEventListener('click', function () {
+    //   PlantsCollection.locations.forEach((_plants) => {
+    //     if (!_plants.onMap) _plants.onMap = !_plants.onMap;
+    //   });
+    //   setTimeout(() => PlantsCollection.layer.redraw(), 40);
+    // });
 
     document.querySelector('.camps-hide-btn').addEventListener('click', function () {
       CampCollection.locations.forEach((_plants) => {
@@ -292,29 +292,29 @@ class Menu {
       setTimeout(() => CampCollection.layer.redraw(), 40);
     });
 
-    document.querySelector('.encounters-hide-btn').addEventListener('click', function () {
-      Encounter.locations.forEach((_encounter) => {
-        if (_encounter.onMap) _encounter.onMap = !_encounter.onMap;
-      });
-    });
+    // document.querySelector('.encounters-hide-btn').addEventListener('click', function () {
+    //   Encounter.locations.forEach((_encounter) => {
+    //     if (_encounter.onMap) _encounter.onMap = !_encounter.onMap;
+    //   });
+    // });
 
-    document.querySelector('.encounters-show-btn').addEventListener('click', function () {
-      Encounter.locations.forEach((_encounter) => {
-        if (!_encounter.onMap) _encounter.onMap = !_encounter.onMap;
-      });
-    });
+    // document.querySelector('.encounters-show-btn').addEventListener('click', function () {
+    //   Encounter.locations.forEach((_encounter) => {
+    //     if (!_encounter.onMap) _encounter.onMap = !_encounter.onMap;
+    //   });
+    // });
 
-    document.querySelector('.discoverables-hide-btn').addEventListener('click', function () {
-      Discoverable.locations.forEach((_discoveable) => {
-        if (_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
-      });
-    });
+    // document.querySelector('.discoverables-hide-btn').addEventListener('click', function () {
+    //   Discoverable.locations.forEach((_discoveable) => {
+    //     if (_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
+    //   });
+    // });
 
-    document.querySelector('.discoverables-show-btn').addEventListener('click', function () {
-      Discoverable.locations.forEach((_discoveable) => {
-        if (!_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
-      });
-    });
+    // document.querySelector('.discoverables-show-btn').addEventListener('click', function () {
+    //   Discoverable.locations.forEach((_discoveable) => {
+    //     if (!_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
+    //   });
+    // });
 
     document.querySelector('.singleplayer-hide-btn').addEventListener('click', function () {
       Singleplayer.locations.forEach((_singleplayer) => {

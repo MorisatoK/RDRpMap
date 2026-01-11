@@ -87,30 +87,30 @@ function init() {
   Language.init().then(() => {
     changeCursor();
     Pins.init();
-    FME.init();
+    // FME.init();
 
     // Prevent blocks by external services. Sometimes these requests took >6 seconds.
     // Bonus: If either of these fail to load, it doesn't block the map from working properly.
-    Dailies.init();
-    MadamNazar.init();
+    // Dailies.init();
+    // MadamNazar.init();
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
-    const encounters = Encounter.init();
-    const treasures = Treasure.init();
-    const bounties = BountyCollection.init();
-    const fmeCondorEgg = CondorEgg.init();
-    const fmeSalvage = Salvage.init();
-    const plants = PlantsCollection.init();
+    // const encounters = Encounter.init();
+    // const treasures = Treasure.init();
+    // const bounties = BountyCollection.init();
+    // const fmeCondorEgg = CondorEgg.init();
+    // const fmeSalvage = Salvage.init();
+    // const plants = PlantsCollection.init();
     const camps = CampCollection.init();
-    const shops = Shop.init();
+    // const shops = Shop.init();
     const singleplayer = Singleplayer.init();
-    const gfh = GunForHire.init();
+    // const gfh = GunForHire.init();
     const legendary = Legendary.init();
-    const discoverables = Discoverable.init();
+    // const discoverables = Discoverable.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, encounters, treasures, bounties, fmeCondorEgg, fmeSalvage, plants, camps, shops, gfh, legendary, discoverables, overlays, singleplayer]);
+    return Promise.all([animals, locations, camps, legendary, overlays, singleplayer]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -139,13 +139,13 @@ function init() {
 
   document.getElementById('help-container').style.display = Settings.showHelp ? '' : 'none';
 
-  document.getElementById('show-dailies').checked = Settings.showDailies;
+  // document.getElementById('show-dailies').checked = Settings.showDailies;
   document.getElementById('show-utilities').checked = Settings.showUtilitiesSettings;
   document.getElementById('show-customization').checked = Settings.showCustomizationSettings;
   document.getElementById('show-import-export').checked = Settings.showImportExportSettings;
   document.getElementById('show-debug').checked = Settings.showDebugSettings;
 
-  document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
+  // document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
   document.getElementById('utilities-container').classList.toggle('opened', Settings.showUtilitiesSettings);
   document.getElementById('customization-container').classList.toggle('opened', Settings.showCustomizationSettings);
   document.getElementById('import-export-container').classList.toggle('opened', Settings.showImportExportSettings);
@@ -302,10 +302,10 @@ document.getElementById('enable-right-click').addEventListener('change', functio
   Settings.isRightClickEnabled = this.checked;
 });
 
-document.getElementById('show-dailies').addEventListener('change', function () {
-  Settings.showDailies = this.checked;
-  document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
-});
+// document.getElementById('show-dailies').addEventListener('change', function () {
+//   Settings.showDailies = this.checked;
+//   document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
+// });
 
 document.getElementById('show-utilities').addEventListener('change', function () {
   Settings.showUtilitiesSettings = this.checked;
@@ -333,19 +333,19 @@ document.getElementById('language').addEventListener('change', function () {
   MapBase.setFallbackFonts();
 
   AnimalCollection.onLanguageChanged();
-  Bounty.onLanguageChanged();
+  // Bounty.onLanguageChanged();
   CampCollection.onLanguageChanged();
-  Encounter.onLanguageChanged();
-  GunForHire.onLanguageChanged();
+  // Encounter.onLanguageChanged();
+  // GunForHire.onLanguageChanged();
   Legendary.onLanguageChanged();
   Location.onLanguageChanged();
-  PlantsCollection.onLanguageChanged();
-  Shop.onLanguageChanged();
-  Treasure.onLanguageChanged();
+  // PlantsCollection.onLanguageChanged();
+  // Shop.onLanguageChanged();
+  // Treasure.onLanguageChanged();
   Singleplayer.onLanguageChanged();
 
-  Dailies.sortDailies();
-  MadamNazar.addMadamNazar();
+  // Dailies.sortDailies();
+  // MadamNazar.addMadamNazar();
   MapBase.updateTippy('language');
 });
 
@@ -353,17 +353,17 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
   CampCollection.onSettingsChanged();
-  CondorEgg.onSettingsChanged();
-  Encounter.onSettingsChanged();
-  GunForHire.onSettingsChanged();
+  // CondorEgg.onSettingsChanged();
+  // Encounter.onSettingsChanged();
+  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
-  PlantsCollection.onSettingsChanged();
-  Salvage.onSettingsChanged();
-  Shop.onSettingsChanged();
-  Treasure.onSettingsChanged();
+  // PlantsCollection.onSettingsChanged();
+  // Salvage.onSettingsChanged();
+  // Shop.onSettingsChanged();
+  // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
 
-  MadamNazar.addMadamNazar();
+  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -371,17 +371,17 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Settings.markerOpacity = Number(this.value);
 
   CampCollection.onSettingsChanged();
-  CondorEgg.onSettingsChanged();
-  Encounter.onSettingsChanged();
-  GunForHire.onSettingsChanged();
+  // CondorEgg.onSettingsChanged();
+  // Encounter.onSettingsChanged();
+  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
-  PlantsCollection.onSettingsChanged();
-  Salvage.onSettingsChanged();
-  Shop.onSettingsChanged();
-  Treasure.onSettingsChanged();
+  // PlantsCollection.onSettingsChanged();
+  // Salvage.onSettingsChanged();
+  // Shop.onSettingsChanged();
+  // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
 
-  MadamNazar.addMadamNazar();
+  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -389,8 +389,8 @@ document.getElementById('overlay-opacity').addEventListener('change', function (
   Settings.overlayOpacity = Number(this.value);
   Legendary.onSettingsChanged();
   Overlay.onSettingsChanged();
-  CondorEgg.onSettingsChanged();
-  Salvage.onSettingsChanged();
+  // CondorEgg.onSettingsChanged();
+  // Salvage.onSettingsChanged();
   Discoverable.updateLayers();
 });
 
@@ -409,13 +409,13 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
 
   Layers.oms.clearMarkers();
 
-  Encounter.onSettingsChanged();
-  GunForHire.onSettingsChanged();
+  // Encounter.onSettingsChanged();
+  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
-  Shop.onSettingsChanged();
+  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
 
-  MadamNazar.addMadamNazar();
+  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -427,16 +427,16 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Settings.isShadowsEnabled = this.checked;
 
   CampCollection.onSettingsChanged();
-  Encounter.onSettingsChanged();
-  GunForHire.onSettingsChanged();
+  // Encounter.onSettingsChanged();
+  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
-  PlantsCollection.onSettingsChanged();
-  Shop.onSettingsChanged();
+  // PlantsCollection.onSettingsChanged();
+  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
-  Treasure.onSettingsChanged();
+  // Treasure.onSettingsChanged();
 
   Pins.loadPins();
-  MadamNazar.addMadamNazar();
+  // MadamNazar.addMadamNazar();
 });
 
 document.getElementById('enable-legendary-backgrounds').addEventListener('change', function () {
@@ -506,7 +506,7 @@ document.querySelector('.menu-toggle').addEventListener('click', function () {
   this.setAttribute('data-menu-opened', isMenuOpened);
   Settings.isMenuOpened = isMenuOpened;
   document.querySelector('.top-widget').classList.toggle('top-widget-menu-opened', isMenuOpened);
-  document.getElementById('fme-container').classList.toggle('fme-menu-opened', isMenuOpened);
+  // document.getElementById('fme-container').classList.toggle('fme-menu-opened', isMenuOpened);
 });
 
 document.addEventListener('contextmenu', function (e) {

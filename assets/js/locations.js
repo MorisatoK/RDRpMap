@@ -20,6 +20,9 @@ class Location {
     this.onLanguageChanged();
 
     this.element = document.querySelector(`.menu-option[data-type="${this.key}"]`);
+
+    if (!this.element) return;
+
     this.element.classList.toggle('disabled', !this.onMap);
     this.element.addEventListener('click', () => this.onMap = !this.onMap);
     Language.translateDom(this.element);

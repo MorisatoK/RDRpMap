@@ -141,17 +141,17 @@ const Settings = SettingProxy.createSettingProxy('rdo');
 Object.entries({
   alertClosed: { default: false },
   baseLayer: { default: 'map.layers.default' },
-  fmeDisplayGeneralPeriod: { default: 30 },
-  fmeDisplayRolePeriod: { default: 60 },
-  fmeEnabledEvents: { default: 131071 },
-  fmeNotificationPeriod: { default: 10 },
+  // fmeDisplayGeneralPeriod: { default: 30 },
+  // fmeDisplayRolePeriod: { default: 60 },
+  // fmeEnabledEvents: { default: 131071 },
+  // fmeNotificationPeriod: { default: 10 },
   isClock24Hour: { default: !navigator.hour12 },
   isCoordsOnClickEnabled: { default: false },
   isRightClickEnabled: { default: false },
   isDebugEnabled: { default: false },
   isDoubleClickZoomEnabled: { default: true },
-  isFmeDisplayEnabled: { default: true },
-  isFmeNotificationEnabled: { default: false },
+  // isFmeDisplayEnabled: { default: true },
+  // isFmeNotificationEnabled: { default: false },
   isMarkerClusterEnabled: { default: true },
   isMenuOpened: { default: true },
   isPinsEditingEnabled: { default: true },
@@ -169,19 +169,19 @@ Object.entries({
   showUtilitiesSettings: { default: true },
   showTooltips: { default: true },
   showTooltipsMap: { default: true },
-  showDailies: { default: true },
+  // showDailies: { default: false },
   showCustomizationSettings: { default: true },
   legendarySpawnIconType: { default: 'head' },
   legendarySpawnIconSize: { default: 1 },
 }).forEach(([name, config]) => SettingProxy.addSetting(Settings, name, config));
 
 // Completed daily challenges settings (file dailies.js)
-const DailyChallenges = SettingProxy.createSettingProxy('rdo.dailies');
+// const DailyChallenges = SettingProxy.createSettingProxy('rdo.dailies');
 
-Object.entries({
-  trader_difficulty: { default: 'hard' },
-  bounty_hunter_difficulty: { default: 'hard' },
-  collector_difficulty: { default: 'hard' },
-  moonshiner_difficulty: { default: 'hard' },
-  naturalist_difficulty: { default: 'hard' },
-}).forEach(([name, config]) => SettingProxy.addSetting(DailyChallenges, name, config));
+// Object.entries({
+//   trader_difficulty: { default: 'hard' },
+//   bounty_hunter_difficulty: { default: 'hard' },
+//   collector_difficulty: { default: 'hard' },
+//   moonshiner_difficulty: { default: 'hard' },
+//   naturalist_difficulty: { default: 'hard' },
+// }).forEach(([name, config]) => SettingProxy.addSetting(DailyChallenges, name, config));

@@ -164,7 +164,7 @@ const Language = {
   _postTranslation: function () {
     document.getElementById('back-to-top').setAttribute('title', Language.get('menu.back_to_top'));
 
-    FME.update();
+    // FME.update();
     this.updateProgress();
     Menu.updateFancySelect();
   }
