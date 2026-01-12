@@ -137,7 +137,7 @@ class Pin {
     return snippet;
   }
 
-  enhanceIconSelect(snippet, selectId, iconBasePath = '/assets/icons') {
+  enhanceIconSelect(snippet, selectId, iconBasePath = '/assets/images/icons') {
     const select = snippet.querySelector(`#${CSS.escape(selectId)}`);
     if (!select) return;
 
@@ -170,7 +170,7 @@ class Pin {
     panel.setAttribute('role', 'listbox');
 
     const options = Array.from(select.options);
-    const iconUrl = (icon) => `${iconBasePath}/${icon}.png`;
+    const iconUrl = (blip) => `${iconBasePath}/${blip}.png`;
 
     const syncFromSelect = () => {
       const opt = select.selectedOptions[0] || select.options[0];
