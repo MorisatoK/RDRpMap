@@ -61,7 +61,7 @@ class Pin {
             </label>
             <select id="${this.id}_icon" class="marker-popup-pin-input-icon">
               ${markerIcons.map(icon => `
-                <option value="${icon}" data-text="map.user_pins.icon.${icon}"
+                <option value="${icon}" data-icon="${icon}" data-text="map.user_pins.icon.${icon}"
                   ${icon === this.icon ? 'selected' : ''}>
                   ${Language.get(`map.user_pins.icon.${icon}`)}
                 </option>
@@ -86,6 +86,8 @@ class Pin {
             </small>
           </div>
       `;
+
+      this.enhanceIconSelect(snippet, `${this.id}_icon`, '/assets/images/icons');
 
       const inputEl = snippet.querySelector('.pickr-userpin');
 
@@ -134,6 +136,183 @@ class Pin {
 
     return snippet;
   }
+
+  enhanceIconSelect(snippet, selectId, iconBasePath = '/assets/icons') {
+    const select = snippet.querySelector(`#${CSS.escape(selectId)}`);
+    if (!select) return;
+
+    const baseSelectClass = select.className;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'pin-icon-select';
+
+    select.parentNode.insertBefore(wrapper, select);
+    wrapper.appendChild(select);
+
+    select.classList.add('pin-icon-select__native');
+    select.tabIndex = -1;
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `${baseSelectClass} pin-icon-select__btn`;
+
+    const btnIco = document.createElement('span');
+    btnIco.className = 'pin-icon-select__ico';
+
+    const btnText = document.createElement('span');
+    btnText.className = 'pin-icon-select__text';
+
+    btn.appendChild(btnIco);
+    btn.appendChild(btnText);
+
+    const panel = document.createElement('div');
+    panel.className = 'pin-icon-select__panel';
+    panel.setAttribute('role', 'listbox');
+
+    const options = Array.from(select.options);
+    const iconUrl = (icon) => `${iconBasePath}/${icon}.png`;
+
+    const syncFromSelect = () => {
+      const opt = select.selectedOptions[0] || select.options[0];
+      const icon = opt?.dataset?.icon || opt?.value || '';
+      btnIco.style.backgroundImage = `url(${iconUrl(icon)})`;
+      btnText.textContent = opt?.textContent?.trim() || '';
+
+      panel.querySelectorAll('.pin-icon-select__opt').forEach(el => {
+        el.setAttribute('aria-selected', el.dataset.value === select.value ? 'true' : 'false');
+      });
+    };
+
+    options.forEach(opt => {
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'pin-icon-select__opt';
+      item.setAttribute('role', 'option');
+      item.dataset.value = opt.value;
+
+      const ico = document.createElement('span');
+      ico.className = 'pin-icon-select__ico';
+      ico.style.backgroundImage = `url(${iconUrl(opt.dataset.icon || opt.value)})`;
+
+      const text = document.createElement('span');
+      text.className = 'pin-icon-select__text';
+      text.textContent = opt.textContent.trim();
+
+      item.appendChild(ico);
+      item.appendChild(text);
+
+      item.addEventListener('click', () => {
+        select.value = opt.value;
+        options.forEach(o => { o.selected = (o.value === opt.value); });
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+        syncFromSelect();
+        closeDropdown();
+      });
+
+      panel.appendChild(item);
+    });
+
+    wrapper.appendChild(btn);
+    wrapper.appendChild(panel);
+
+    let isBound = false;
+
+    const getEventPath = (e) => (typeof e.composedPath === 'function' ? e.composedPath() : null);
+    const isInsideWrapper = (e) => {
+      const path = getEventPath(e);
+      if (path) return path.includes(wrapper);
+      return wrapper.contains(e.target);
+    };
+
+    const closeDropdown = () => {
+      wrapper.classList.remove('is-open');
+      unbindOutsideHandlers();
+    };
+
+    const openDropdown = () => {
+      document.querySelectorAll('.pin-icon-select.is-open').forEach(el => {
+        if (el !== wrapper) el.classList.remove('is-open');
+      });
+
+      wrapper.classList.add('is-open');
+      syncFromSelect();
+      bindOutsideHandlers();
+    };
+
+    const onOutside = (e) => {
+      if (!wrapper.classList.contains('is-open')) return;
+      if (isInsideWrapper(e)) return;
+      closeDropdown();
+    };
+
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') closeDropdown();
+    };
+
+    const getLeafletContainers = () => {
+      const els = [];
+
+      try {
+        if (window.MapBase?.map?.getContainer) {
+          const c = MapBase.map.getContainer();
+          if (c) els.push(c);
+        }
+      } catch (_) {}
+
+      const popupPane = document.querySelector('.leaflet-pane.leaflet-popup-pane');
+      if (popupPane) els.push(popupPane);
+
+      const mapRoot = document.getElementById('map');
+      if (mapRoot) els.push(mapRoot);
+
+      els.push(document);
+
+      return Array.from(new Set(els));
+    };
+
+    let boundTargets = [];
+
+    const bindOutsideHandlers = () => {
+      if (isBound) return;
+      isBound = true;
+
+      boundTargets = getLeafletContainers();
+
+      boundTargets.forEach(t => t.addEventListener('pointerdown', onOutside, true));
+      boundTargets.forEach(t => t.addEventListener('wheel', onOutside, true));
+
+      document.addEventListener('keydown', onKeyDown, true);
+    };
+
+    const unbindOutsideHandlers = () => {
+      if (!isBound) return;
+      isBound = false;
+
+      boundTargets.forEach(t => t.removeEventListener('pointerdown', onOutside, true));
+      boundTargets.forEach(t => t.removeEventListener('wheel', onOutside, true));
+      boundTargets = [];
+
+      document.removeEventListener('keydown', onKeyDown, true);
+    };
+
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (wrapper.classList.contains('is-open')) closeDropdown();
+      else openDropdown();
+    });
+
+    const observer = new MutationObserver(() => {
+      if (!document.body.contains(wrapper)) {
+        unbindOutsideHandlers();
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    select.addEventListener('change', syncFromSelect);
+    syncFromSelect();
+  }
+
 
   save(title, desc, shape, icon, color) {
     this.title = title;
