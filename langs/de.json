@@ -214,6 +214,8 @@
   "map.user_pins.icon.blip_ball": "Ball",
   "map.user_pins.icon.blip_bath_house": "Badehaus",
   "map.user_pins.icon.blip_bolt": "Bolzen",
+  "map.user_pins.icon.blip_camp": "Lager",
+  "map.user_pins.icon.blip_camp_tent": "Lager Zelt",
   "map.user_pins.icon.blip_campfire": "Lagerfeuer",
   "map.user_pins.icon.blip_campfire_full": "Vollständiges Lagerfeuer",
   "map.user_pins.icon.blip_cash_bag": "Geldbeutel",
