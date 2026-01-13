@@ -167,6 +167,8 @@
   "map.user_pins.icon": "Symbol",
   "map.user_pins.shape": "Form",
   "map.user_pins.shape.default": "Standard",
+  "map.user_pins.shape.pushpin": "Reißzwecke",
+  "map.user_pins.shape.none": "Keine",
   "map.user_pins.icon.pin": "Anheften",
   "map.user_pins.icon.random": "Zufällige Stelle",
   "map.user_pins.icon.blip_ambient_bounty_hunter": "Kopfgeldjäger",

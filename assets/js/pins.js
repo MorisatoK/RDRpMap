@@ -28,7 +28,7 @@ class Pin {
     let snippet;
 
     if (Settings.isPinsEditingEnabled) {
-      const markerShapes = ['default', 'pushpin'];
+      const markerShapes = ['default', 'pushpin', 'none'];
       const markerIcons = [
         'blip_ambient_bounty_hunter', 'blip_ambient_bounty_target', 'blip_ambient_chore',
         'blip_ambient_coach', 'blip_ambient_companion', 'blip_ambient_crate', 'blip_ambient_death', 
@@ -517,18 +517,42 @@ class Pins {
       ? `<img class="background" src="assets/images/icons/marker_${MapBase.colorOverride}.png" alt="Background">`
       : `<div class="background">${svgBg}</div>`;
     
-    const shadow = Settings.isShadowsEnabled ?
-      `<img class="shadow" width="${35 * Settings.markerSize}" height="${16 * Settings.markerSize}" src="./assets/images/markers-shadow.png" alt="Shadow">` : '';
+    const size = Settings.markerSize;
+
+    let iconSize = [35 * size, 45 * size];
+    let iconAnchor = [17 * size, 42 * size];
+    let popupAnchor = [1 * size, -29 * size];
+
+    let htmlIcon = `<img class="icon" src="assets/images/icons/${marker.icon}.png" alt="Icon">`;
+    let htmlBackground = background;
+    let htmlShadow = (Settings.isShadowsEnabled
+      ? `<img class="shadow" width="${35 * size}" height="${16 * size}" src="./assets/images/markers-shadow.png" alt="Shadow">`
+      : '');
+
+    if (marker.shape === 'none') {
+      const boxPx = 35 * size;
+      iconSize = [boxPx, boxPx];
+      iconAnchor = [boxPx / 2, boxPx / 2];
+      popupAnchor = [0, -boxPx / 2];
+      htmlBackground = '';
+      htmlShadow = '';
+      htmlIcon = `
+        <span class="pin-icon-only__shadow" aria-hidden="true"></span>
+        <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${marker.icon}.png')" aria-hidden="true"></span>
+      `;
+    }
+
+
     const tempMarker = L.marker([marker.lat, marker.lng], {
       opacity: Settings.markerOpacity,
       icon: new L.DivIcon.DataMarkup({
-        iconSize: [35 * Settings.markerSize, 45 * Settings.markerSize],
-        iconAnchor: [17 * Settings.markerSize, 42 * Settings.markerSize],
-        popupAnchor: [1 * Settings.markerSize, -29 * Settings.markerSize],
-        html: `<div>
-          <img class="icon" src="assets/images/icons/${marker.icon}.png" alt="Icon">
-          ${background}
-          ${shadow}
+        iconSize,
+        iconAnchor,
+        popupAnchor,
+        html: `<div class="${marker.shape === 'none' ? 'pin-icon-only' : ''}">
+          ${htmlIcon}
+          ${htmlBackground}
+          ${htmlShadow}
         </div>`,
         marker: this.key,
         tippy: marker.title,

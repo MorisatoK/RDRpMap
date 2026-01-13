@@ -169,6 +169,7 @@
   "map.user_pins.shape": "Shape",
   "map.user_pins.shape.default": "Default",
   "map.user_pins.shape.pushpin": "Pushpin",
+  "map.user_pins.shape.none": "None",
   "map.user_pins.icon.pin": "Pin",
   "map.user_pins.icon.random": "Random",
   "map.user_pins.icon.blip_ambient_bounty_hunter": "Bounty Hunter",
