@@ -46,7 +46,7 @@ class Pin {
         'blip_event_riggs_camp', 'blip_fence_building', 'blip_grub', 'blip_hat', 'blip_health',
         'blip_hire_camp_follower', 'blip_horse_owned', 'blip_hotel_bed', 'blip_job_board', 'blip_mg_blackjack',
         'blip_mg_dominoes', 'blip_mg_drinking', 'blip_mg_five_finger_fillet', 'blip_mg_poker',
-        'blip_moonshine_still', 'blip_moonshine_vat', 'blip_moonshine', 'blip_mp_attack_target', 'blip_mp_base_1',
+        'blip_moonshine_still', 'blip_moonshine_vat', 'blip_moonshine', 'blip_mp_attack_target',
         'blip_mp_base', 'blip_mp_bounty_hunter_introduction', 'blip_mp_butcher_table', 'blip_mp_collector_map',
         'blip_mp_deadeye', 'blip_mp_defend_target', 'blip_mp_deliver_target', 'blip_mp_flag',
         'blip_mp_game_animal_protection', 'blip_mp_game_hill', 'blip_mp_game_race_canoe',
