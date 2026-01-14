@@ -232,16 +232,15 @@ class Pin {
       item.setAttribute('role', 'option');
       item.dataset.value = opt.value;
 
+      const label = opt.textContent.trim();
+
       const ico = document.createElement('span');
       ico.className = 'pin-icon-select__ico';
       ico.style.backgroundImage = `url(${iconUrl(opt.dataset.icon || opt.value)})`;
 
-      const text = document.createElement('span');
-      text.className = 'pin-icon-select__text';
-      text.textContent = opt.textContent.trim();
-
+      item.title = label;
+      item.setAttribute('aria-label', label);
       item.appendChild(ico);
-      item.appendChild(text);
 
       item.addEventListener('click', () => {
         select.value = opt.value;
