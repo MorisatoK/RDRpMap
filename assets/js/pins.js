@@ -41,7 +41,7 @@ class Pin {
         'blip_ambient_train', 'blip_ambient_tugboat', 'blip_ambient_vip', 'blip_ambient_wagon',
         'blip_ambient_warp', 'blip_animal_quality_01', 'blip_animal_quality_02', 'blip_animal_quality_03',
         'blip_animal_skin', 'blip_animal', 'blip_ball', 'blip_bath_house', 'blip_bolt', 'blip_camp', 'blip_camp_tent',
-        'blip_campfire_full', 'blip_campfire', 'blip_cash_bag', 'blip_chest', 'blip_code_waypoint', 'blip_deadeye_cross',
+        'blip_campfire_full', 'blip_campfire', 'blip_cash_bag', 'blip_chest', 'blip_code_waypoint', 'blip_deadeye_cross', 'blip_decision',
         'blip_donate_food', 'blip_event_appleseed', 'blip_event_castor', 'blip_event_railroad_camp',
         'blip_event_riggs_camp', 'blip_fence_building', 'blip_grub', 'blip_hat', 'blip_health',
         'blip_hire_camp_follower', 'blip_horse_owned', 'blip_hotel_bed', 'blip_job_board', 'blip_mg_blackjack',
