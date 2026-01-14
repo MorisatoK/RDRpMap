@@ -51,7 +51,7 @@ class Pin {
         'blip_mp_deadeye', 'blip_mp_defend_target', 'blip_mp_deliver_target', 'blip_mp_flag',
         'blip_mp_game_animal_protection', 'blip_mp_game_hill', 'blip_mp_game_race_canoe',
         'blip_mp_game_race_horse', 'blip_mp_game_runaway_train', 'blip_mp_game_treasure_hunt', 'blip_mp_game_vip',
-        'blip_mp_gun_for_hire', 'blip_mp_location_a', 'blip_mp_location_b', 'blip_mp_location_c',
+        'blip_mp_gun_for_hire', 'blip_mp_job_exclusive_large', 'blip_mp_location_a', 'blip_mp_location_b', 'blip_mp_location_c',
         'blip_mp_location_d', 'blip_mp_location_e', 'blip_mp_location_f', 'blip_mp_location_g',
         'blip_mp_location_h', 'blip_mp_location_i', 'blip_mp_location_j', 'blip_mp_location_k',
         'blip_mp_location_l', 'blip_mp_location_m', 'blip_mp_location_n', 'blip_mp_location_o',
