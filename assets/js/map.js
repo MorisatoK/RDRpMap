@@ -1,6 +1,6 @@
 const MapBase = {
   minZoom: Settings.isDebugEnabled ? 0 : 2,
-  maxZoom: Settings.isDebugEnabled ? 10 : 7,
+  maxZoom: 10,
   map: null,
   overlays: [],
   isDarkMode: false,
@@ -35,21 +35,25 @@ const MapBase = {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
+        maxNativeZoom: 8,
       }),
       'map.layers.detailed': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/detailed/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://rdr2map.com/" target="_blank">RDR2Map</a>',
+        maxNativeZoom: 7,
       }),
       'map.layers.dark': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://github.com/TDLCTV" target="_blank">TDLCTV</a>',
+        maxNativeZoom: 7,
       }),
       'map.layers.black': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/black/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundary,
         attribution: '<a href="https://github.com/AdamNortonUK" target="_blank">AdamNortonUK</a>',
+        maxNativeZoom: 7,
       }),
     };
 
