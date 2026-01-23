@@ -27,32 +27,33 @@ const MapBase = {
     this.beforeLoad();
 
     this.tippyInstances = [];
-    const mapBoundary = L.latLngBounds(L.latLng(-144, 0), L.latLng(0, 176));
+    const mapBoundaryRockstar = L.latLngBounds(L.latLng(-144, 0), L.latLng(0, 176));
+    const mapBoundaryRdrRp = L.latLngBounds(L.latLng(-152, 0), L.latLng(0, 176));
 
     //Download map tiles here https://github.com/jeanropke/RDOMap#map-tiles
     const mapLayers = {
       'map.layers.default': L.tileLayer('https://s.rsg.sc/sc/images/games/RDR2/map/game/{z}/{x}/{y}.jpg', {
         noWrap: true,
-        bounds: mapBoundary,
+        bounds: mapBoundaryRockstar,
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
         maxNativeZoom: 8,
       }),
       'map.layers.detailed': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/detailed/{z}/{x}_{y}.webp', {
         noWrap: true,
-        bounds: mapBoundary,
-        attribution: '<a href="https://rdr2map.com/" target="_blank">RDR2Map</a>',
+        bounds: mapBoundaryRdrRp,
+        attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
         maxNativeZoom: 7,
       }),
       'map.layers.dark': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
         noWrap: true,
-        bounds: mapBoundary,
-        attribution: '<a href="https://github.com/TDLCTV" target="_blank">TDLCTV</a>',
+        bounds: mapBoundaryRdrRp,
+        attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
         maxNativeZoom: 7,
       }),
       'map.layers.black': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/black/{z}/{x}_{y}.webp', {
         noWrap: true,
-        bounds: mapBoundary,
-        attribution: '<a href="https://github.com/AdamNortonUK" target="_blank">AdamNortonUK</a>',
+        bounds: mapBoundaryRdrRp,
+        attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
         maxNativeZoom: 7,
       }),
     };
@@ -189,8 +190,8 @@ const MapBase = {
     if (MapBase.isDarkMode) {
       mapEl.style.backgroundColor =
         (this.themeOverride || Settings.baseLayer) === 'map.layers.black' ?
-          '#000' :
-          '#3d3d3d';
+          '#030303' :
+          '#393939';
     } else {
       mapEl.style.backgroundColor = '#d2b790';
     }
