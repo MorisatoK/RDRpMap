@@ -1,139 +1,148 @@
 [
   {
-    "color": "cadetblue",
-    "disabled": false,
-    "key": "campfires",
-    "locations": [
-      {"x": -120.8046875, "y": 27},
-      {"x": -117.6796875, "y": 45.21875},
-      {"x": -89.3828125, "y": 80.5390625},
-      {"x": -86.9453125, "y": 98.390625},
-      {"x": -52.25, "y": 77.2421875},
-      {"x": -52.078125, "y": 105.671875},
-      {"x": -33.171875, "y": 141.1484375},
-      {"x": -50.21875, "y": 123.546875},
-      {"x": -55.625, "y": 156.96875},
-      {"x": -75.53125, "y": 136.125},
-      {"x": -81.265625, "y": 133.3125},
-      {"x": -93.2578125, "y": 124.921875},
-      {"x": -84.671875, "y": 155.421875},
-      {"x": -79.8671875, "y": 155.296875},
-      {"x": -78.875, "y": 153.4609375},
-      {"x": -77.828125, "y": 86.7109375},
-      {"x": -29.9375, "y": 96.3984375},
-      {"x": -69.6015625, "y": 110.359375},
-      {"x": -77.0703125, "y": 132.4296875},
-      {"x": -78.8125, "y": 127.8046875},
-      {"x": -94.265625, "y": 128.5859375},
-      {"x": -80.4296875, "y": 155.7421875},
-      {"x": -88.9453125, "y": 97.8203125},
-      {"x": -61.4844, "y": 67.5703},
-      {"x": -83.7578, "y": 77.375},
-      {"x": -93.3984, "y": 76.3203},
-      {"x": -72.4219, "y": 95.7109},
-      {"x": -92.4844, "y": 127.3047},
-      {"x": -75.125, "y": 146.4766},
-      {"x": -75.0234, "y": 146.2031},
-      {"x": -61.0781, "y": 113.5859},
-      {"x": -79.75, "y": 154.4141}
-    ]
-  },
-  {
-    "color": "darkblue",
-    "disabled": false,
-    "key": "trains",
-    "locations": [
-      {"x": -68.5595, "y": 106.9285},
-      {"x": -53.5376, "y": 134.283},
-      {"x": -56.3423, "y": 135.0338},
-      {"x": -55.152, "y": 137.5633},
-      {"x": -70.362, "y": 152.5708},
-      {"x": -64.0564, "y": 111.7799},
-      {"x": -102.5296, "y": 77.5442},
-      {"x": -110.3084, "y": 34.984},
-      {"x": -37.8032, "y": 120.7605},
-      {"x": -65.7319, "y": 89.94}
-    ]
-  },
-  {
     "color": "darkblue",
     "disabled": false,
     "key": "boats",
+    "icon": "blip_ambient_riverboat",
     "locations": [
-      {"x": -81.28125, "y": 119.9375},
-      {"x": -72.6563, "y": 100.7813},
-      {"x": -81.9844, "y": 139.3906},
-      {"x": -72.875, "y": 145.3516}
+      {
+          "x": -85.578125,
+          "y": 71.28125,
+          "text": "Aurora Basin Bootshändler"
+      },
+      {
+          "x": -42.3203125,
+          "y": 158.3984375,
+          "text": "Annesburg Bootshändler"
+      },
+      {
+          "x": -82.85647021001901,
+          "y": 100.64861516400832,
+          "text": "Blackwater Bootshändler"
+      },
+      {
+          "x": -36.5625,
+          "y": 118.7109375,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -94.25,
+          "y": 93,
+          "text": "Bootsverleih"
+      },
+      {
+          "x": -34.0625,
+          "y": 152.046875,
+          "text": "Brandywine Bootshändler"
+      },
+      {
+          "x": -51.3203125,
+          "y": 149.9765625,
+          "text": "Elysian Bootshändler"
+      },
+      {
+          "x": -77.1953125,
+          "y": 155.09375,
+          "text": "Gefängnisinsel Anlegestelle"
+      },
+      {
+          "x": -87.578125,
+          "y": 152.5859375,
+          "text": "St. Denis -> Guarma"
+      },
+      {
+          "x": -84.25990932433213,
+          "y": 117.61531587520533,
+          "text": "Pirate Island"
+      },
+      {
+          "x": -83.1328125,
+          "y": 120.890625,
+          "text": "Rhodes Bootshändler"
+      },
+      {
+          "x": -82.9921875,
+          "y": 157.1484375,
+          "text": "St. Denis Bootshändler"
+      },
+      {
+          "x": -82.640625,
+          "y": 146.484375,
+          "text": "St. Denis Haus"
+      },
+      {
+          "x": -55.609375,
+          "y": 158.3515625,
+          "text": "Van Horn Bootshändler"
+      },
+      {
+          "x": -130.0920930016797,
+          "y": 30.77031949065845,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -127.49002388670156,
+          "y": 32.389510970502926,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -126.54691586686234,
+          "y": 43.38865028621835,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -119.93379698076069,
+          "y": 57.84206475893532,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -120.99053247286972,
+          "y": 66.08573787210841,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -114.24106062004434,
+          "y": 67.7958313297687,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -113.98539880743732,
+          "y": 80.94252987138312,
+          "text": "Bootshändler"
+      },
+      {
+          "x": -64.12637286652884,
+          "y": 28.90362031954434,
+          "text": "Guarma -> St. Denis"
+      }
     ]
   },
   {
-    "color": "darkred",
+    "color": "darkblue",
     "disabled": false,
-    "key": "hideouts",
+    "key": "balloons",
+    "icon": "blip_mp_spawnpoint_arrow",
     "locations": [
-      {"text": "bacchus_station", "x": -37.5443, "y": 120.2868, "time": [0, 12]},
-      {"text": "beaver_hollow", "x": -42.2674, "y": 147.851, "time": [6, 18]},
-      {"text": "cholla_springs", "x": -106.7532, "y": 50.2502, "time": [18, 6]},
-      {"text": "clemens_cove", "x": -83.0109, "y": 123.4614, "time": [0, 12]},
-      {"text": "colter", "x": -25.8049, "y": 90.5303, "time": [12, 0]},
-      {"text": "cuera_seco", "x": -106.4197, "y": 19.9858, "time": [6, 18]},
-      {"text": "cumberland_falls", "x": -57.0302, "y": 95.3087, "time": [12, 0]},
-      {"text": "ewing_basin", "x": -42.7189, "y": 81.8898, "time": [6, 18]},
-      {"text": "firwood_rise", "x": -48.1952, "y": 114.5343, "time": [6, 18]},
-      {"text": "fort_mercer", "x": -117.1288, "y": 45.8228, "time": [0, 12]},
-      {"text": "fort_riggs", "x": -77.7984, "y": 86.8077, "time": [18, 6]},
-      {"text": "gaptooth_breach", "x": -114.0825, "y": 18.5059, "time": [18, 6]},
-      {"text": "hanging_dog_ranch", "x": -52.4621, "y": 77.5002, "time": [18, 6]},
-      {"text": "kamassa_river", "x": -62.9606, "y": 151.1842, "time": [12, 0]},
-      {"text": "lakay", "x": -75.3817, "y": 146.2484, "time": [18, 6]},
-      {"text": "manteca_falls", "x": -106.6444, "y": 85.7792, "time": [0, 12]},
-      {"text": "millisani_claim", "x": -45.1405, "y": 88.949, "time": [0, 12]},
-      {"text": "mossy_flats", "x": -59.0703, "y": 149.3885, "time": [0, 12]},
-      {"text": "old_bacchus_place", "x": -105.0719, "y": 89.148, "time": [12, 0]},
-      {"text": "pikes_basin", "x": -100.5171, "y": 69.1603, "time": [6, 18]},
-      {"text": "quakers_cove", "x": -93.9592, "y": 92.9564, "time": [0, 12]},
-      {"text": "rattlesnake_hollow", "x": -97.7879, "y": 42.804, "time": [18, 6]},
-      {"text": "repentance", "x": -115.3407, "y": 39.2191, "time": [12, 0]},
-      {"text": "rocky_seven", "x": -29.47, "y": 157.5055, "time": [18, 6]},
-      {"text": "sea_of_coronado", "x": -119.19, "y": 13.9832, "time": [6, 18]},
-      {"text": "shady_belle", "x": -92.5513, "y": 140.7867, "time": [12, 0]},
-      {"text": "siltwater_strand", "x": -75.5244, "y": 136.1269, "time": [6, 18]},
-      {"text": "six_point_cabin", "x": -44.5367, "y": 110.5998, "time": [18, 6]},
-      {"text": "solomons_folly", "x": -120.3113, "y": 27.1104, "time": [0, 12]},
-      {"text": "tall_trees", "x": -93.2199, "y": 79.2665, "time": [12, 0]},
-      {"text": "the_loft", "x": -33.1287, "y": 141.2625, "time": [12, 0]},
-      {"text": "twin_rocks", "x": -96.6237, "y": 49.8851, "time": [6, 18]}
-    ]
-  },
-  {
-    "color": "lightdarkred",
-    "disabled": false,
-    "key": "dynamic_bounties",
-    "locations": [
-      {"text": "annesburg_outskirts", "x": -40.4767, "y": 161.6485},
-      {"text": "cumberland_forest", "x": -41.6076, "y": 119.3681},
-      {"text": "guthrie_farm", "x": -55.9922, "y": 128.5449, "time": [22, 4]},
-      {"text": "hanover_convoy_ambush", "x": -51.0416, "y": 139.1574, "time": [12, 18]},
-      {"text": "west_heartlands", "x": -60.8258, "y": 111.0268, "time": [22, 4]},
-      {"text": "big_valley_south", "x": -80.4722, "y": 81.0674},
-      {"text": "lake_owanjila", "x": -68.0849, "y": 72.8013},
-      {"text": "northern_west_elizabeth", "x": -56.1698, "y": 79.0712},
-      {"text": "bards_crossing", "x": -71.9499, "y": 100.2497},
-      {"text": "gaptooth_coach", "x": -116.6616, "y": 21.9348},
-      {"text": "san_luis_river", "x": -127.8023, "y": 30.8182},
-      {"text": "oddfellows_rest", "x": -105.275, "y": 42.4498, "time": [22, 5]},
-      {"text": "brittlebush", "x": -111.7187, "y": 74.1602},
-      {"text": "cholla_springs", "x": -102.0057, "y": 35.1861},
-      {"text": "moonstone", "x": -45.6429, "y": 130.7327},
-      {"text": "cattail_pond", "x": -51.086, "y": 94.9658},
-      {"text": "barrow_lagoon", "x": -37.4052, "y": 95.4654},
-      {"text": "granite_pass", "x": -38.0849, "y": 110.7056},
-      {"text": "grizzlies_east_road", "x": -31.2547, "y": 133.2574},
-      {"text": "pirate_ship", "x": -83.2428, "y": 117.4545},
-      {"text": "compsons_stead", "x": -68.2853, "y": 129.8481},
-      {"text": "boat_in_tree", "x": -96.0738, "y": 136.9013},
-      {"text": "bolger_glade", "x": -91.8892, "y": 137.5028},
-      {"text": "east_lakay", "x": -73.3922, "y": 153.2784}
+      {
+          "x": -45.161366961798215,
+          "y": 151.02064098930208,
+          "text": "Annesburg Ballonverleih"
+      },
+      {
+          "x": -28.021450841519705,
+          "y": 89.77446721217014,
+          "text": "Dunkelhain Ballonverleih"
+      },
+      {
+          "x": -63.54532293700611,
+          "y": 117.64662240309656,
+          "text": "Heartlands Ballonverleih"
+      },
+      {
+          "x": -109.90740172377546,
+          "y": 42.94080636629236,
+          "text": "Mercer Station Ballonverleih"
+      }
     ]
   },
   {
@@ -205,57 +214,6 @@
       {"x": -93.8872, "y": 92.782},
       {"x": -97.3925, "y": 50.0178},
       {"x": -99.1885, "y": 84.0889}
-    ]
-  },
-  {
-    "color": "darkorange",
-    "disabled": true,
-    "key": "daily_locations",
-    "locations": [
-      {"text": "mount_hagen_peak", "x": -43.5625, "y": 86.125},
-      {"text": "cotorra_springs", "x": -35.2031, "y": 114.2109},
-      {"text": "bolger_glade", "x": -91.4063, "y": 134.8281},
-      {"text": "owanjila_dam", "x": -71.0156, "y": 75.3203},
-      {"text": "fort_mercer", "x": -116.6797, "y": 46.2656},
-      {"text": "lagras", "x": -73.1484, "y": 144.1641},
-      {"text": "colter", "x": -26.2344, "y": 90.2656},
-      {"text": "brandywine_drop", "x": -31.8438, "y": 153.1094},
-      {"text": "fort_wallace", "x": -40.8281, "y": 116.8594},
-      {"text": "van_horn", "x": -55.5469, "y": 157.2422},
-      {"text": "macfarlanes_ranch", "x": -100.9297, "y": 74.6172}
-    ]
-  },
-  {
-    "color": "black",
-    "disabled": false,
-    "key": "fasttravel",
-    "locations": [
-      {"text": "annesburg", "x": -43.4814, "y": 156.745},
-      {"text": "armadillo", "x": -104.3897, "y": 53.4547},
-      {"text": "blackwater", "x": -82.9581, "y": 99.7447},
-      {"text": "colter", "x": -25.9919, "y": 91.0348},
-      {"text": "emerald", "x": -56.8038, "y": 134.8028},
-      {"text": "lagras", "x": -72.6373, "y": 143.8494},
-      {"text": "macfarlanes", "x": -101.5375, "y": 72.4558},
-      {"text": "manzanita", "x": -88.5856, "y": 80.8118},
-      {"text": "rhodes", "x": -83.6534, "y": 130.6434},
-      {"text": "saint_denis", "x": -86.3787, "y": 152.6896},
-      {"text": "strawberry", "x": -70.03, "y": 84.3196},
-      {"text": "tumbleweed", "x": -109.3272, "y": 26.8317},
-      {"text": "valentine", "x": -53.602, "y": 108.3971},
-      {"text": "van_horn", "x": -53.7409, "y": 156.3243},
-      {"text": "wapiti", "x": -29.7933, "y": 118.8076}
-    ]
-  },
-  {
-    "color": "green",
-    "disabled": false,
-    "key": "harrietum_animals",
-    "locations": [
-      {"text": "animal_buck", "x": -54.1532, "y": 76.6028},
-      {"text": "animal_boar", "x": -92.9201, "y": 135.8231},
-      {"text": "animal_possum", "x": -61.9061, "y": 107.0408},
-      {"text": "animal_rabbit", "x": -85.9389, "y": 78.9914}
     ]
   }
 ]
