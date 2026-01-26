@@ -151,7 +151,6 @@ const MapBase = {
       MapBase.setMapBackground();
 
       Overlay.onSettingsChanged();
-      // Legendary.onSettingsChanged();
     });
 
     MapBase.map.on('click', function (e) {
@@ -315,12 +314,6 @@ const MapBase = {
             animal.isEnabled = true;
           });
         });
-      // } else if (Legendary.quickParams.indexOf(quickParam) !== -1) {
-      //   Legendary.animals.filter(item => {
-      //     if (item.text !== quickParam) return;
-      //     item.onMap = true;
-      //     MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
-      //   });
       } else if (Treasure.quickParams.indexOf(quickParam) !== -1) {
         Treasure.treasures.filter(item => {
           if (item.text !== quickParam) return;
@@ -350,7 +343,6 @@ const MapBase = {
   disableAll: function (toShow = false) {
     HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
-    // Legendary.animals.forEach(animal => animal.onMap = toShow);
     // Shop.locations.forEach(shop => shop.onMap = toShow);
     Singleplayer.locations.forEach(sp => sp.onMap = toShow);
   },

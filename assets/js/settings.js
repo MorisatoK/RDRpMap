@@ -164,6 +164,4 @@ Object.entries({
   showTooltips: { default: true },
   showTooltipsMap: { default: true },
   showCustomizationSettings: { default: true },
-  // legendarySpawnIconType: { default: 'head' },
-  // legendarySpawnIconSize: { default: 1 },
 }).forEach(([name, config]) => SettingProxy.addSetting(Settings, name, config));

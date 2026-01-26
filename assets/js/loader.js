@@ -54,7 +54,6 @@ class Loader {
 }
 
 const urls = [
-  // 'data/animal_legendary.json',
   'data/animal_spawns.json',
   //'data/fasttravels.json',
   'data/hm.json',

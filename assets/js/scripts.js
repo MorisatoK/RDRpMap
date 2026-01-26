@@ -69,13 +69,6 @@ function init() {
       localStorage.setItem(`rdo.${key.split(':')[1]}`, localStorage.getItem(key));
       localStorage.removeItem(key);
     }
-    // Get rdr2collectors map legendary timers only when rdo keys does not exists
-    // Do not enable legendary animals base on collectors map because it cause an issue that are always enabled on RDO map on load ;)
-    // else if (key.startsWith('rdr2collector:Legendaries_')) {
-    //   let _key = `rdo.${key.split(':')[1]}`;
-    //   if (localStorage.getItem(_key) == null)
-    //     localStorage.setItem(_key, localStorage.getItem(key));
-    // }
   });
 
   Menu.init();
@@ -99,7 +92,6 @@ function init() {
     const singleplayer = Singleplayer.init();
     const shops = Shops.init();
     const hospitality = HospitalityCollection.init();
-    // const legendary = Legendary.init();
     const overlays = Overlay.init();
 
     return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, hospitality ]);
@@ -111,7 +103,6 @@ function init() {
   if (Settings.isMenuOpened)
     document.querySelector('.menu-toggle').click();
 
-  //document.getElementById('language').value = Settings.language;
   document.getElementById('marker-opacity').value = Settings.markerOpacity;
   document.getElementById('marker-size').value = Settings.markerSize;
   document.getElementById('marker-cluster').checked = Settings.isMarkerClusterEnabled;
@@ -119,9 +110,6 @@ function init() {
   document.getElementById('tooltip-map').checked = Settings.showTooltipsMap;
   document.getElementById('enable-marker-popups-hover').checked = Settings.isPopupsHoverEnabled;
   document.getElementById('enable-marker-shadows').checked = Settings.isShadowsEnabled;
-  // document.getElementById('enable-legendary-backgrounds').checked = Settings.isLaBgEnabled;
-  // document.getElementById('legendary-animal-marker-type').value = Settings.legendarySpawnIconType;
-  // document.getElementById('legendary-animal-marker-size').value = Settings.legendarySpawnIconSize;
   document.getElementById('enable-dclick-zoom').checked = Settings.isDoubleClickZoomEnabled;
   document.getElementById('show-help').checked = Settings.showHelp;
   document.getElementById('timestamps-24').checked = Settings.isClock24Hour;
@@ -346,7 +334,6 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
 
 document.getElementById('overlay-opacity').addEventListener('change', function () {
   Settings.overlayOpacity = Number(this.value);
-  // Legendary.onSettingsChanged();
   Overlay.onSettingsChanged();
 });
 
@@ -397,21 +384,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Pins.loadPins();
 });
 
-// document.getElementById('enable-legendary-backgrounds').addEventListener('change', function () {
-//   Settings.isLaBgEnabled = this.checked;
-//   Legendary.onSettingsChanged();
-// });
-
-// document.getElementById('legendary-animal-marker-type').addEventListener('change', function () {
-//   Settings.legendarySpawnIconType = this.value;
-//   Legendary.onSettingsChanged();
-// });
-
-// document.getElementById('legendary-animal-marker-size').addEventListener('change', function () {
-//   Settings.legendarySpawnIconSize = Number(this.value);
-//   Legendary.onSettingsChanged();
-// });
-
 document.getElementById('enable-dclick-zoom').addEventListener('change', function () {
   Settings.isDoubleClickZoomEnabled = this.checked;
   if (Settings.isDoubleClickZoomEnabled) {
@@ -429,7 +401,6 @@ document.getElementById('show-help').addEventListener('change', function () {
 document.getElementById('timestamps-24').addEventListener('change', function () {
   Settings.isClock24Hour = this.checked;
   clockTick();
-//  document.getElementById('language').dispatchEvent(new Event('change'));
 });
 
 document.getElementById('show-coordinates').addEventListener('change', function () {
@@ -544,16 +515,6 @@ L.LayerGroup.include({
     }
   },
 });
-
-// Glowing icon (legendary animals)
-// L.Icon.TimedData = L.Icon.extend({
-//   _setIconStyles: function (img, name) {
-//     L.Icon.prototype._setIconStyles.call(this, img, name);
-//     if (this.options.time && this.options.time.length) {
-//       img.dataset.time = this.options.time;
-//     }
-//   },
-// });
 
 document.getElementById('cookie-export').addEventListener('click', function () {
   try {
