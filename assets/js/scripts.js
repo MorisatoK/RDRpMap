@@ -90,7 +90,6 @@ function init() {
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
-    // const encounters = Encounter.init();
     // const treasures = Treasure.init();
     // const bounties = BountyCollection.init();
     // const shops = Shop.init();
@@ -316,7 +315,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
-  // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
@@ -333,7 +331,6 @@ document.getElementById('marker-size').addEventListener('change', function () {
 document.getElementById('marker-opacity').addEventListener('change', function () {
   Settings.markerOpacity = Number(this.value);
 
-  // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
@@ -368,7 +365,6 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
 
   Layers.oms.clearMarkers();
 
-  // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -388,7 +384,6 @@ document.getElementById('enable-marker-popups-hover').addEventListener('change',
 document.getElementById('enable-marker-shadows').addEventListener('change', function () {
   Settings.isShadowsEnabled = this.checked;
 
-  // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();

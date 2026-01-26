@@ -306,8 +306,6 @@ const MapBase = {
         HospitalityCollection.locations.filter(locationMarkerFilter);
       } else if (Shop.quickParams.indexOf(quickParam) !== -1) {
         Shop.locations.filter(locationMarkerFilter);
-      } else if (Encounter.quickParams.indexOf(quickParam) !== -1) {
-        Encounter.locations.filter(locationMarkerFilter);
       } else if (Singleplayer.quickParams.indexOf(quickParam) !== -1) {
         Singleplayer.locations.filter(locationMarkerFilter);
       } else if (AnimalCollection.quickParams.indexOf(quickParam) !== -1) {
@@ -351,7 +349,6 @@ const MapBase = {
 
   disableAll: function (toShow = false) {
     HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
-    // Encounter.locations.forEach(encounter => encounter.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
     // Legendary.animals.forEach(animal => animal.onMap = toShow);
     // Shop.locations.forEach(shop => shop.onMap = toShow);

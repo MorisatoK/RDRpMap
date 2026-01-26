@@ -1223,14 +1223,6 @@ input.input-text.pickr-userpin {
     bottom: 35%;
 }
 
-.side-menu .collectible-icon.random-encounter {
-    width: 32px;
-    height: auto;
-    margin-top: 1px;
-    margin-right: 6px;
-    margin-bottom: -3px;
-}
-
 .side-menu .collectible-text {
     display: flex;
     justify-content: space-between;

@@ -168,7 +168,6 @@ class Menu {
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
         // Shop.locations,
-        // Encounter.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -198,7 +197,6 @@ class Menu {
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
         // Shop.locations,
-        // Encounter.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -311,18 +309,6 @@ class Menu {
     // document.querySelector('.shops-show-btn').addEventListener('click', function () {
     //   Shop.locations.forEach((shop) => {
     //     if (!shop.onMap) shop.onMap = !shop.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.encounters-hide-btn').addEventListener('click', function () {
-    //   Encounter.locations.forEach((_encounter) => {
-    //     if (_encounter.onMap) _encounter.onMap = !_encounter.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.encounters-show-btn').addEventListener('click', function () {
-    //   Encounter.locations.forEach((_encounter) => {
-    //     if (!_encounter.onMap) _encounter.onMap = !_encounter.onMap;
     //   });
     // });
 
