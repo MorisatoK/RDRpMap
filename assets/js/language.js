@@ -1,13 +1,13 @@
 const Language = {
   data: {},
-  availableLanguages: ['en', 'de'],
+  availableLanguages: ['de'],
   progress: {},
 
   init: function () {
     'use strict';
-    const langs = ['en'];
+    const langs = ['de'];
 
-    if (Settings.language !== 'en') {
+    if (Settings.language !== 'de') {
       langs.push(Settings.language);
     }
 
@@ -145,16 +145,16 @@ const Language = {
       const item = option.getAttribute('value').replace('-', '_');
       let percent = this.progress[item];
 
-      if (item === 'en') percent = 100;
+      if (item === 'de') percent = 100;
       if (!percent) percent = 0;
 
       option.textContent = `${Language.get('menu.lang_' + item)} (${percent}%)`;
     });
 
     let thisProg = this.progress[Settings.language.replace('-', '_')];
-    if (Settings.language === 'en') thisProg = 100;
+    if (Settings.language === 'de') thisProg = 100;
     if (!thisProg) thisProg = 0;
-    document.getElementById('translation-progress').textContent = this.get('menu.translate_progress').replace('{progress}', thisProg);
+    // document.getElementById('translation-progress').textContent = this.get('menu.translate_progress').replace('{progress}', thisProg);
   },
 
   hasTranslation: function (string) {

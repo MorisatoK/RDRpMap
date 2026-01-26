@@ -57,7 +57,7 @@ function init() {
   SettingProxy.addSetting(Settings, 'language', {
     default: Language.availableLanguages.includes(mappedLanguage) ?
       mappedLanguage :
-      'en',
+      'de',
   });
 
   if (['ja', 'ko', 'zh-Hans', 'zh-Hant'].includes(Settings.language))
@@ -120,7 +120,7 @@ function init() {
   if (Settings.isMenuOpened)
     document.querySelector('.menu-toggle').click();
 
-  document.getElementById('language').value = Settings.language;
+  //document.getElementById('language').value = Settings.language;
   document.getElementById('marker-opacity').value = Settings.markerOpacity;
   document.getElementById('marker-size').value = Settings.markerSize;
   document.getElementById('marker-cluster').checked = Settings.isMarkerClusterEnabled;
@@ -328,27 +328,27 @@ document.getElementById('show-debug').addEventListener('change', function () {
   document.getElementById('debug-container').classList.toggle('opened', Settings.showDebugSettings);
 });
 
-document.getElementById('language').addEventListener('change', function () {
-  Settings.language = this.value;
-  Language.setMenuLanguage();
-  MapBase.setFallbackFonts();
+// document.getElementById('language').addEventListener('change', function () {
+//   Settings.language = this.value;
+//   Language.setMenuLanguage();
+//   MapBase.setFallbackFonts();
 
-  AnimalCollection.onLanguageChanged();
-  // Bounty.onLanguageChanged();
-  // CampCollection.onLanguageChanged();
-  // Encounter.onLanguageChanged();
-  // GunForHire.onLanguageChanged();
-  Legendary.onLanguageChanged();
-  Location.onLanguageChanged();
-  // PlantsCollection.onLanguageChanged();
-  // Shop.onLanguageChanged();
-  // Treasure.onLanguageChanged();
-  Singleplayer.onLanguageChanged();
+//   AnimalCollection.onLanguageChanged();
+//   // Bounty.onLanguageChanged();
+//   // CampCollection.onLanguageChanged();
+//   // Encounter.onLanguageChanged();
+//   // GunForHire.onLanguageChanged();
+//   Legendary.onLanguageChanged();
+//   Location.onLanguageChanged();
+//   // PlantsCollection.onLanguageChanged();
+//   // Shop.onLanguageChanged();
+//   // Treasure.onLanguageChanged();
+//   Singleplayer.onLanguageChanged();
 
-  // Dailies.sortDailies();
-  // MadamNazar.addMadamNazar();
-  MapBase.updateTippy('language');
-});
+//   // Dailies.sortDailies();
+//   // MadamNazar.addMadamNazar();
+//   MapBase.updateTippy('language');
+// });
 
 document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
@@ -472,7 +472,7 @@ document.getElementById('show-help').addEventListener('change', function () {
 document.getElementById('timestamps-24').addEventListener('change', function () {
   Settings.isClock24Hour = this.checked;
   clockTick();
-  document.getElementById('language').dispatchEvent(new Event('change'));
+//  document.getElementById('language').dispatchEvent(new Event('change'));
 });
 
 document.getElementById('show-coordinates').addEventListener('change', function () {
