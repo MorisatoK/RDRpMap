@@ -171,7 +171,7 @@ class Menu {
         // GunForHire.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
-        CampCollection.locations,
+        // CampCollection.locations,
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
@@ -202,7 +202,7 @@ class Menu {
         // GunForHire.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
-        CampCollection.locations,
+        // CampCollection.locations,
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
@@ -216,7 +216,7 @@ class Menu {
 
       setTimeout(() => {
         // PlantsCollection.layer.redraw();
-        CampCollection.layer.redraw();
+        // CampCollection.layer.redraw();
       }, 40);
 
       // MadamNazar.onMap = true;
@@ -228,19 +228,19 @@ class Menu {
       // CampCollection.onMap = true;
     });
 
-    document.querySelector('.camps-small-btn').addEventListener('click', function () {
-      CampCollection.isSmall = !CampCollection.isSmall;
-      CampCollection.refresh();
-    });
+    // document.querySelector('.camps-small-btn').addEventListener('click', function () {
+    //   CampCollection.isSmall = !CampCollection.isSmall;
+    //   CampCollection.refresh();
+    // });
 
-    document.querySelector('.camps-large-btn').addEventListener('click', function () {
-      CampCollection.isLarge = !CampCollection.isLarge;
-      CampCollection.refresh();
-    });
-    document.querySelector('.camps-wilderness-btn').addEventListener('click', function () {
-      CampCollection.isWilderness = !CampCollection.isWilderness;
-      CampCollection.refresh();
-    });
+    // document.querySelector('.camps-large-btn').addEventListener('click', function () {
+    //   CampCollection.isLarge = !CampCollection.isLarge;
+    //   CampCollection.refresh();
+    // });
+    // document.querySelector('.camps-wilderness-btn').addEventListener('click', function () {
+    //   CampCollection.isWilderness = !CampCollection.isWilderness;
+    //   CampCollection.refresh();
+    // });
 
     // document.querySelector('.shops-hide-btn').addEventListener('click', function () {
     //   Shop.locations.forEach((shop) => {
@@ -279,18 +279,18 @@ class Menu {
     //   setTimeout(() => PlantsCollection.layer.redraw(), 40);
     // });
 
-    document.querySelector('.camps-hide-btn').addEventListener('click', function () {
-      CampCollection.locations.forEach((_plants) => {
-        if (_plants.onMap) _plants.onMap = !_plants.onMap;
-      });
-    });
+    // document.querySelector('.camps-hide-btn').addEventListener('click', function () {
+    //   CampCollection.locations.forEach((_plants) => {
+    //     if (_plants.onMap) _plants.onMap = !_plants.onMap;
+    //   });
+    // });
 
-    document.querySelector('.camps-show-btn').addEventListener('click', function () {
-      CampCollection.locations.forEach((_plants) => {
-        if (!_plants.onMap) _plants.onMap = !_plants.onMap;
-      });
-      setTimeout(() => CampCollection.layer.redraw(), 40);
-    });
+    // document.querySelector('.camps-show-btn').addEventListener('click', function () {
+    //   CampCollection.locations.forEach((_plants) => {
+    //     if (!_plants.onMap) _plants.onMap = !_plants.onMap;
+    //   });
+    //   setTimeout(() => CampCollection.layer.redraw(), 40);
+    // });
 
     // document.querySelector('.encounters-hide-btn').addEventListener('click', function () {
     //   Encounter.locations.forEach((_encounter) => {
