@@ -41,8 +41,6 @@ class Location {
   reinitMarker() {
     this.layer.clearLayers();
     this.markers.forEach(marker => {
-      //const shadow = Settings.isShadowsEnabled ?
-      //  `<img class="shadow" width="${35 * Settings.markerSize}" height="${16 * Settings.markerSize}" src="./assets/images/markers-shadow.png" alt="Shadow">` : '';
       const boxPx = 35 * Settings.markerSize;
       const tempMarker = L.marker([marker.lat, marker.lng], {
         opacity: Settings.markerOpacity,
