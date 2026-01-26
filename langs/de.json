@@ -674,5 +674,19 @@
   "menu.display_btn": "Auslage",
   "map.hospitality.drinks.name": "Getränke",
   "map.hospitality.saloon.name": "Saloon",
-  "map.hospitality.restaurant.name": "Restaurant"
+  "map.hospitality.restaurant.name": "Restaurant",
+  "map.plants.apple.name": "Apfel",
+  "map.plants.blackberry.name": "Brombeere",
+  "map.plants.chives.name": "Schnittlauch",
+  "map.plants.garlic.name": "Knoblauch",
+  "map.plants.milkweed.name": "Seidenpflanze",
+  "map.plants.orange.name": "Orange",
+  "map.plants.pear.name": "Birne",
+  "map.plants.pumpkin.name": "Kürbis",
+  "map.plants.raspberry.name": "Himbeere",
+  "map.plants.rosehip.name": "Hagebutte",
+  "map.plants.strawberry.name": "Erdbeere",
+  "map.plants.thyme.name": "Thymian",
+  "map.plants.tobacco.name": "Tabak",
+  "map.plants.weed.name": "Hanf"
 }

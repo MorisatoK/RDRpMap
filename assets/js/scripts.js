@@ -88,10 +88,11 @@ function init() {
     const activities = Activities.init();
     const singleplayer = Singleplayer.init();
     const shops = Shops.init();
+    const plants = Plants.init();
     const hospitality = HospitalityCollection.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, hospitality ]);
+    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, plants, hospitality ]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -306,6 +307,7 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  Plants.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -320,6 +322,7 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  Plants.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -351,6 +354,7 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  Plants.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -369,6 +373,7 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  Plants.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
   Pins.loadPins();

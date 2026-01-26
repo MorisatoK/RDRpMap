@@ -1,0 +1,92 @@
+[
+  {
+    "key": "tobacco",
+    "locations": [
+      {"text": "Indian Tobacco", "x": -36.270608935344285, "y": 105.33511040549466},
+      {"text": "Tabak Feld", "x": -57.46875, "y": 129.46875}
+    ]
+  },
+  {
+    "key": "weed",
+    "locations": [
+      {"text": "Weed Field 3", "x": -64.24061805909531, "y": 33.142628656132224},
+      {"text": "Weed Field 1", "x": -67.63536831118249, "y": 31.727608474573895},
+      {"text": "Weed Field 2", "x": -68.90758829093218, "y": 30.805898081081775}
+    ]
+  },
+  {
+    "key": "pumpkin",
+    "locations": [
+      {"text": "Kürbis", "x": -90.80026968620741, "y": 88.51892493550204},
+      {"text": "Kürbis", "x": -87.1461322547673, "y": 139.5302431657179}
+    ]
+  },
+  {
+    "key": "raspberry",
+    "locations": [
+      {"text": "Himbeeren", "x": -75.54859227618522, "y": 81.39037374770803},
+      {"text": "Himbeeren", "x": -54.934886957127524, "y": 135.77455345298262}
+    ]
+  },
+  {
+    "key": "strawberry",
+    "locations": [
+      {"text": "Erdbeeren", "x": -60.607934532750434, "y": 95.94023055428636}
+    ]
+  },
+  {
+    "key": "blackberry",
+    "locations": [
+      {"text": "Brombeeren", "x": -55.26232278990228, "y": 90.46526112697745}
+    ]
+  },
+  {
+    "key": "rosehip",
+    "locations": [
+      {"text": "Hagebutten", "x": -58.66876748530453, "y": 99.40087618059722}
+    ]
+  },
+  {
+    "key": "milkweed",
+    "locations": [
+      {"text": "Seidenpflanze / Blood Flower", "x": -53.8125, "y": 111.390625}
+    ]
+  },
+  {
+    "key": "garlic",
+    "locations": [
+      {"text": "Knoblauch", "x": -67.1484375, "y": 149.75}
+    ]
+  },
+  {
+    "key": "apple",
+    "locations": [
+      {"text": "Apfel", "x": -76.5, "y": 142.8203125}
+    ]
+  },
+  {
+    "key": "orange",
+    "locations": [
+      {"text": "Orangen", "x": -76.7734375, "y": 142.984375}
+    ]
+  },
+  {
+    "key": "pear",
+    "locations": [
+      {"text": "Birne", "x": -77.0390625, "y": 143.1015625}
+    ]
+  },
+  {
+    "key": "thyme",
+    "locations": [
+      {"text": "Thymian", "x": -89.609375, "y": 135.4765625}
+    ]
+  },
+  {
+    "key": "chives",
+    "locations": [
+      {"text": "Schnittlauch", "x": -50.696037834488735, "y": 143.79360495845114},
+      {"text": "Schnittlauch", "x": -84.64509125148633, "y": 126.00367000303953}
+    ]
+  }
+]

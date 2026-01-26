@@ -174,6 +174,7 @@ class Menu {
         Government.locations,
         Activities.locations,
         Shops.locations,
+        Plants.locations,
       ];
 
       collections
@@ -198,6 +199,7 @@ class Menu {
         Government.locations,
         Activities.locations,
         Shops.locations,
+        Plants.locations,
       ];
 
       collections
@@ -266,6 +268,18 @@ class Menu {
     document.querySelector('.shops-show-btn').addEventListener('click', function () {
       Shops.locations.forEach((shop) => {
         if (!shop.onMap) shop.onMap = !shop.onMap;
+      });
+    });
+
+    document.querySelector('.plants-hide-btn').addEventListener('click', function () {
+      Plants.locations.forEach((plant) => {
+        if (plant.onMap) plant.onMap = !plant.onMap;
+      });
+    });
+
+    document.querySelector('.plants-show-btn').addEventListener('click', function () {
+      Plants.locations.forEach((plant) => {
+        if (!plant.onMap) plant.onMap = !plant.onMap;
       });
     });
 
