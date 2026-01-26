@@ -94,5 +94,28 @@
       {"text": "Wapiti Stall", "x": -28.965810089974937, "y": 117.80710450509245},
       {"text": "Guarma Stall", "x": -69.66702572782357, "y": 32.44810040188112}
     ]
+  },
+  {
+    "key": "telegram",
+    "icon": "blip_post_office",
+    "locations": [
+      {"text": "Telegrammstation", "x": -37.6015625, "y": 120.375},
+      {"text": "Telegrammstation", "x": -53.8515625, "y": 108.5390625},
+      {"text": "Telegrammstation", "x": -56.78125, "y": 134.9375},
+      {"text": "Telegrammstation", "x": -26.8203125, "y": 91.0078125},
+      {"text": "Telegrammstation", "x": -43.578125, "y": 156.9453125},
+      {"text": "Telegrammstation", "x": -57.3984375, "y": 91.1171875},
+      {"text": "Telegrammstation", "x": -69.1953125, "y": 106.09375},
+      {"text": "Telegrammstation", "x": -54.7734375, "y": 157.6796875},
+      {"text": "Telegrammstation", "x": -72.5390625, "y": 94.2890625},
+      {"text": "Telegrammstation", "x": -83.7109375, "y": 130.3828125},
+      {"text": "Telegrammstation", "x": -69.515625, "y": 83.921875},
+      {"text": "Telegrammstation", "x": -84.203125, "y": 97.703125},
+      {"text": "Telegrammstation", "x": -85.359375, "y": 153.7265625},
+      {"text": "Telegrammstation", "x": -101.1484375, "y": 72.515625},
+      {"text": "Telegrammstation", "x": -104.0625, "y": 53.3671875},
+      {"text": "Telegrammstation", "x": -109.5234375, "y": 25.3125},
+      {"text": "Telegrammstation", "x": -117.5859375, "y": 30.1328125}
+    ]
   }
 ]

@@ -1746,5 +1746,6 @@
   "map.infrastructure.boats.name": "Bootshändler",
   "map.infrastructure.bank.name": "Bank",
   "map.infrastructure.wardrobe.name": "Garderobe",
-  "map.infrastructure.stable.name": "Stall"
+  "map.infrastructure.stable.name": "Stall",
+  "map.infrastructure.telegram.name": "Telegrammstation"
 }
