@@ -83,7 +83,6 @@ function init() {
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
-    // const treasures = Treasure.init();
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
@@ -304,7 +303,6 @@ document.getElementById('marker-size').addEventListener('change', function () {
 
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
-  // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
@@ -320,7 +318,6 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
 
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
-  // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
@@ -378,7 +375,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
-  // Treasure.onSettingsChanged();
 
   Pins.loadPins();
 });

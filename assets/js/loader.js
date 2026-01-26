@@ -66,6 +66,5 @@ const urls = [
   'data/activities.json',
   'data/hospitality.json',
   'data/singleplayer.json',
-  //'data/treasures.json',
 ];
 Loader.init(urls);

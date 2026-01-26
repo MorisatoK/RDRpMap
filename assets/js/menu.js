@@ -188,8 +188,6 @@ class Menu {
       // });
 
       Pins.onMap = false;
-      // Treasure.treasuresOnMap = false;
-      // HospitalityCollection.onMap = false;
     });
 
     document.querySelector('.menu-show-all').addEventListener('click', function () {
@@ -211,8 +209,6 @@ class Menu {
         });
 
       Pins.onMap = true;
-      // Treasure.treasuresOnMap = true;
-      // HospitalityCollection.onMap = true;
     });
 
     document.querySelector('.singleplayer-hide-btn').addEventListener('click', function () {

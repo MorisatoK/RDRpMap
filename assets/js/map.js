@@ -314,12 +314,6 @@ const MapBase = {
             animal.isEnabled = true;
           });
         });
-      } else if (Treasure.quickParams.indexOf(quickParam) !== -1) {
-        Treasure.treasures.filter(item => {
-          if (item.text !== quickParam) return;
-          item.onMap = true;
-          MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
-        });
       }
     }
 
