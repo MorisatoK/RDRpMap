@@ -1760,5 +1760,6 @@
   "map.infrastructure.telegram.name": "Telegrammstation",
   "map.infrastructure.butcher.name": "Fleischer",
   "map.infrastructure.fishprocessor.name": "Fischverarbeiter",
-  "menu.government": "Regierung"
+  "menu.government": "Regierung",
+  "map.government.army.name": "U.S. Army"
 }

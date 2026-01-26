@@ -1,3 +1,11 @@
 [
-
+  {
+    "key": "army",
+    "icon": "blip_animal_quality_01",
+    "locations": [
+    {"text": "Fort Wallace", "x": -40.75507912245964, "y": 116.80509592377496},
+    {"text": "Fort Brennand", "x": -59.04152622149826, "y": 149.406543119341},
+    {"text": "Fort Mercer", "x": -116.70242694154057, "y": 46.20258843725824}
+    ]
+  }
 ]
