@@ -104,6 +104,7 @@ function init() {
     // const plants = PlantsCollection.init();
     // const camps = CampCollection.init();
     // const shops = Shop.init();
+    const infrastructure = Infrastructure.init();
     const singleplayer = Singleplayer.init();
     // const gfh = GunForHire.init();
     const legendary = Legendary.init();

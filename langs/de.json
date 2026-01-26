@@ -1,7 +1,5 @@
 {
   "menu.ambush": "Hinterhalt",
-  "menu.boats": "Boote",
-  "menu.balloons": "Ballonverleih",
   "menu.campfires": "Lagerfeuer",
   "menu.clear_important_items": "Wichtige Markierungen löschen",
   "menu.collector_map": "Sammlerkarte",
@@ -472,8 +470,6 @@
   "west_hill_haven_treasure": "West Hill Haven",
   "map.ambush.name": "Hinterhalt",
   "map.ambush.desc": "Das ist eine zufällige Begegnung. Wenn Sie den Bereich besuchen, können Sie einen Hinterhalt in Form einer Schießerei auslösen, oder eine Person, die Hilfe fordert, bevor Verstärkung gerufen wird.",
-  "map.boats.name": "Boot",
-  "map.boats.desc": "An dieser Stelle wird oft ein Boot spawnen.",
   "map.campfires.name": "Lagerfeuer",
   "map.campfires.desc": "Dieser Ort bietet ein Lagerfeuer, an dem du Gegenstände kochen oder herstellen kannst.",
   "map.defend_campsite.name": "Lager verteidigen",
@@ -1744,5 +1740,8 @@
   "singleplayer.sp_wilderness_chest_83.name": "Wildnistruhe #83",
   "map.singleplayer.sp_crayfish_holes.name": "Flusskrebslöcher",
   "map.singleplayer.sp_crayfish_holes.desc": "Wenn du das Loch im Boden durchsuchst, kannst du hier einen Flusskrebs finden.",
-  "singleplayer.sp_crayfish_hole.name": "Flusskrebsloch"
+  "singleplayer.sp_crayfish_hole.name": "Flusskrebsloch",
+  "menu.infrastructure": "Infrastruktur",
+  "map.infrastructure.balloonrental.name": "Ballonverleih",
+  "map.infrastructure.boats.name": "Bootshändler"
 }

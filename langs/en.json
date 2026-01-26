@@ -1,7 +1,5 @@
 {
   "menu.ambush": "Ambush",
-  "menu.boats": "Boats",
-  "menu.ballons": "Balloon Rental",
   "menu.campfires": "Campfires",
   "menu.clear_important_items": "Clear important markers",
   "menu.collector_map": "Collectible map",
@@ -473,8 +471,6 @@
   "west_hill_haven_treasure": "West Hill Haven",
   "map.ambush.name": "Ambush",
   "map.ambush.desc": "This is a Random Encounter. Visiting the area might trigger an ambush in the form of a shootout, or a person calling for help before calling for reinforcement.",
-  "map.boats.name": "Boat",
-  "map.boats.desc": "This location often spawns a boat.",
   "map.campfires.name": "Campfire",
   "map.campfires.desc": "This location provides a campfire at which you can cook or craft items.",
   "map.defend_campsite.name": "Defend Campsite",
@@ -1823,5 +1819,8 @@
   "singleplayer.sp_wilderness_chest_83.name": "Wilderness Chest #83",
   "map.singleplayer.sp_crayfish_holes.name": "Crayfish Holes",
   "map.singleplayer.sp_crayfish_holes.desc": "Going to the Crayfish Hole located here and searching the hole can award you with a Crayfish.",
-  "singleplayer.sp_crayfish_hole.name": "Crayfish Hole"
+  "singleplayer.sp_crayfish_hole.name": "Crayfish Hole",
+  "menu.infrastructure": "Infrastructure",
+  "map.infrastructure.balloonrental.name": "Ballon Rental",
+  "map.infrastructure.boats.name": "Boat Dealer"
 }

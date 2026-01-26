@@ -242,6 +242,18 @@ class Menu {
     //   CampCollection.refresh();
     // });
 
+    document.querySelector('.infrastructure-hide-btn').addEventListener('click', function () {
+      Infrastructure.locations.forEach((infra) => {
+        if (infra.onMap) infra.onMap = !infra.onMap;
+      });
+    });
+
+    document.querySelector('.infrastructure-show-btn').addEventListener('click', function () {
+      Infrastructure.locations.forEach((infra) => {
+        if (!infra.onMap) infra.onMap = !infra.onMap;
+      });
+    });
+
     // document.querySelector('.shops-hide-btn').addEventListener('click', function () {
     //   Shop.locations.forEach((shop) => {
     //     if (shop.onMap) shop.onMap = !shop.onMap;
