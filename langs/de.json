@@ -1766,5 +1766,13 @@
   "map.government.sherrif.name": "Sheriff Department",
   "map.government.cityhall.name": "Rathaus",
   "map.government.courtyard.name": "Gerichtshof",
-  "map.government.prison.name": "Gefängnis"
+  "map.government.prison.name": "Gefängnis",
+  "menu.activities": "Aktivitäten",
+  "map.activities.races.name": "Rennen",
+  "map.activities.rodeo.name": "Rodeo",
+  "map.activities.construction.name": "Baustellen",
+  "map.activities.carriage.name": "Kutschenlieferung",
+  "map.activities.boat.name": "Bootslieferung",
+  "map.activities.oil.name": "Ölfelder",
+  "map.activities.hunting.name": "Jagdaufträge"
 }

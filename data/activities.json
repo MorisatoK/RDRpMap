@@ -1,0 +1,82 @@
+[
+  {
+    "key": "races",
+    "icon": "blip_mp_playlist_races",
+    "locations": [
+      {"text": "Auf Eigene Gefahr", "x": -59.50089121884409, "y": 81.02349771225009},
+      {"text": "Emerald - Kurs 1", "x": -57.2265625, "y": 133.109375},
+      {"text": "Eselrennen", "x": -104.90625, "y": 39.8984375},
+      {"text": "Heartlands Run", "x": -66.75, "y": 120.421875},
+      {"text": "Manteca", "x": -106.203125, "y": 75.2578125},
+      {"text": "Rhodes Rundlauf", "x": -88.1688987641692, "y": 131.52204507271006}
+    ]
+  },
+  {
+    "key": "rodeo",
+    "icon": "blip_ambient_herd",
+    "locations": [
+      {"text": "Bullen reiten", "x": -59.171875, "y": 133.34375},
+      {"text": "Bullen treiben", "x": -59.0859375, "y": 133.1015625}
+    ]
+  },
+  {
+    "key": "construction",
+    "icon": "blip_mp_ugc",
+    "locations": [
+      {"text": "Blackwater Construction", "x": -83.45518174468141, "y": 97.92838232173783},
+      {"text": "Dunkelhain Construction", "x": -25.390625, "y": 90.84375},
+      {"text": "St. Denise Construction", "x": -84.1875, "y": 155.6640625},
+      {"text": "Strawberry Construction", "x": -70.234375, "y": 82.984375},
+      {"text": "Tumbleweed Construction", "x": -108.15625, "y": 25.9453125}
+    ]
+  },
+  {
+    "key": "carriage",
+    "icon": "blip_teamsters",
+    "locations": [
+      {"text": "Annesburg Kutschenlieferung", "x": -42.2421875, "y": 156.8671875},
+      {"text": "Armadillo Kutschenlieferung", "x": -103.4453125, "y": 53.9375},
+      {"text": "Blackwater Kutschenlieferung", "x": -84.171875, "y": 96.4296875},
+      {"text": "Flat Neck Station Kutschenlieferung", "x": -69.4609375, "y": 105.96875},
+      {"text": "MacFarlane's Ranch Kutschenlieferung", "x": -101.0703125, "y": 75.1875},
+      {"text": "Rhodes Kutschenlieferung", "x": -83.703125, "y": 132.9921875},
+      {"text": "St. Denis Kutschenlieferung", "x": -83.7734375, "y": 155.3125},
+      {"text": "Strawberry Kutschenlieferung", "x": -69.6640625, "y": 83.953125},
+      {"text": "Tumbleweed Kutschenlieferung", "x": -111.1015625, "y": 25.671875},
+      {"text": "Valentine Kutschenlieferung", "x": -53.5234375, "y": 108.5390625},
+      {"text": "Van Horn Kutschenlieferung", "x": -51.0703125, "y": 157.1484375}
+    ]
+  },
+  {
+    "key": "boat",
+    "icon": "blip_ambient_tugboat",
+    "locations": [
+      {"text": "Annesburg Bootslieferung", "x": -42.82365110281586, "y": 158.2060921401166},
+      {"text": "Van Horn Bootslieferung", "x": -56.50642045778322, "y": 158.05752786916148},
+      {"text": "Saint Denis Bootslieferung", "x": -88.09118446284359, "y": 150.56988861302298},
+      {"text": "Rhodes Bootslieferung", "x": -83.24444742478984, "y": 123.8255407878729},
+      {"text": "Blackwater Bootslieferung", "x": -83.45085673527834, "y": 100.20844589769261},
+      {"text": "Thieves Landing Bootslieferung", "x": -99.49939646030029, "y": 90.0492785488255}
+    ]
+  },
+  {
+    "key": "oil",
+    "icon": "blip_moonshine_vat",
+    "locations": [
+      {"text": "Ölfelder Verarbeitung", "x": -53.21875, "y": 119.1875},
+      {"text": "Ölfelder Sammelpunkt", "x": -54.453125, "y": 119.8828125},
+      {"text": "Ölfelder Sammelpunkt", "x": -54.7734375, "y": 120.5078125},
+      {"text": "Ölfelder Verarbeitung", "x": -54.671875, "y": 119.734375}
+    ]
+  },
+  {
+    "key": "hunting",
+    "icon": "blip_shop_animal_trapper",
+    "locations": [
+      {"text": "Gus", "x": -48.1484375, "y": 143.578125},
+      {"text": "Gus", "x": -72.06238006202506, "y": 95.61000380358952},
+      {"text": "Gus", "x": -61.46559281046894, "y": 67.19133180104318},
+      {"text": "Gus", "x": -93.3984375, "y": 76.3125}
+    ]
+  }
+]

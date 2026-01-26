@@ -106,13 +106,14 @@ function init() {
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
+    const activities = Activities.init();
     const singleplayer = Singleplayer.init();
     // const gfh = GunForHire.init();
     const legendary = Legendary.init();
     // const discoverables = Discoverable.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, legendary, overlays, singleplayer]);
+    return Promise.all([animals, locations, legendary, overlays, singleplayer, infrastructure, government, activities, ]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -364,6 +365,9 @@ document.getElementById('marker-size').addEventListener('change', function () {
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
+  Infrastructure.onSettingsChanged();
+  Government.onSettingsChanged();
+  Activities.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -382,6 +386,9 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
+  Infrastructure.onSettingsChanged();
+  Government.onSettingsChanged();
+  Activities.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -416,6 +423,9 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
+  Infrastructure.onSettingsChanged();
+  Government.onSettingsChanged();
+  Activities.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -435,6 +445,9 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   // PlantsCollection.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
+  Infrastructure.onSettingsChanged();
+  Government.onSettingsChanged();
+  Activities.onSettingsChanged();
   // Treasure.onSettingsChanged();
 
   Pins.loadPins();

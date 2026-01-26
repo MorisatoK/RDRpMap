@@ -77,6 +77,7 @@ const urls = [
   //'data/shops.json',
   'data/infrastructure.json',
   'data/government.json',
+  'data/activities.json',
   'data/singleplayer.json',
   //'data/treasures.json',
   //'data/bounties.json',
