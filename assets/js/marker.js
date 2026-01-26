@@ -8,45 +8,15 @@ class Marker {
     this.size = size;
     this.title = (() => {
       switch (category) {
-        case 'fasttravel':
         case 'singleplayer':
           return Language.get(`${this.category}.${this.text}.name`);
-        case 'rescue':
-        case 'shops':
-        case 'gfh':
-          return Language.get(`map.${this.category}.${this.subdata}.name`);
-        case 'camps':
-        case 'daily_locations':
-        case 'outlaw_dynamic_homestead':
-        case 'outlaw_dynamic_camp':
-        case 'dynamic_bounties':
-        case 'hideouts': {
-          const title = Language.get(`map.${this.category}.${this.text}.name`);
-          if (Array.isArray(this.subdata) && this.subdata.length !== 0) {
-            return `${title} - [${convertToTime(this.subdata[0])} - ${convertToTime(this.subdata[1])}]`;
-          }
-          return title;
-        }
-        case 'harrietum_animals':
-          return `${Language.get('map.harrietum_animals.name')} - ${Language.get(`menu.cmpndm.${this.text}`)}`;
         case 'sightseeing':
           return Language.get('map.sightseeing.name') + (this.text === 'hidden' ? ' - ' + Language.get('map.sightseeing.hidden') : '');
         default:
-          return Language.get(`map.${this.category}.name`);
+          return this.text ? this.text : '';
       }
     })();
-    this.description = (() => {
-      switch (category) {
-        case 'fasttravel':
-          return '';
-        case 'shops':
-        case 'gfh':
-        case 'singleplayer':
-          return Language.get(`map.${this.category}.${this.subdata}.desc`);
-        default:
-          return Language.get(`map.${this.category}.desc`);
-      }
-    })();
+    this.description = (() => '')();
   }
   updateMarkerContent(removeFromMapCallback) {
     const container = document.createElement('div');
