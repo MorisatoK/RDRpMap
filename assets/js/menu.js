@@ -189,7 +189,6 @@ class Menu {
 
       Pins.onMap = false;
       // Treasure.treasuresOnMap = false;
-      // Bounty.bountiesOnMap = false;
       // HospitalityCollection.onMap = false;
     });
 
@@ -213,7 +212,6 @@ class Menu {
 
       Pins.onMap = true;
       // Treasure.treasuresOnMap = true;
-      // Bounty.bountiesOnMap = true;
       // HospitalityCollection.onMap = true;
     });
 

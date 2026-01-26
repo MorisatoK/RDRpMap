@@ -320,14 +320,6 @@ const MapBase = {
           item.onMap = true;
           MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
         });
-      } else if (BountyCollection.quickParams.indexOf(quickParam) !== -1) {
-        Object.keys(BountyCollection.collection).filter(item => {
-          BountyCollection.collection[item].bounties.filter(bounty => {
-            if (`${bounty.type}_${bounty.text}` !== quickParam) return;
-            bounty.onMap = true;
-            MapBase.map.setView({ lat: bounty.x, lng: bounty.y }, 5);
-          });
-        });
       }
     }
 

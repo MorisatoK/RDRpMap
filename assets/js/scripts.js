@@ -84,7 +84,6 @@ function init() {
     const animals = AnimalCollection.init();
     const locations = Location.init();
     // const treasures = Treasure.init();
-    // const bounties = BountyCollection.init();
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
