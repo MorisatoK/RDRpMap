@@ -1,4 +1,4 @@
-class Shop {
+class Shops {
   static init() {
     this.locations = [];
     this.quickParams = [];
@@ -6,7 +6,7 @@ class Shop {
 
     return Loader.promises['shops'].consumeJson(data => {
       data.forEach(item => {
-        this.locations.push(new Shop(item));
+        this.locations.push(new Shops(item));
         this.quickParams.push(item.key);
       });
       console.info('%c[Shops] Loaded!', 'color: #bada55; background: #242424');
@@ -25,7 +25,7 @@ class Shop {
     this.element.classList.add('collectible-wrapper');
     Object.assign(this.element.dataset, { help: 'item', type: this.key, tippyContent: Language.get(`map.shops.${this.key}.name`) });
     this.element.innerHTML = `
-      <img class="collectible-icon" src="./assets/images/icons/${this.key}.png">
+      <img class="collectible-icon" src="./assets/images/icons/${this.icon ? this.icon : this.key}.png">
       <span class="collectible-text ${!this.onMap ? 'disabled' : ''}">
         <p class="collectible" data-text="map.shops.${this.key}.name"></p>
       </span>
@@ -33,7 +33,7 @@ class Shop {
     this.element.addEventListener('click', () => this.onMap = !this.onMap);
     Language.translateDom(this.element);
 
-    Shop.context.appendChild(this.element);
+    Shops.context.appendChild(this.element);
 
     if (this.onMap)
       this.layer.addTo(MapBase.map);
@@ -50,19 +50,17 @@ class Shop {
     this.layer.clearLayers();
     this.markers.forEach(
       marker => {
-        const shadow = Settings.isShadowsEnabled ?
-          `<img class="shadow" width="${35 * Settings.markerSize}" height="${16 * Settings.markerSize}" src="./assets/images/markers-shadow.png" alt="Shadow">` : '';
+        const boxPx = 35 * Settings.markerSize;
         var tempMarker = L.marker([marker.lat, marker.lng], {
           opacity: Settings.markerOpacity,
           icon: new L.DivIcon.DataMarkup({
-            iconSize: [35 * Settings.markerSize, 45 * Settings.markerSize],
-            iconAnchor: [17 * Settings.markerSize, 42 * Settings.markerSize],
-            popupAnchor: [1 * Settings.markerSize, -29 * Settings.markerSize],
-            html: `<div>
-                <img class="icon" src="assets/images/icons/${this.key}.png" alt="Icon">
-                <img class="background" src="assets/images/icons/marker_${MapBase.colorOverride || this.color}.png" alt="Background">
-                ${shadow}
-              </div>`,
+            iconSize: [boxPx, boxPx],
+            iconAnchor: [boxPx / 2, boxPx / 2],
+            popupAnchor: [0, -boxPx / 2],
+            html: `<div class="pin-icon-only">
+              <span class="pin-icon-only__shadow" aria-hidden="true"></span>
+              <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${this.icon ? this.icon : this.key}.png')" aria-hidden="true"></span>
+            </div>`,
             marker: this.key,
             tippy: marker.title,
           }),
@@ -95,11 +93,11 @@ class Shop {
   }
 
   static onLanguageChanged() {
-    Shop.locations.forEach(shop => shop.onLanguageChanged());
+    Shops.locations.forEach(infra => infra.onLanguageChanged());
     Menu.reorderMenu(this.context);
   }
 
   static onSettingsChanged() {
-    Shop.locations.forEach(shop => shop.reinitMarker());
+    Shops.locations.forEach(infra => infra.reinitMarker());
   }
 }

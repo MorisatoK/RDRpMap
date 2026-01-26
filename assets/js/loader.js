@@ -74,7 +74,7 @@ const urls = [
   'data/overlays.json',
   //'data/plants.json',
   //'data/possible_dailies.json',
-  //'data/shops.json',
+  'data/shops.json',
   'data/infrastructure.json',
   'data/government.json',
   'data/activities.json',
