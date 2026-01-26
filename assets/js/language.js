@@ -44,10 +44,7 @@ const Language = {
   },
 
   _links: {
-    'GitHub': ['https://github.com/jeanropke/RDOMap/issues', 'GitHub'],
-    'Discord': ['https://discord.gg/WWru8cP', 'Discord'],
-    'int.nazar.link': ['https://twitter.com/MadamNazarIO', '@MadamNazarIO'],
-    'int.rdo.overview': ['https://socialclub.rockstargames.com/games/rdo/overview'],
+    'GitHub': ['https://github.com/MorisatoK/RDRpMap/issues', 'GitHub'],
   },
 
   _externalLink: function (key) {

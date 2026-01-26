@@ -206,18 +206,6 @@ legendaryItems.forEach(item => {
 });
 
 /**
- * NAZAR ITEMS
- * Nazar has 12 locations, just use a for loop to add them all.
- */
-for (let i = 0; i < 12; i++) {
-  sites.push({
-    name: `nazar_${i}`,
-    type: 'short',
-    url: `${rdoMapBase}&q=nazar&nazar=${i}`,
-  });
-}
-
-/**
  * BOUNTIES
  * Bounties are split into multiple categories, just use a for loop to add them all.
  */

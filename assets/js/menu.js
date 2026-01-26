@@ -192,7 +192,6 @@ class Menu {
       //   collection.animals.forEach((animal) => (animal.isEnabled = false));
       // });
 
-      // MadamNazar.onMap = false;
       Pins.onMap = false;
       // Treasure.treasuresOnMap = false;
       // Bounty.bountiesOnMap = false;
@@ -230,7 +229,6 @@ class Menu {
         // CampCollection.layer.redraw();
       }, 40);
 
-      // MadamNazar.onMap = true;
       Pins.onMap = true;
       // Treasure.treasuresOnMap = true;
       // Bounty.bountiesOnMap = true;

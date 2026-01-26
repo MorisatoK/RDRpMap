@@ -93,7 +93,6 @@ function init() {
     // Prevent blocks by external services. Sometimes these requests took >6 seconds.
     // Bonus: If either of these fail to load, it doesn't block the map from working properly.
     // Dailies.init();
-    // MadamNazar.init();
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
@@ -351,7 +350,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 //   Singleplayer.onLanguageChanged();
 
 //   // Dailies.sortDailies();
-//   // MadamNazar.addMadamNazar();
 //   MapBase.updateTippy('language');
 // });
 
@@ -374,7 +372,6 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Shops.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
-  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -397,7 +394,6 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Shops.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
-  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -436,7 +432,6 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Shops.onSettingsChanged();
   HospitalityCollection.onSettingsChanged();
 
-  // MadamNazar.addMadamNazar();
   Pins.loadPins();
 });
 
@@ -462,7 +457,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   // Treasure.onSettingsChanged();
 
   Pins.loadPins();
-  // MadamNazar.addMadamNazar();
 });
 
 // document.getElementById('enable-legendary-backgrounds').addEventListener('change', function () {

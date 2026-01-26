@@ -352,8 +352,6 @@
     {"name": "Collectibles found with a Metal Detector", "key": "mprc_collector_used_metal_dectector"},
     {"name": "Collectibles found with a Shovel", "key": "mprc_collector_used_shovel"},
     {"name": "Collectibles looted from non-player enemies", "key": "mprc_collector_items_looted_enemy"},
-    {"name": "Collectibles sold to Madam Nazar", "key": "mprc_collector_items_sold", "category": ["nazar", "madam_nazar"]},
-    {"name": "Collector Maps used", "key": "mprc_collector_used_map", "category": ["nazar", "madam_nazar"]},
     {"name": "Family Heirlooms found", "key": "mprc_collector_family_heirlooms_found"},
     {"name": "Fossils found", "key": "mprc_collector_fossils_found"},
     {"name": "Lost Jewelry found", "key": "mprc_collector_lost_jewelry_found"},

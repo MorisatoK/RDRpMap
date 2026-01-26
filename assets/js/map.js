@@ -335,10 +335,6 @@ const MapBase = {
           if (item.key !== quickParam) return;
           item.onMap = true;
         });
-      } else if (quickParam === 'nazar') {
-        MadamNazar.onMap = true;
-        const loc = MadamNazar.possibleLocations[MadamNazar.currentLocation];
-        MapBase.map.setView({ lat: loc.x, lng: loc.y }, 5);
       } else if (Treasure.quickParams.indexOf(quickParam) !== -1) {
         Treasure.treasures.filter(item => {
           if (item.text !== quickParam) return;
@@ -393,7 +389,6 @@ const MapBase = {
     // GunForHire.locations.forEach(gfh => gfh.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
     // Legendary.animals.forEach(animal => animal.onMap = toShow);
-    // MadamNazar.onMap = toShow;
     // Salvage.salvageOnMap = toShow;
     // Shop.locations.forEach(shop => shop.onMap = toShow);
     // PlantsCollection.locations.forEach(plants => plants.onMap = toShow);

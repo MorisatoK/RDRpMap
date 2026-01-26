@@ -222,8 +222,6 @@ class SynchronizeDailies {
           return `map.${this.category}.${this.markers}.name`;
         case 'menu':
           return `${this.category}.${this.markers}`;
-        case 'nazar':
-          return `menu.${this.markers}`;
         case 'daily_location':
           return `menu.${this.markers}.name`;
         default:

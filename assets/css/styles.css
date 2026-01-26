@@ -1308,12 +1308,6 @@ input.input-text.pickr-userpin {
     width: auto;
 }
 
-.nazar-error {
-    margin-left: 4px;
-    height: 16px;
-    width: auto;
-}
-
 .lat-lng-container {
     position: absolute;
     bottom: 0;
@@ -2866,8 +2860,7 @@ span.daily-checkbox {
     user-select: none;
 } */
 
-button.full-popup-width,
-button.reload-nazar {
+button.full-popup-width {
     margin: 10px 0 5px 0;
     width: 100%;
 }
