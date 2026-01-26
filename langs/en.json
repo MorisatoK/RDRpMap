@@ -1822,5 +1822,6 @@
   "singleplayer.sp_crayfish_hole.name": "Crayfish Hole",
   "menu.infrastructure": "Infrastructure",
   "map.infrastructure.balloonrental.name": "Ballon Rental",
-  "map.infrastructure.boats.name": "Boat Dealer"
+  "map.infrastructure.boats.name": "Boat Dealer",
+  "map.infrastructure.bank.name": "Bank"
 }

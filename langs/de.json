@@ -1743,5 +1743,6 @@
   "singleplayer.sp_crayfish_hole.name": "Flusskrebsloch",
   "menu.infrastructure": "Infrastruktur",
   "map.infrastructure.balloonrental.name": "Ballonverleih",
-  "map.infrastructure.boats.name": "Bootshändler"
+  "map.infrastructure.boats.name": "Bootshändler",
+  "map.infrastructure.bank.name": "Bank"
 }

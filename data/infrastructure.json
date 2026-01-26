@@ -1,6 +1,5 @@
 [
   {
-    "color": "black",
     "key": "boats",
     "icon": "blip_ambient_riverboat",
     "locations": [
@@ -29,7 +28,6 @@
     ]
   },
   {
-    "color": "black",
     "key": "balloonrental",
     "icon": "blip_mp_spawnpoint_arrow",
     "locations": [
@@ -37,6 +35,23 @@
       {"text": "Dunkelhain Ballonverleih", "x": -28.021450841519705, "y": 89.77446721217014},
       {"text": "Heartlands Ballonverleih", "x": -63.54532293700611, "y": 117.64662240309656},
       {"text": "Mercer Station Ballonverleih", "x": -109.90740172377546, "y": 42.94080636629236}
+    ]
+  },
+  {
+    "key": "bank",
+    "icon": "blip_ambient_tithing",
+    "locations": [
+      {"text": "Armadillo Bank", "x": -104.375, "y": 54.3671875},
+      {"text": "Annesburg Bank", "x": -43.71877348905061, "y": 156.8033836226228},
+      {"text": "Dunkelhain Bank", "x": -26.7421875, "y": 90.6640625},
+      {"text": "Mexico Bank", "x": -117.453125, "y": 30.1171875},
+      {"text": "Strawberry Bank", "x": -69.453125, "y": 83.8828125},
+      {"text": "Blackwater Bank", "x": -83.4375, "y": 98.6640625},
+      {"text": "Rhodes Bank", "x": -83.8046875, "y": 131.375},
+      {"text": "St. Denis Bank", "x": -83.65625, "y": 152.3203125},
+      {"text": "Tumbleweed Bank", "x": -109.3828125, "y": 25.3359375},
+      {"text": "Valentine Bank", "x": -51.5703125, "y": 106.5390625},
+      {"text": "Wapiti Geldversteck", "x": -28.6988080608364, "y": 118.1735340680943}
     ]
   }
 ]
