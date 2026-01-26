@@ -1761,5 +1761,6 @@
   "map.infrastructure.butcher.name": "Fleischer",
   "map.infrastructure.fishprocessor.name": "Fischverarbeiter",
   "menu.government": "Regierung",
-  "map.government.army.name": "U.S. Army"
+  "map.government.army.name": "U.S. Army",
+  "map.government.sherrif.name": "Sheriff Department"
 }

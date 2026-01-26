@@ -3,9 +3,23 @@
     "key": "army",
     "icon": "blip_animal_quality_01",
     "locations": [
-    {"text": "Fort Wallace", "x": -40.75507912245964, "y": 116.80509592377496},
-    {"text": "Fort Brennand", "x": -59.04152622149826, "y": 149.406543119341},
-    {"text": "Fort Mercer", "x": -116.70242694154057, "y": 46.20258843725824}
+      {"text": "Fort Wallace", "x": -40.75507912245964, "y": 116.80509592377496},
+      {"text": "Fort Brennand", "x": -59.04152622149826, "y": 149.406543119341},
+      {"text": "Fort Mercer", "x": -116.70242694154057, "y": 46.20258843725824}
+    ]
+  },
+  {
+    "key": "sherrif",
+    "icon": "blip_special_series_1",
+    "locations": [
+      {"text": "Annesburg Sheriff Department", "x": -43.25, "y": 156.46875},
+      {"text": "Armadillo Sheriff Department", "x": -103.984375, "y": 55.046875},
+      {"text": "Blackwater Sheriff Department", "x": -83.265625, "y": 99.5390625},
+      {"text": "Rhodes Sheriff Department", "x": -83.8359375, "y": 132.4140625},
+      {"text": "St. Denis Sheriff Department", "x": -83.9140625, "y": 150.3984375},
+      {"text": "Strawberry Sheriff Department", "x": -69.046875, "y": 83.1875},
+      {"text": "Tumbleweed Sheriff Department", "x": -109.1015625, "y": 25.453125},
+      {"text": "Valentine Sheriff Department", "x": -51.1328125, "y": 107.0390625}
     ]
   }
 ]
