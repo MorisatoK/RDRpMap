@@ -1762,5 +1762,8 @@
   "map.infrastructure.fishprocessor.name": "Fischverarbeiter",
   "menu.government": "Regierung",
   "map.government.army.name": "U.S. Army",
-  "map.government.sherrif.name": "Sheriff Department"
+  "map.government.sherrif.name": "Sheriff Department",
+  "map.government.cityhall.name": "Rathaus",
+  "map.government.courtyard.name": "Gerichtshof",
+  "map.government.prison.name": "Gefängnis"
 }
