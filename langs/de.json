@@ -1,6 +1,5 @@
 {
   "menu.ambush": "Hinterhalt",
-  "menu.campfires": "Lagerfeuer",
   "menu.clear_important_items": "Wichtige Markierungen löschen",
   "menu.collector_map": "Sammlerkarte",
   "menu.defend_campsite": "Lager verteidigen",
@@ -382,8 +381,6 @@
   "map.hideouts.twin_rocks.name": "Twin Rocks",
   "map.ambush.name": "Hinterhalt",
   "map.ambush.desc": "Das ist eine zufällige Begegnung. Wenn Sie den Bereich besuchen, können Sie einen Hinterhalt in Form einer Schießerei auslösen, oder eine Person, die Hilfe fordert, bevor Verstärkung gerufen wird.",
-  "map.campfires.name": "Lagerfeuer",
-  "map.campfires.desc": "Dieser Ort bietet ein Lagerfeuer, an dem du Gegenstände kochen oder herstellen kannst.",
   "map.defend_campsite.name": "Lager verteidigen",
   "map.defend_campsite.desc": "Das ist eine zufällige Begegnung. Ein weißer Blip auf der Mini-Karte zeigt die Begegnung an. Verteidigen Sie die Camper von Banditen, um eine Belohnung zu erhalten.",
   "map.escort.name": "Begleitschutz",
