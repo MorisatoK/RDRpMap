@@ -1120,7 +1120,6 @@
   "help.show_customization": "Gibt an, ob die Anpassungseinstellungen im Menü sichtbar sein sollen.",
   "help.show_import_export": "Gibt an, ob die Import/Export Einstellungen im Menü sichtbar sein sollen.",
   "help.show_debug": "Gibt an, ob die Debug Einstellungen im Menü sichtbar sein sollen.",
-  "menu.translate_progress": "Der Übersetzungsfortschritt für diese Sprache beträgt {progress}%.",
   "menu.map_zoom_snap": "Zoom-Einrasten der Karte",
   "menu.map_zoom_delta": "Zoom-Schrittweite der Karte",
   "menu.map_wheel_debounce_time": "Verzögerungszeit für das Mausrad der Karte",

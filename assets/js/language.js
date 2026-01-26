@@ -1,7 +1,6 @@
 const Language = {
   data: {},
   availableLanguages: ['de'],
-  progress: {},
 
   init: function () {
     'use strict';
@@ -24,8 +23,8 @@ const Language = {
       for (const propName in json) {
         if (
           json[propName] !== '' &&
-          (isEmptyObject(Language.data.en) ||
-            Language.data.en[propName] !== json[propName])
+          (isEmptyObject(Language.data.de) ||
+            Language.data.de[propName] !== json[propName])
         ) {
           result[propName] = json[propName];
         }
@@ -35,11 +34,7 @@ const Language = {
     });
 
     return Promise.all(fetchTranslations).then(() => {
-      return Loader.promises['lang_progress'].consumeJson(data => {
-        this.progress = data;
-        this.setMenuLanguage();
-        this.updateProgress();
-      });
+      this.setMenuLanguage();
     });
   },
 
@@ -67,8 +62,8 @@ const Language = {
       translation = translation.replace('{0}', optional);
     } else if (Language.data[Settings.language] && Language.data[Settings.language][transKey]) {
       translation = Language.data[Settings.language][transKey];
-    } else if (Language.data.en && Language.data.en[transKey]) {
-      translation = Language.data.en[transKey];
+    } else if (Language.data.de && Language.data.de[transKey]) {
+      translation = Language.data.de[transKey];
     } else {
       translation = (optional ? '' : transKey);
     }
@@ -137,23 +132,6 @@ const Language = {
     this._postTranslation();
   },
 
-  updateProgress: function () {
-    document.querySelectorAll('#language option').forEach(option => {
-      const item = option.getAttribute('value').replace('-', '_');
-      let percent = this.progress[item];
-
-      if (item === 'de') percent = 100;
-      if (!percent) percent = 0;
-
-      option.textContent = `${Language.get('menu.lang_' + item)} (${percent}%)`;
-    });
-
-    let thisProg = this.progress[Settings.language.replace('-', '_')];
-    if (Settings.language === 'de') thisProg = 100;
-    if (!thisProg) thisProg = 0;
-    // document.getElementById('translation-progress').textContent = this.get('menu.translate_progress').replace('{progress}', thisProg);
-  },
-
   hasTranslation: function (string) {
     return this.get(string) !== string;
   },
@@ -161,7 +139,6 @@ const Language = {
   _postTranslation: function () {
     document.getElementById('back-to-top').setAttribute('title', Language.get('menu.back_to_top'));
 
-    this.updateProgress();
     Menu.updateFancySelect();
   }
 };

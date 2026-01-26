@@ -27,11 +27,8 @@ class Loader {
   constructor(name, url, customNoCache = null) {
     const queryString = {};
 
-    if (['updates'].includes(name)) queryString.nocache = Date.now();
-    else if (!url.startsWith('http')) queryString.nocache = customNoCache || nocache;
+    if (!url.startsWith('http')) queryString.nocache = customNoCache || nocache;
     else queryString.nocache = customNoCache || new Date(Date.now() - 21600000).toISOUTCDateString();
-
-    if (['lang_progress'].includes(name)) queryString.date = customNoCache || new Date().toISOUTCDateString();
 
     this._json = fetch(`${url}?${new URLSearchParams(queryString).toString()}`)
       .then((response) => {
@@ -57,7 +54,6 @@ class Loader {
 }
 
 const urls = [
-  'data/lang_progress.json',
   // 'data/animal_legendary.json',
   'data/animal_spawns.json',
   //'data/encounters.json',
