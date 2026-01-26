@@ -1099,7 +1099,6 @@ input.input-text.pickr-userpin {
 
 .side-menu .menu-hidden,
 #weekly-container,
-#dailies-container,
 #utilities-container,
 #customization-container,
 #routes-container,
@@ -1121,7 +1120,6 @@ input.input-text.pickr-userpin {
 
 .side-menu .menu-hidden.opened,
 #weekly-container.opened,
-#dailies-container.opened,
 #utilities-container.opened,
 #customization-container.opened,
 #routes-container.opened,
@@ -1131,8 +1129,7 @@ input.input-text.pickr-userpin {
     max-height: 2000px;
     transition: max-height 400ms linear;
 }
-#customization-container.opened,
-#dailies-container.opened {
+#customization-container.opened {
     overflow: visible;
 }
 
@@ -1782,9 +1779,6 @@ a.no-style:visited {
     .input-action {
         margin-top: 5px;
     }
-    .daily-checkbox .input-checkbox+.input-checkbox-label {
-        margin-top: 0;
-    }
     .collectible-icon {
         margin-top: 7px;
     }
@@ -2101,116 +2095,6 @@ a.no-style:visited {
         opacity: 1;
     }
 }
-
-/* Dailies Styling */
-
-.dailies {
-    margin: 20px 5px;
-    font-size: 2rem;
-    user-select: none;
-}
-
-.daily-role {
-    margin: 25px 0;
-}
-
-.one-daily-container {
-    font-size: 15px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 5px;
-    margin: 10px -12px;
-    justify-content: space-between;
-    align-content: center;
-    background-image: url(../../assets/images/menu_hover.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 55px;
-}
-
-span.counter {
-    font-size: 19px;
-    grid-area: counter;
-    font-weight: bold;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    width: 55px;
-}
-
-label.daily {
-    display: grid;
-    align-content: center;
-    text-align: left;
-    grid-area: daily-challenge;
-    margin: 0;
-}
-
-span.daily-checkbox {
-    display: grid;
-    grid-area: daily-checkbox;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    padding: 10px;
-}
-
-.daily-status {
-    margin: auto;
-    width: 100%;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.one-daily-container .input-checkbox-wrapper {
-    width: 25px;
-}
-
-.input-selection-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    width: 32px;
-    height: 32px;
-}
-
-.input-selection-arrow img {
-    height: 16px;
-    margin: auto;
-}
-
-.dailies-changer {
-    user-select: none;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10+ and Edge */
-    display: flex;
-    justify-content: center;
-}
-
-#dailies-changer-container {
-    margin: 10px 0;
-}
-
-#dailies-changer-container .dailies-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 170px;
-    margin: 0 6px;
-    font-family: var(--title-font);
-    font-size: 19px;
-    text-rendering: optimizeLegibility;
-}
-
-.dailies-difficulty-selection {
-    margin: 10px 5px;
-    padding: 5px;
-}
-
-/* End of dailies Styling */
 
 /* Dark mode styling */
 
@@ -2703,11 +2587,6 @@ span.daily-checkbox {
 button.full-popup-width {
     margin: 10px 0 5px 0;
     width: 100%;
-}
-
-#sync-map-to-dailies {
-    white-space: normal;
-    word-wrap: break-word;
 }
 
 /* Leaflet.ZoomEx */

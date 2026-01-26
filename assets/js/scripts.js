@@ -76,10 +76,6 @@ function init() {
     //   if (localStorage.getItem(_key) == null)
     //     localStorage.setItem(_key, localStorage.getItem(key));
     // }
-    else if (key === 'lastDailiesDate') {
-      localStorage.setItem('rdo.lastDailiesDate', localStorage.getItem('lastDailiesDate'));
-      localStorage.removeItem('lastDailiesDate');
-    }
   });
 
   Menu.init();
@@ -91,7 +87,6 @@ function init() {
 
     // Prevent blocks by external services. Sometimes these requests took >6 seconds.
     // Bonus: If either of these fail to load, it doesn't block the map from working properly.
-    // Dailies.init();
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
@@ -140,13 +135,11 @@ function init() {
 
   document.getElementById('help-container').style.display = Settings.showHelp ? '' : 'none';
 
-  // document.getElementById('show-dailies').checked = Settings.showDailies;
   document.getElementById('show-utilities').checked = Settings.showUtilitiesSettings;
   document.getElementById('show-customization').checked = Settings.showCustomizationSettings;
   document.getElementById('show-import-export').checked = Settings.showImportExportSettings;
   document.getElementById('show-debug').checked = Settings.showDebugSettings;
 
-  // document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
   document.getElementById('utilities-container').classList.toggle('opened', Settings.showUtilitiesSettings);
   document.getElementById('customization-container').classList.toggle('opened', Settings.showCustomizationSettings);
   document.getElementById('import-export-container').classList.toggle('opened', Settings.showImportExportSettings);
@@ -303,11 +296,6 @@ document.getElementById('enable-right-click').addEventListener('change', functio
   Settings.isRightClickEnabled = this.checked;
 });
 
-// document.getElementById('show-dailies').addEventListener('change', function () {
-//   Settings.showDailies = this.checked;
-//   document.getElementById('dailies-container').classList.toggle('opened', Settings.showDailies);
-// });
-
 document.getElementById('show-utilities').addEventListener('change', function () {
   Settings.showUtilitiesSettings = this.checked;
   document.getElementById('utilities-container').classList.toggle('opened', Settings.showUtilitiesSettings);
@@ -344,7 +332,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 //   // Treasure.onLanguageChanged();
 //   Singleplayer.onLanguageChanged();
 
-//   // Dailies.sortDailies();
 //   MapBase.updateTippy('language');
 // });
 

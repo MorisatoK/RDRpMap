@@ -69,7 +69,6 @@ const urls = [
   'data/overlays_beta.json',
   'data/overlays.json',
   //'data/plants.json',
-  //'data/possible_dailies.json',
   'data/shops.json',
   'data/infrastructure.json',
   'data/government.json',
@@ -78,6 +77,5 @@ const urls = [
   'data/singleplayer.json',
   //'data/treasures.json',
   //'data/bounties.json',
-  //'https://pepegapi.jeanropke.net/v3/rdo/dailies',
 ];
 Loader.init(urls);

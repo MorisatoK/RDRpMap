@@ -163,19 +163,7 @@ Object.entries({
   showUtilitiesSettings: { default: true },
   showTooltips: { default: true },
   showTooltipsMap: { default: true },
-  // showDailies: { default: false },
   showCustomizationSettings: { default: true },
   // legendarySpawnIconType: { default: 'head' },
   // legendarySpawnIconSize: { default: 1 },
 }).forEach(([name, config]) => SettingProxy.addSetting(Settings, name, config));
-
-// Completed daily challenges settings (file dailies.js)
-// const DailyChallenges = SettingProxy.createSettingProxy('rdo.dailies');
-
-// Object.entries({
-//   trader_difficulty: { default: 'hard' },
-//   bounty_hunter_difficulty: { default: 'hard' },
-//   collector_difficulty: { default: 'hard' },
-//   moonshiner_difficulty: { default: 'hard' },
-//   naturalist_difficulty: { default: 'hard' },
-// }).forEach(([name, config]) => SettingProxy.addSetting(DailyChallenges, name, config));
