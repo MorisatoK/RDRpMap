@@ -167,7 +167,6 @@ class Menu {
 
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
-        // Shop.locations,
         HospitalityCollection.locations,
         Location.locations,
         Singleplayer.locations,
@@ -183,16 +182,15 @@ class Menu {
           if (location.onMap) location.onMap = false;
         });
 
-      // AnimalCollection.collection.forEach((collection) => {
-      //   collection.animals.forEach((animal) => (animal.isEnabled = false));
-      // });
+      AnimalCollection.collection.forEach((collection) => {
+        collection.animals.forEach((animal) => (animal.isEnabled = false));
+      });
 
       Pins.onMap = false;
     });
 
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
-        // Shop.locations,
         HospitalityCollection.locations,
         Location.locations,
         Singleplayer.locations,
@@ -291,18 +289,6 @@ class Menu {
         if (!_hosp.onMap) _hosp.onMap = !_hosp.onMap;
       });
     });
-
-    // document.querySelector('.shops-hide-btn').addEventListener('click', function () {
-    //   Shop.locations.forEach((shop) => {
-    //     if (shop.onMap) shop.onMap = !shop.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.shops-show-btn').addEventListener('click', function () {
-    //   Shop.locations.forEach((shop) => {
-    //     if (!shop.onMap) shop.onMap = !shop.onMap;
-    //   });
-    // });
 
     document.addEventListener('keydown', (event) => {
       if (event.ctrlKey && event.key === ' ') {

@@ -298,13 +298,11 @@ const MapBase = {
         if (item.markers.length !== 1) return;
         MapBase.map.setView({ lat: item.markers[0].lat, lng: item.markers[0].lng }, 5);
       }
-
+      // Todo: Foo
       if (Location.quickParams.indexOf(quickParam) !== -1) {
         Location.locations.filter(locationMarkerFilter);
       } else if (HospitalityCollection.quickParams.indexOf(quickParam) !== -1) {
         HospitalityCollection.locations.filter(locationMarkerFilter);
-      } else if (Shop.quickParams.indexOf(quickParam) !== -1) {
-        Shop.locations.filter(locationMarkerFilter);
       } else if (Singleplayer.quickParams.indexOf(quickParam) !== -1) {
         Singleplayer.locations.filter(locationMarkerFilter);
       } else if (AnimalCollection.quickParams.indexOf(quickParam) !== -1) {
@@ -329,7 +327,6 @@ const MapBase = {
   disableAll: function (toShow = false) {
     HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
-    // Shop.locations.forEach(shop => shop.onMap = toShow);
     Singleplayer.locations.forEach(sp => sp.onMap = toShow);
   },
 

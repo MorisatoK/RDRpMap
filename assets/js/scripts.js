@@ -83,7 +83,6 @@ function init() {
 
     const animals = AnimalCollection.init();
     const locations = Location.init();
-    // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
     const activities = Activities.init();
@@ -302,7 +301,6 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
   Location.onSettingsChanged();
-  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
@@ -317,7 +315,6 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Settings.markerOpacity = Number(this.value);
 
   Location.onSettingsChanged();
-  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
@@ -349,7 +346,6 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Layers.oms.clearMarkers();
 
   Location.onSettingsChanged();
-  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
@@ -368,7 +364,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Settings.isShadowsEnabled = this.checked;
 
   Location.onSettingsChanged();
-  // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();
   Government.onSettingsChanged();
