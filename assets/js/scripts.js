@@ -105,6 +105,7 @@ function init() {
     // const camps = CampCollection.init();
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
+    const government = Government.init();
     const singleplayer = Singleplayer.init();
     // const gfh = GunForHire.init();
     const legendary = Legendary.init();

@@ -1759,5 +1759,6 @@
   "map.infrastructure.stable.name": "Stall",
   "map.infrastructure.telegram.name": "Telegrammstation",
   "map.infrastructure.butcher.name": "Fleischer",
-  "map.infrastructure.fishprocessor.name": "Fischverarbeiter"
+  "map.infrastructure.fishprocessor.name": "Fischverarbeiter",
+  "menu.government": "Regierung"
 }

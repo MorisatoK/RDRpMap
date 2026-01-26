@@ -254,6 +254,18 @@ class Menu {
       });
     });
 
+    document.querySelector('.government-hide-btn').addEventListener('click', function () {
+      Government.locations.forEach((infra) => {
+        if (infra.onMap) infra.onMap = !infra.onMap;
+      });
+    });
+
+    document.querySelector('.government-show-btn').addEventListener('click', function () {
+      Government.locations.forEach((infra) => {
+        if (!infra.onMap) infra.onMap = !infra.onMap;
+      });
+    });
+
     // document.querySelector('.shops-hide-btn').addEventListener('click', function () {
     //   Shop.locations.forEach((shop) => {
     //     if (shop.onMap) shop.onMap = !shop.onMap;
