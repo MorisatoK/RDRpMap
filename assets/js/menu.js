@@ -168,7 +168,6 @@ class Menu {
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
         // Shop.locations,
-        // GunForHire.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
         // CampCollection.locations,
@@ -195,8 +194,6 @@ class Menu {
       Pins.onMap = false;
       // Treasure.treasuresOnMap = false;
       // Bounty.bountiesOnMap = false;
-      // CondorEgg.condorEggOnMap = false;
-      // Salvage.salvageOnMap = false;
       // CampCollection.onMap = false;
       // HospitalityCollection.onMap = false;
     });
@@ -204,7 +201,6 @@ class Menu {
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
         // Shop.locations,
-        // GunForHire.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
         // CampCollection.locations,
@@ -232,8 +228,6 @@ class Menu {
       Pins.onMap = true;
       // Treasure.treasuresOnMap = true;
       // Bounty.bountiesOnMap = true;
-      // CondorEgg.condorEggOnMap = true;
-      // Salvage.salvageOnMap = true;
       // CampCollection.onMap = true;
       // HospitalityCollection.onMap = true;
     });
@@ -342,18 +336,6 @@ class Menu {
     // document.querySelector('.shops-show-btn').addEventListener('click', function () {
     //   Shop.locations.forEach((shop) => {
     //     if (!shop.onMap) shop.onMap = !shop.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.gfh-hide-btn').addEventListener('click', function () {
-    //   GunForHire.locations.forEach((_gfh) => {
-    //     if (_gfh.onMap) _gfh.onMap = !_gfh.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.gfh-show-btn').addEventListener('click', function () {
-    //   GunForHire.locations.forEach((_gfh) => {
-    //     if (!_gfh.onMap) _gfh.onMap = !_gfh.onMap;
     //   });
     // });
 

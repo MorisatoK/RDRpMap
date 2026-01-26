@@ -218,7 +218,6 @@ class SynchronizeDailies {
           return `menu.cmpndm.${this.category}_${this.markers}`;
         case 'shops':
         case 'plants':
-        case 'gfh':
           return `map.${this.category}.${this.markers}.name`;
         case 'menu':
           return `${this.category}.${this.markers}`;

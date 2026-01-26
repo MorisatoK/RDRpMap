@@ -28,7 +28,6 @@ class Loader {
     const queryString = {};
 
     if (['updates'].includes(name)) queryString.nocache = Date.now();
-    else if (['fme'].includes(name)) queryString.nocache = Math.floor(Date.now() / 10000);
     else if (!url.startsWith('http')) queryString.nocache = customNoCache || nocache;
     else queryString.nocache = customNoCache || new Date(Date.now() - 21600000).toISOUTCDateString();
 
@@ -62,12 +61,9 @@ const urls = [
   // 'data/animal_legendary.json',
   'data/animal_spawns.json',
   //'data/camps.json',
-  //'data/fme_condor_egg.json',
-  //'data/fme_salvage.json',
   'data/discoverables.json',
   //'data/encounters.json',
   //'data/fasttravels.json',
-  //'data/gfh.json',
   'data/hm.json',
   'data/items.json',
   'data/overlays_beta.json',
@@ -83,7 +79,5 @@ const urls = [
   //'data/treasures.json',
   //'data/bounties.json',
   //'https://pepegapi.jeanropke.net/v3/rdo/dailies',
-  //'https://api.rdo.gg/fme/',
-  //'data/fme_keys.json',
 ];
 Loader.init(urls);

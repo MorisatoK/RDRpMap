@@ -176,21 +176,6 @@ treasureItems.forEach(item => {
 });
 
 /**
- * GUN FOR HIRE ITEMS
- * Will add gfh to the list, certain gfhs have only 1 location, so check for it.
- */
-let gfhItems = downloadFileSync('http://localhost/rdo/data/gfh.json');
-gfhItems = JSON.parse(gfhItems);
-
-gfhItems.forEach(item => {
-  sites.push({
-    name: item.key,
-    type: item.locations.length !== 1 ? 'long' : 'short',
-    url: `${rdoMapBase}&q=${item.key}`,
-  });
-});
-
-/**
  * LEGENDARY ANIMALS ITEMS
  * Legendaries will always be zoomed in on the map, so they are always short images.
  */
@@ -220,36 +205,6 @@ bountyItems.forEach(item => {
       type: 'short',
       url: `${rdoMapBase}&q=${full}`,
     });
-  });
-});
-
-/**
- * CONDOR EGGS
- * Condor Eggs has 3 locations, just use a for loop to add them all.
- */
-let condorItems = downloadFileSync('http://localhost/rdo/data/fme_condor_egg.json');
-condorItems = JSON.parse(condorItems);
-
-condorItems.forEach(item => {
-  sites.push({
-    name: item.text,
-    type: 'short',
-    url: `${rdoMapBase}&q=${item.text}`,
-  });
-});
-
-/**
- * SALVAGE
- * Salvage has 3 locations, just use a for loop to add them all.
- */
-let salvageItems = downloadFileSync('http://localhost/rdo/data/fme_salvage.json');
-salvageItems = JSON.parse(salvageItems);
-
-salvageItems.forEach(item => {
-  sites.push({
-    name: item.text,
-    type: 'short',
-    url: `${rdoMapBase}&q=${item.text}`,
   });
 });
 
@@ -299,12 +254,6 @@ async function doScreenCapture(url, siteType, siteName) {
     await page.evaluate(() => {
       $('#map').css('background-color', '#202020');
       $('.leaflet-pane.leaflet-tile-pane').css('filter', 'contrast(0.75)');
-
-      // Hacks to make the icons more visible.
-      $('[src="./assets/images/icons/condor_egg_small.png"]').css('filter', 'brightness(0) invert(10%) sepia(95%) saturate(5895%) hue-rotate(21deg) brightness(97%) contrast(132%) drop-shadow(black 0px 0px 2px)');
-      $('[src="./assets/images/icons/salvagemounds.png"]').css('filter', 'brightness(0) invert(10%) sepia(95%) saturate(5895%) hue-rotate(21deg) brightness(97%) contrast(132%) drop-shadow(black 0px 0px 2px)');
-      $('[src="./assets/images/icons/salvagepickups.png"]').css('filter', 'brightness(0) invert(10%) sepia(95%) saturate(5895%) hue-rotate(21deg) brightness(97%) contrast(132%) drop-shadow(black 0px 0px 2px)');
-      $('[src="./assets/images/icons/salvagechests.png"]').css('filter', 'drop-shadow(red 0px 0px 2px)');
     });
 
     // Take the screenshot. :-)

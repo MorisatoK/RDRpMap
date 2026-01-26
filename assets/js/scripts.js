@@ -88,7 +88,6 @@ function init() {
   Language.init().then(() => {
     changeCursor();
     Pins.init();
-    // FME.init();
 
     // Prevent blocks by external services. Sometimes these requests took >6 seconds.
     // Bonus: If either of these fail to load, it doesn't block the map from working properly.
@@ -99,8 +98,6 @@ function init() {
     // const encounters = Encounter.init();
     // const treasures = Treasure.init();
     // const bounties = BountyCollection.init();
-    // const fmeCondorEgg = CondorEgg.init();
-    // const fmeSalvage = Salvage.init();
     // const plants = PlantsCollection.init();
     // const camps = CampCollection.init();
     // const shops = Shop.init();
@@ -110,7 +107,6 @@ function init() {
     const singleplayer = Singleplayer.init();
     const shops = Shops.init();
     const hospitality = HospitalityCollection.init();
-    // const gfh = GunForHire.init();
     // const legendary = Legendary.init();
     // const discoverables = Discoverable.init();
     const overlays = Overlay.init();
@@ -341,7 +337,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 //   // Bounty.onLanguageChanged();
 //   // CampCollection.onLanguageChanged();
 //   // Encounter.onLanguageChanged();
-//   // GunForHire.onLanguageChanged();
 //   Legendary.onLanguageChanged();
 //   Location.onLanguageChanged();
 //   // PlantsCollection.onLanguageChanged();
@@ -357,12 +352,9 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
   // CampCollection.onSettingsChanged();
-  // CondorEgg.onSettingsChanged();
   // Encounter.onSettingsChanged();
-  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
-  // Salvage.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -379,12 +371,9 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Settings.markerOpacity = Number(this.value);
 
   // CampCollection.onSettingsChanged();
-  // CondorEgg.onSettingsChanged();
   // Encounter.onSettingsChanged();
-  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
-  // Salvage.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -401,8 +390,6 @@ document.getElementById('overlay-opacity').addEventListener('change', function (
   Settings.overlayOpacity = Number(this.value);
   // Legendary.onSettingsChanged();
   Overlay.onSettingsChanged();
-  // CondorEgg.onSettingsChanged();
-  // Salvage.onSettingsChanged();
   Discoverable.updateLayers();
 });
 
@@ -422,7 +409,6 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Layers.oms.clearMarkers();
 
   // Encounter.onSettingsChanged();
-  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -444,7 +430,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
 
   // CampCollection.onSettingsChanged();
   // Encounter.onSettingsChanged();
-  // GunForHire.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
   // Shop.onSettingsChanged();
@@ -526,7 +511,6 @@ document.querySelector('.menu-toggle').addEventListener('click', function () {
   this.setAttribute('data-menu-opened', isMenuOpened);
   Settings.isMenuOpened = isMenuOpened;
   document.querySelector('.top-widget').classList.toggle('top-widget-menu-opened', isMenuOpened);
-  // document.getElementById('fme-container').classList.toggle('fme-menu-opened', isMenuOpened);
 });
 
 document.addEventListener('contextmenu', function (e) {

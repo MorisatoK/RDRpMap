@@ -17,7 +17,6 @@
   <meta name="theme-color" content="#000000">
 
   <!-- Preconnects to improve performance -->
-  <link rel="preconnect" href="https://jeanropke.b-cdn.net">
   <link rel="preconnect" href="https://map-tiles.b-cdn.net">
 
   <!-- Preloads for certain UI elements -->
@@ -26,12 +25,10 @@
   <link rel="preload" as="image" href="./assets/images/action_indicator_external.png">
   <link rel="preload" as="image" href="./assets/images/action_indicator.png">
   <link rel="preload" as="image" href="./assets/images/arrow.png">
-  <link rel="preload" as="image" href="./assets/images/fme_background.png">
   <link rel="preload" as="image" href="./assets/images/header_bg_center.png">
   <link rel="preload" as="image" href="./assets/images/header_border_divider.png">
   <link rel="preload" as="image" href="./assets/images/header_border_white.png">
   <link rel="preload" as="image" href="./assets/images/help_text_bg.png">
-  <link rel="preload" as="image" href="./assets/images/menu_donate.png">
   <link rel="preload" as="image" href="./assets/images/modal_bg.png">
   <link rel="preload" as="image" href="./assets/images/bgTooltip.png">
   <link rel="preload" as="image" href="./assets/images/moon.png">
@@ -277,46 +274,6 @@
         <div class="collection-value">
           <button data-text="menu.hide_all" class="btn btn-light shops-hide-btn">Alle verbergen</button>
           <button data-text="menu.show_all" class="btn btn-light shops-show-btn">Alle anzeigen</button>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Freeroam not needed in RP TBD -->
-    <!-- <div>
-      <div class="menu-option submenu-only" data-type="fme" data-help="item_category">
-        <span>
-          <img class="icon" src="./assets/images/icons/fme.png" />
-          <span class="menu-option-text" data-text="menu.fme" style="color: #fdc607;">Free Roam events</span>
-        </span>
-        <div class="open-submenu" style="margin: auto 0 auto auto;"></div>
-      </div>
-      <div class="menu-hidden" data-type="fme">
-        <div class="collectible-wrapper" data-help="item" data-type="condor_egg">
-          <img class="collectible-icon" src="./assets/images/icons/condor_egg.png">
-          <span class="collectible-text">
-            <p class="collectible" data-text="menu.condor_egg">Condor Egg</p>
-          </span>
-        </div>
-        <div class="collectible-wrapper" data-help="item" data-type="salvage">
-          <img class="collectible-icon" src="./assets/images/icons/salvage.png">
-          <span class="collectible-text">
-            <p class="collectible" data-text="menu.salvage">Salvage</p>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="menu-option submenu-only" data-type="gfh" data-help="item_category">
-        <span>
-          <img class="icon" src="./assets/images/icons/gfh.png" />
-          <span class="menu-option-text" data-text="menu.gfh">Missions</span>
-        </span>
-        <div class="open-submenu" style="margin: auto 0 auto auto;"></div>
-      </div>
-      <div class="menu-hidden two-column" data-type="gfh">
-        <div class="collection-value">
-          <button data-text="menu.hide_all" class="btn btn-light gfh-hide-btn">Alle verbergen</button>
-          <button data-text="menu.show_all" class="btn btn-light gfh-show-btn">Alle anzeigen</button>
         </div>
       </div>
     </div> -->
@@ -666,41 +623,6 @@
         </div>
       </div>
       <hr class="menu-divider">
-      <!-- <div class="input-container" data-help="fme_display">
-        <label for="fme-display" data-text="menu.fme_display">Show Freeroam Events</label>
-        <div class="input-checkbox-wrapper">
-          <input class="input-checkbox" type="checkbox" name="fme-display" value="1" id="fme-display" />
-          <label class="input-checkbox-label" for="fme-display"></label>
-        </div>
-      </div>
-      <div class="input-container" data-help="fme_display_general_period">
-        <label for="fme-display-general-period" data-text="menu.fme_display_general_period">General Event display
-          period</label>
-        <input id="fme-display-general-period" class="input-text narrow-select-menu" type="number" min="10" max="45"
-          value="90">
-      </div>
-      <div class="input-container" data-help="fme_display_role_period">
-        <label for="fme-display-role-period" data-text="menu.fme_display_role_period">Role Event display period</label>
-        <input id="fme-display-role-period" class="input-text narrow-select-menu" type="number" min="10" max="90"
-          value="90">
-      </div>
-      <div class="input-container" data-help="fme_notification">
-        <label for="fme-notification" data-text="menu.fme_notification">Enable event notifications</label>
-        <div class="input-checkbox-wrapper">
-          <input class="input-checkbox" type="checkbox" name="fme-notification" value="1" id="fme-notification" />
-          <label class="input-checkbox-label" for="fme-notification"></label>
-        </div>
-      </div>
-      <div class="input-container" data-help="fme_notification_period">
-        <label for="fme-notification-period" data-text="menu.fme_notification_period">Event notification period</label>
-        <input id="fme-notification-period" class="input-text narrow-select-menu" type="number" min="1" max="30"
-          value="10">
-      </div>
-      <div id="open-fme-enabled-events-modal" class="input-container clickable" data-help="fme_enabled_events">
-        <label data-text="menu.fme_enabled_events">Select enabled events</label>
-        <div class="input-action"></div>
-      </div>
-      <hr class="menu-divider"> -->
       <div class="input-container" data-help="user_pins_place_mode">
         <label for="pins-place-mode" data-text="menu.user_pins_place_mode">Eigene Markierungen beim Klick setzen</label>
         <div class="input-checkbox-wrapper">
@@ -1034,25 +956,6 @@
     <div class="day-cycle"></div>
   </div>
 
-  <!-- <div id="fme-container" style="display: none;">
-    <div id="next-general-event" class="fme-card">
-      <img class="fme-image" id="next-general-image" />
-      <div class="fme-body">
-        <h3 class="fme-title" id="next-general-name"></h3>
-        <p class="fme-text" id="next-general-eta"></p>
-      </div>
-      <span id="next-general-mobile"></span>
-    </div>
-    <div id="next-role-event" class="fme-card">
-      <img class="fme-image" id="next-role-image" />
-      <div class="fme-body">
-        <h3 class="fme-title" id="next-role-name"></h3>
-        <p class="fme-text" id="next-role-eta"></p>
-      </div>
-      <span id="next-role-mobile"></span>
-    </div>
-  </div> -->
-
   <div id="map"></div>
 
   <div class="lat-lng-container" data-help="map_coordinates_container">
@@ -1062,28 +965,6 @@
     </div>
     <button type="button" id="lat-lng-container-close-button" class="btn-close" aria-label="Close"></button>
   </div>
-
-  <!-- Modals -->
-  <!-- <div class="modal fade" id="fme-enabled-events-modal" tabindex="-1" aria-labelledby="fme-enabled-events-title">
-    <div class="modal-dialog modal-sm" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="fme-enabled-events-title" data-text="menu.modal_fme_enabled_events_title">
-            Free Roam Event Settings
-          </h4>
-        </div>
-        <div class="modal-body">
-          <p data-text="menu.modal_fme_enabled_events_body">
-            Select which events you want to display on the map and/or to receive notifications for.
-          </p>
-          <div id="events" class="settings-container"></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-text="menu.close">Close</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <div class="modal fade" id="clear-important-items-modal" tabindex="-1" aria-labelledby="clear-important-items-title">
     <div class="modal-dialog modal-sm" role="document">
@@ -1177,8 +1058,6 @@
   <script src="assets/js/government.js?nocache=1552"></script>
   <script src="assets/js/activities.js?nocache=1552"></script>
   <script src="assets/js/singleplayer.js?nocache=1552"></script>
-  <!-- <script src="assets/js/gfh.js?nocache=1552"></script> -->
-  <!-- <script src="assets/js/events.js?nocache=1552"></script> -->
   <script src="assets/js/animals.js?nocache=1552"></script>
   <!-- <script src="assets/js/discoverables.js?nocache=1552"></script> -->
   <script src="assets/js/overlays.js?nocache=1552"></script>
@@ -1188,7 +1067,6 @@
   <script src="assets/js/menu.js?nocache=1552"></script>
   <!-- <script src="assets/js/dailies.js?nocache=1552"></script> -->
   <script src="assets/js/scripts.js?nocache=1552"></script>
-  <!-- <script src="assets/js/fme.js?nocache=1552"></script> -->
 
 </body>
 

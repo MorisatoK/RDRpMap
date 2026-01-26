@@ -288,7 +288,6 @@ const MapBase = {
 
       document.querySelector('.menu-toggle').remove();
       document.querySelector('.top-widget').remove();
-      document.getElementById('fme-container').remove();
       sideMenu.classList.remove('menu-opened');
       document.querySelector('.leaflet-top.leaflet-right').remove();
       document.querySelector('.leaflet-zoomex.leaflet-zoomex-rightbottom.leaflet-control').remove();
@@ -312,8 +311,6 @@ const MapBase = {
         Shop.locations.filter(locationMarkerFilter);
       } else if (Encounter.quickParams.indexOf(quickParam) !== -1) {
         Encounter.locations.filter(locationMarkerFilter);
-      } else if (GunForHire.quickParams.indexOf(quickParam) !== -1) {
-        GunForHire.locations.filter(locationMarkerFilter);
       } else if (Singleplayer.quickParams.indexOf(quickParam) !== -1) {
         Singleplayer.locations.filter(locationMarkerFilter);
       } else if (AnimalCollection.quickParams.indexOf(quickParam) !== -1) {
@@ -349,26 +346,6 @@ const MapBase = {
             MapBase.map.setView({ lat: bounty.x, lng: bounty.y }, 5);
           });
         });
-      } else if (CondorEgg.quickParams.indexOf(quickParam) !== -1) {
-        CondorEgg.condorEggOnMap = true;
-        CondorEgg.condorEggs.filter(item => {
-          if (item.text !== quickParam) {
-            item.onMap = false;
-            return;
-          }
-          item.onMap = true;
-          MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
-        });
-      } else if (Salvage.quickParams.indexOf(quickParam) !== -1) {
-        Salvage.salvageOnMap = true;
-        Salvage.salvages.filter(item => {
-          if (item.text !== quickParam) {
-            item.onMap = false;
-            return;
-          }
-          item.onMap = true;
-          MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
-        });
       }
     }
 
@@ -384,12 +361,9 @@ const MapBase = {
   disableAll: function (toShow = false) {
     // CampCollection.locations.forEach(camp => camp.onMap = toShow);
     HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
-    // CondorEgg.condorEggOnMap = toShow;
     // Encounter.locations.forEach(encounter => encounter.onMap = toShow);
-    // GunForHire.locations.forEach(gfh => gfh.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
     // Legendary.animals.forEach(animal => animal.onMap = toShow);
-    // Salvage.salvageOnMap = toShow;
     // Shop.locations.forEach(shop => shop.onMap = toShow);
     // PlantsCollection.locations.forEach(plants => plants.onMap = toShow);
     Singleplayer.locations.forEach(sp => sp.onMap = toShow);
