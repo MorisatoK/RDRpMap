@@ -1744,5 +1744,6 @@
   "menu.infrastructure": "Infrastruktur",
   "map.infrastructure.balloonrental.name": "Ballonverleih",
   "map.infrastructure.boats.name": "Bootshändler",
-  "map.infrastructure.bank.name": "Bank"
+  "map.infrastructure.bank.name": "Bank",
+  "map.infrastructure.wardrobe.name": "Garderobe"
 }

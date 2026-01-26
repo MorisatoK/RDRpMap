@@ -53,5 +53,18 @@
       {"text": "Valentine Bank", "x": -51.5703125, "y": 106.5390625},
       {"text": "Wapiti Geldversteck", "x": -28.6988080608364, "y": 118.1735340680943}
     ]
+  },
+  {
+    "key": "wardrobe",
+    "icon": "blip_shop_wardrobe",
+    "locations": [
+      {"text": "Garderobe", "x": -29.1171875, "y": 118.140625},
+      {"text": "Garderobe", "x": -53.90625, "y": 108.4296875},
+      {"text": "Garderobe", "x": -83.609375, "y": 130.3046875},
+      {"text": "Garderobe", "x": -79.3203125, "y": 151.4375},
+      {"text": "Garderobe", "x": -81.8046875, "y": 150.875},
+      {"text": "Garderobe", "x": -86.328125, "y": 147.296875},
+      {"text": "Garderobe", "x": -104.3671875, "y": 54.4921875}
+    ]
   }
 ]
