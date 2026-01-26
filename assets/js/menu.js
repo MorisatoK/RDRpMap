@@ -170,7 +170,6 @@ class Menu {
         // Shop.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
-        // CampCollection.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -194,7 +193,6 @@ class Menu {
       Pins.onMap = false;
       // Treasure.treasuresOnMap = false;
       // Bounty.bountiesOnMap = false;
-      // CampCollection.onMap = false;
       // HospitalityCollection.onMap = false;
     });
 
@@ -203,7 +201,6 @@ class Menu {
         // Shop.locations,
         // Encounter.locations,
         // PlantsCollection.locations,
-        // CampCollection.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -222,30 +219,14 @@ class Menu {
 
       setTimeout(() => {
         // PlantsCollection.layer.redraw();
-        // CampCollection.layer.redraw();
       }, 40);
 
       Pins.onMap = true;
       // Treasure.treasuresOnMap = true;
       // Bounty.bountiesOnMap = true;
-      // CampCollection.onMap = true;
       // HospitalityCollection.onMap = true;
     });
 
-    // document.querySelector('.camps-small-btn').addEventListener('click', function () {
-    //   CampCollection.isSmall = !CampCollection.isSmall;
-    //   CampCollection.refresh();
-    // });
-
-    // document.querySelector('.camps-large-btn').addEventListener('click', function () {
-    //   CampCollection.isLarge = !CampCollection.isLarge;
-    //   CampCollection.refresh();
-    // });
-    // document.querySelector('.camps-wilderness-btn').addEventListener('click', function () {
-    //   CampCollection.isWilderness = !CampCollection.isWilderness;
-    //   CampCollection.refresh();
-    // });
-    
     document.querySelector('.singleplayer-hide-btn').addEventListener('click', function () {
       Singleplayer.locations.forEach((_singleplayer) => {
         if (_singleplayer.onMap) _singleplayer.onMap = !_singleplayer.onMap;
@@ -350,19 +331,6 @@ class Menu {
     //     if (!_plants.onMap) _plants.onMap = !_plants.onMap;
     //   });
     //   setTimeout(() => PlantsCollection.layer.redraw(), 40);
-    // });
-
-    // document.querySelector('.camps-hide-btn').addEventListener('click', function () {
-    //   CampCollection.locations.forEach((_plants) => {
-    //     if (_plants.onMap) _plants.onMap = !_plants.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.camps-show-btn').addEventListener('click', function () {
-    //   CampCollection.locations.forEach((_plants) => {
-    //     if (!_plants.onMap) _plants.onMap = !_plants.onMap;
-    //   });
-    //   setTimeout(() => CampCollection.layer.redraw(), 40);
     // });
 
     // document.querySelector('.encounters-hide-btn').addEventListener('click', function () {

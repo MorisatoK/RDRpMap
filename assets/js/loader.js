@@ -60,7 +60,6 @@ const urls = [
   'data/lang_progress.json',
   // 'data/animal_legendary.json',
   'data/animal_spawns.json',
-  //'data/camps.json',
   //'data/encounters.json',
   //'data/fasttravels.json',
   'data/hm.json',

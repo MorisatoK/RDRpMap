@@ -94,7 +94,6 @@ function init() {
     // const treasures = Treasure.init();
     // const bounties = BountyCollection.init();
     // const plants = PlantsCollection.init();
-    // const camps = CampCollection.init();
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
@@ -322,7 +321,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 
 //   AnimalCollection.onLanguageChanged();
 //   // Bounty.onLanguageChanged();
-//   // CampCollection.onLanguageChanged();
 //   // Encounter.onLanguageChanged();
 //   Legendary.onLanguageChanged();
 //   Location.onLanguageChanged();
@@ -337,7 +335,6 @@ document.getElementById('show-debug').addEventListener('change', function () {
 document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
-  // CampCollection.onSettingsChanged();
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
@@ -356,7 +353,6 @@ document.getElementById('marker-size').addEventListener('change', function () {
 document.getElementById('marker-opacity').addEventListener('change', function () {
   Settings.markerOpacity = Number(this.value);
 
-  // CampCollection.onSettingsChanged();
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
@@ -413,7 +409,6 @@ document.getElementById('enable-marker-popups-hover').addEventListener('change',
 document.getElementById('enable-marker-shadows').addEventListener('change', function () {
   Settings.isShadowsEnabled = this.checked;
 
-  // CampCollection.onSettingsChanged();
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
   // PlantsCollection.onSettingsChanged();
