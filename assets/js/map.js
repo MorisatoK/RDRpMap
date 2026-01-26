@@ -323,12 +323,6 @@ const MapBase = {
       //     item.onMap = true;
       //     MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
       //   });
-      } else if (PlantsCollection.quickParams.indexOf(quickParam) !== -1) {
-        Plants.onMap = true;
-        PlantsCollection.locations.filter(item => {
-          if (item.key !== quickParam) return;
-          item.onMap = true;
-        });
       } else if (Treasure.quickParams.indexOf(quickParam) !== -1) {
         Treasure.treasures.filter(item => {
           if (item.text !== quickParam) return;
@@ -361,7 +355,6 @@ const MapBase = {
     Location.locations.forEach(location => location.onMap = toShow);
     // Legendary.animals.forEach(animal => animal.onMap = toShow);
     // Shop.locations.forEach(shop => shop.onMap = toShow);
-    // PlantsCollection.locations.forEach(plants => plants.onMap = toShow);
     Singleplayer.locations.forEach(sp => sp.onMap = toShow);
   },
 
@@ -412,7 +405,6 @@ const MapBase = {
       uniqueSearchMarkers = MapBase.markers;
     } else {
       Layers.itemMarkersLayer.clearLayers();
-      Layers.plantsLayer.clearLayers();
 
       searchTerms.forEach(term => {
         const searchMarkers = MapBase.markers.filter(function (_marker) {

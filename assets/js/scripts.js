@@ -93,7 +93,6 @@ function init() {
     // const encounters = Encounter.init();
     // const treasures = Treasure.init();
     // const bounties = BountyCollection.init();
-    // const plants = PlantsCollection.init();
     // const shops = Shop.init();
     const infrastructure = Infrastructure.init();
     const government = Government.init();
@@ -314,30 +313,11 @@ document.getElementById('show-debug').addEventListener('change', function () {
   document.getElementById('debug-container').classList.toggle('opened', Settings.showDebugSettings);
 });
 
-// document.getElementById('language').addEventListener('change', function () {
-//   Settings.language = this.value;
-//   Language.setMenuLanguage();
-//   MapBase.setFallbackFonts();
-
-//   AnimalCollection.onLanguageChanged();
-//   // Bounty.onLanguageChanged();
-//   // Encounter.onLanguageChanged();
-//   Legendary.onLanguageChanged();
-//   Location.onLanguageChanged();
-//   // PlantsCollection.onLanguageChanged();
-//   // Shop.onLanguageChanged();
-//   // Treasure.onLanguageChanged();
-//   Singleplayer.onLanguageChanged();
-
-//   MapBase.updateTippy('language');
-// });
-
 document.getElementById('marker-size').addEventListener('change', function () {
   Settings.markerSize = Number(this.value);
 
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
-  // PlantsCollection.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -355,7 +335,6 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
 
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
-  // PlantsCollection.onSettingsChanged();
   // Shop.onSettingsChanged();
   // Treasure.onSettingsChanged();
   Singleplayer.onSettingsChanged();
@@ -411,7 +390,6 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
 
   // Encounter.onSettingsChanged();
   Location.onSettingsChanged();
-  // PlantsCollection.onSettingsChanged();
   // Shop.onSettingsChanged();
   Singleplayer.onSettingsChanged();
   Infrastructure.onSettingsChanged();

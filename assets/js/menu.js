@@ -169,7 +169,6 @@ class Menu {
       const collections = [
         // Shop.locations,
         // Encounter.locations,
-        // PlantsCollection.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -200,7 +199,6 @@ class Menu {
       const collections = [
         // Shop.locations,
         // Encounter.locations,
-        // PlantsCollection.locations,
         HospitalityCollection.locations,
         Location.locations,
         // Legendary.animals,
@@ -216,10 +214,6 @@ class Menu {
         .forEach((location) => {
           if (!location.onMap) location.onMap = true;
         });
-
-      setTimeout(() => {
-        // PlantsCollection.layer.redraw();
-      }, 40);
 
       Pins.onMap = true;
       // Treasure.treasuresOnMap = true;
@@ -318,19 +312,6 @@ class Menu {
     //   Shop.locations.forEach((shop) => {
     //     if (!shop.onMap) shop.onMap = !shop.onMap;
     //   });
-    // });
-
-    // document.querySelector('.plants-hide-btn').addEventListener('click', function () {
-    //   PlantsCollection.locations.forEach((_plants) => {
-    //     if (_plants.onMap) _plants.onMap = !_plants.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.plants-show-btn').addEventListener('click', function () {
-    //   PlantsCollection.locations.forEach((_plants) => {
-    //     if (!_plants.onMap) _plants.onMap = !_plants.onMap;
-    //   });
-    //   setTimeout(() => PlantsCollection.layer.redraw(), 40);
     // });
 
     // document.querySelector('.encounters-hide-btn').addEventListener('click', function () {
