@@ -64,7 +64,7 @@ const urls = [
   'data/infrastructure.json',
   'data/government.json',
   'data/activities.json',
-  'data/hospitality.json',
+  'data/businesses.json',
   'data/singleplayer.json',
 ];
 Loader.init(urls);

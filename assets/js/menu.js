@@ -167,7 +167,7 @@ class Menu {
 
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
-        HospitalityCollection.locations,
+        BusinessCollection.locations,
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
@@ -192,7 +192,7 @@ class Menu {
 
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
-        HospitalityCollection.locations,
+        BusinessCollection.locations,
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
@@ -283,23 +283,23 @@ class Menu {
       });
     });
 
-    document.querySelector('.hospitality-location-btn').addEventListener('click', function () {
-      HospitalityCollection.isLocation = !HospitalityCollection.isLocation;
-      HospitalityCollection.refresh();
+    document.querySelector('.businesses-location-btn').addEventListener('click', function () {
+      BusinessCollection.isLocation = !BusinessCollection.isLocation;
+      BusinessCollection.refresh();
     });
-    document.querySelector('.hospitality-display-btn').addEventListener('click', function () {
-      HospitalityCollection.isDisplay = !HospitalityCollection.isDisplay;
-      HospitalityCollection.refresh();
+    document.querySelector('.businesses-display-btn').addEventListener('click', function () {
+      BusinessCollection.isDisplay = !BusinessCollection.isDisplay;
+      BusinessCollection.refresh();
     });
 
-    document.querySelector('.hospitality-hide-btn').addEventListener('click', function () {
-      HospitalityCollection.locations.forEach((_hosp) => {
+    document.querySelector('.businesses-hide-btn').addEventListener('click', function () {
+      BusinessCollection.locations.forEach((_hosp) => {
         if (_hosp.onMap) _hosp.onMap = !_hosp.onMap;
       });
     });
 
-    document.querySelector('.hospitality-show-btn').addEventListener('click', function () {
-      HospitalityCollection.locations.forEach((_hosp) => {
+    document.querySelector('.businesses-show-btn').addEventListener('click', function () {
+      BusinessCollection.locations.forEach((_hosp) => {
         if (!_hosp.onMap) _hosp.onMap = !_hosp.onMap;
       });
     });

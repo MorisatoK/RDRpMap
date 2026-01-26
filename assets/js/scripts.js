@@ -89,10 +89,10 @@ function init() {
     const singleplayer = Singleplayer.init();
     const shops = Shops.init();
     const plants = Plants.init();
-    const hospitality = HospitalityCollection.init();
+    const businesses = BusinessCollection.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, plants, hospitality ]);
+    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, plants, businesses ]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -308,7 +308,7 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
-  HospitalityCollection.onSettingsChanged();
+  BusinessCollection.onSettingsChanged();
 
   Pins.loadPins();
 });
@@ -323,7 +323,7 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
-  HospitalityCollection.onSettingsChanged();
+  BusinessCollection.onSettingsChanged();
 
   Pins.loadPins();
 });
@@ -355,7 +355,7 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
-  HospitalityCollection.onSettingsChanged();
+  BusinessCollection.onSettingsChanged();
 
   Pins.loadPins();
 });
@@ -374,7 +374,7 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
-  HospitalityCollection.onSettingsChanged();
+  BusinessCollection.onSettingsChanged();
 
   Pins.loadPins();
 });
