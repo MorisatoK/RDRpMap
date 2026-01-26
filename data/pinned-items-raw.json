@@ -1,0 +1,4952 @@
+[
+    {
+        "lat": -59.546875,
+        "lng": 133.203125,
+        "id": 232593824,
+        "title": "Fuchsbau Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -84.15625,
+        "lng": 99.1171875,
+        "id": -1749074206,
+        "title": "Franky's Gemischtwarenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -120.375,
+        "lng": 27.0625,
+        "id": 1385791271,
+        "title": "Farm Garcia",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -72.3203125,
+        "lng": 83.0078125,
+        "id": -49195089,
+        "title": "GoldDevils Amber",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_job_exclusive_large",
+        "color": "brown"
+    },
+    {
+        "lat": -82.59375,
+        "lng": 131.3203125,
+        "id": -443309159,
+        "title": "Rhodes Kirche",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_castor",
+        "color": "darkblue"
+    },
+    {
+        "lat": -40.75507912245964,
+        "lng": 116.80509592377496,
+        "id": 1155695220,
+        "title": "U.S. Army Fort Wallace",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal_quality_01",
+        "color": "darkgreen"
+    },
+    {
+        "lat": -82.6484375,
+        "lng": 152.1875,
+        "id": -861592578,
+        "title": "Zum Kopflosen Einhorn",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -51.765625,
+        "lng": 106.3125,
+        "id": 1115470064,
+        "title": "Valentine Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -52.7265625,
+        "lng": 105.875,
+        "id": -651950655,
+        "title": "Theater",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "darkred"
+    },
+    {
+        "lat": -85.4296875,
+        "lng": 86.4765625,
+        "id": 993544070,
+        "title": "Evergreen Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -55.453125,
+        "lng": 157.0625,
+        "id": 164958431,
+        "title": "Old Landers Saloon",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -100.328125,
+        "lng": 74.6875,
+        "id": 206341335,
+        "title": "AGUA de RIOS",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -51.25,
+        "lng": 106.0703125,
+        "id": -757315174,
+        "title": "Candy Kitchen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -69.55809302961143,
+        "lng": 83.43531214113261,
+        "id": -1408774446,
+        "title": ".",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -75.3827911268335,
+        "lng": 151.53899685384573,
+        "id": 780810329,
+        "title": "Flotte Biene",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.0859375,
+        "lng": 98.6875,
+        "id": -1771418128,
+        "title": "Ace und Ale",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -85.19001460008721,
+        "lng": 79.80619910785843,
+        "id": -1218539062,
+        "title": "Ahowan",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.9140625,
+        "lng": 53.296875,
+        "id": -1091581374,
+        "title": "American Railroad Armadillo",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_railroad_camp",
+        "color": "lightorange"
+    },
+    {
+        "lat": -86.8203125,
+        "lng": 152.3671875,
+        "id": -1719238832,
+        "title": "American Railroad St. Denis",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_railroad_camp",
+        "color": "lightorange"
+    },
+    {
+        "lat": -66.1484375,
+        "lng": 129.921875,
+        "id": 1959091762,
+        "title": "Schreinerei Nolan",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -67.17977579894901,
+        "lng": 89.85452746292025,
+        "id": -646723339,
+        "title": "???",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -43.4375,
+        "lng": 156.8359375,
+        "id": -255348771,
+        "title": "Annesburg Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -109.201171875,
+        "lng": 26.0546875,
+        "id": -859451581,
+        "title": "Herringtons Gemischtwarenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -41.4453125,
+        "lng": 157.4609375,
+        "id": -1050902114,
+        "title": "Annesburg Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -82.7578125,
+        "lng": 153.5390625,
+        "id": 226936669,
+        "title": "St. Denis Apotheke",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_doctor",
+        "color": "purple"
+    },
+    {
+        "lat": -109.5546875,
+        "lng": 25.921875,
+        "id": -974510801,
+        "title": "Tumbleweed Apotheke",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_doctor",
+        "color": "purple"
+    },
+    {
+        "lat": -104.375,
+        "lng": 54.3671875,
+        "id": -249484108,
+        "title": "Armadillo Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -104.3125,
+        "lng": 53.9609375,
+        "id": 2143687613,
+        "title": "Armadillo Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -103.53867609980048,
+        "lng": 53.86066825781063,
+        "id": 1855743316,
+        "title": "Armadillo Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -79.328125,
+        "lng": 151.71875,
+        "id": 537434205,
+        "title": "Atelier du Lys",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_hat",
+        "color": "yellow"
+    },
+    {
+        "lat": -79.2421875,
+        "lng": 151.8828125,
+        "id": 715424351,
+        "title": "Atelier du Lys",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -85.578125,
+        "lng": 71.28125,
+        "id": -697364914,
+        "title": "Aurora Basin Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -42.3203125,
+        "lng": 158.3984375,
+        "id": -1214104853,
+        "title": "Annesburg Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -49.5703125,
+        "lng": 136.484375,
+        "id": 722234016,
+        "title": "Sioux",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -26.8203125,
+        "lng": 90.25,
+        "id": -1576380206,
+        "title": "Austin Eismanufaktur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.2421875,
+        "lng": 53.3828125,
+        "id": 166143715,
+        "title": "Backstube",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_feed",
+        "color": "#ffcd00"
+    },
+    {
+        "lat": -45.161366961798215,
+        "lng": 151.02064098930208,
+        "id": 1745016459,
+        "title": "Annesburg Ballonverleih",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_spawnpoint_arrow",
+        "color": "#314fc7"
+    },
+    {
+        "lat": -28.021450841519705,
+        "lng": 89.77446721217014,
+        "id": -630692047,
+        "title": "Dunkelhain Ballonverleih",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_spawnpoint_arrow",
+        "color": "#314fc7"
+    },
+    {
+        "lat": -63.54532293700611,
+        "lng": 117.64662240309656,
+        "id": 957916722,
+        "title": "Heartlands Ballonverleih",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_spawnpoint_arrow",
+        "color": "#314fc7"
+    },
+    {
+        "lat": -109.90740172377546,
+        "lng": 42.94080636629236,
+        "id": 1188631605,
+        "title": "Mercer Station Ballonverleih",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_spawnpoint_arrow",
+        "color": "#314fc7"
+    },
+    {
+        "lat": -43.71877348905061,
+        "lng": 156.8033836226228,
+        "id": -1229637042,
+        "title": "Annesburg Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -26.7421875,
+        "lng": 90.6640625,
+        "id": -996667052,
+        "title": "Dunkelhain Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -117.453125,
+        "lng": 30.1171875,
+        "id": -601735548,
+        "title": "Mexico Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -69.453125,
+        "lng": 83.8828125,
+        "id": 1420350108,
+        "title": "Strawberry Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -104.40625,
+        "lng": 54.6328125,
+        "id": -1165945785,
+        "title": "Barton Tannery",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal_skin",
+        "color": "#79340c"
+    },
+    {
+        "lat": -104.3125,
+        "lng": 54.6953125,
+        "id": 1183239743,
+        "title": "Barton Tannery",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -51.46875,
+        "lng": 106.9375,
+        "id": 2123455190,
+        "title": "Battle Buddys",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_gunsmith",
+        "color": "cadetblue"
+    },
+    {
+        "lat": -51.46875,
+        "lng": 107.0625,
+        "id": -1590512367,
+        "title": "Battle Buddys",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -51.640625,
+        "lng": 107.5625,
+        "id": -1678524276,
+        "title": "Beckys Brews and Barrels",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine",
+        "color": "#a035d2"
+    },
+    {
+        "lat": -28.8686168827153,
+        "lng": 118.40702119817779,
+        "id": -2104643463,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -51.015625,
+        "lng": 106.265625,
+        "id": -92844794,
+        "title": "Billys Bazar",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -51.1875,
+        "lng": 106.3125,
+        "id": 2081406516,
+        "title": "Billys Bazar",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -53.954867041664265,
+        "lng": 119.01168655242026,
+        "id": 956969722,
+        "title": "Black Horizon Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd_straggler",
+        "color": "black"
+    },
+    {
+        "lat": -77.31255924599807,
+        "lng": 132.68301351918612,
+        "id": -118767635,
+        "title": "Black Sheep Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -76.828125,
+        "lng": 134.0546875,
+        "id": 1848372523,
+        "title": "Black Sheep Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -83.4375,
+        "lng": 98.6640625,
+        "id": -1546026605,
+        "title": "Blackwater Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -82.85647021001901,
+        "lng": 100.64861516400832,
+        "id": 621741382,
+        "title": "Blackwater Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -83.45518174468141,
+        "lng": 97.92838232173783,
+        "id": -503615626,
+        "title": "Blackwater Construction",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#697e50"
+    },
+    {
+        "lat": -83.5576889410117,
+        "lng": 99.57124351521038,
+        "id": 545262858,
+        "title": "Blackwater Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -84.80879043174424,
+        "lng": 97.6941038951308,
+        "id": -2141419838,
+        "title": "Blackwater Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -76.0703125,
+        "lng": 152.359375,
+        "id": -777157484,
+        "title": "Blackwood Schmuckmanufaktur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_job_exclusive_large",
+        "color": "brown"
+    },
+    {
+        "lat": -42.7578125,
+        "lng": 156.609375,
+        "id": -897872600,
+        "title": "Blooming Hope",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bank_debt",
+        "color": "#05acf5"
+    },
+    {
+        "lat": -42.828125,
+        "lng": 156.7421875,
+        "id": 679224065,
+        "title": "Blooming Hope",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -37.703125,
+        "lng": 155.3203125,
+        "id": -1086038760,
+        "title": "Blue Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -37.375,
+        "lng": 155.296875,
+        "id": -1661099554,
+        "title": "Blue Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#1e2f0a"
+    },
+    {
+        "lat": -53.6875,
+        "lng": 107.2265625,
+        "id": 1913119204,
+        "title": "Blumenladen Samen Verkauf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -75.125,
+        "lng": 128.390625,
+        "id": 1155583942,
+        "title": "Blut der Traube",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "#44344c"
+    },
+    {
+        "lat": -74.875,
+        "lng": 128.671875,
+        "id": 1453281650,
+        "title": "Blut der Traube",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -36.5625,
+        "lng": 118.7109375,
+        "id": 1314085884,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -94.25,
+        "lng": 93,
+        "id": -1203438088,
+        "title": "Bootsverleih",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -34.0625,
+        "lng": 152.046875,
+        "id": -1469215059,
+        "title": "Brandywine Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -81.5859375,
+        "lng": 153.5390625,
+        "id": 2093825076,
+        "title": "Brieftaubenzucht",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "white"
+    },
+    {
+        "lat": -52.265625,
+        "lng": 76.8125,
+        "id": 469132371,
+        "title": "Broke Back Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -52.9765625,
+        "lng": 77.1640625,
+        "id": 1727914175,
+        "title": "Broke Back Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.7421875,
+        "lng": 54.5703125,
+        "id": -2099566800,
+        "title": "Brieftaubenzucht",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "white"
+    },
+    {
+        "lat": -59.171875,
+        "lng": 133.34375,
+        "id": -1533231888,
+        "title": "Bull Rodeo",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_location_p",
+        "color": "lightgray"
+    },
+    {
+        "lat": -59.0859375,
+        "lng": 133.1015625,
+        "id": -1815597242,
+        "title": "Bullen Rodeo",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "lightgray"
+    },
+    {
+        "lat": -57.71875,
+        "lng": 133.3125,
+        "id": -1034400041,
+        "title": "Bärenherz Schmiede",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_blacksmith",
+        "color": "#240fef"
+    },
+    {
+        "lat": -57.796875,
+        "lng": 133.4453125,
+        "id": -1903227866,
+        "title": "Bärenherz Schmiede",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.85683285600726,
+        "lng": 140.22870685650568,
+        "id": -1463941201,
+        "title": "Calliga Hall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -51.109375,
+        "lng": 106.03125,
+        "id": 700427851,
+        "title": "Candy Kitchen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_location_c",
+        "color": "#caa8bf"
+    },
+    {
+        "lat": -87.78125,
+        "lng": 152.765625,
+        "id": 716692595,
+        "title": "Casino Schiff Anleger",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mg_poker",
+        "color": "gray"
+    },
+    {
+        "lat": -38.34375,
+        "lng": 120.9765625,
+        "id": 1423175164,
+        "title": "Cherokee",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -105.1585411162593,
+        "lng": 36.22714677204466,
+        "id": -568062464,
+        "title": "Cholla Springs Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -83.80526952581954,
+        "lng": 162.38218136874437,
+        "id": 1804530731,
+        "title": "Colter Casino",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mg_poker",
+        "color": "gray"
+    },
+    {
+        "lat": -71.59375,
+        "lng": 127.9375,
+        "id": 1086397514,
+        "title": "Der Kräuter-Zwerg",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_location_c",
+        "color": "#caa8bf"
+    },
+    {
+        "lat": -83.34375,
+        "lng": 151.8046875,
+        "id": 621632535,
+        "title": "Die Austin Eishalle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_location_a",
+        "color": "#caa8bf"
+    },
+    {
+        "lat": -26.71875,
+        "lng": 90.140625,
+        "id": -1008003667,
+        "title": "Die Austin Eismanufaktur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_location_a",
+        "color": "#caa8bf"
+    },
+    {
+        "lat": -50.171875,
+        "lng": 123.6171875,
+        "id": 674431476,
+        "title": "Dreamland Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saddle",
+        "color": "#efa604"
+    },
+    {
+        "lat": -25.390625,
+        "lng": 90.84375,
+        "id": 745991444,
+        "title": "Dunkelhain Construction",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#697e50"
+    },
+    {
+        "lat": -26.6640625,
+        "lng": 90.8203125,
+        "id": -378061757,
+        "title": "Dunkelhain Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -22.015625,
+        "lng": 102.96875,
+        "id": -469164335,
+        "title": "Dunkelhain Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -68.8828125,
+        "lng": 105.390625,
+        "id": -1658486098,
+        "title": "Dünger  & Samen Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -81.5703125,
+        "lng": 133.21875,
+        "id": -1831679706,
+        "title": "Dünger & Samen Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -101.3984375,
+        "lng": 72.671875,
+        "id": 2085606983,
+        "title": "Dünger & Samen Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -51.3203125,
+        "lng": 149.9765625,
+        "id": 1865383463,
+        "title": "Elysian Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -59.4453125,
+        "lng": 133.5390625,
+        "id": 1454272743,
+        "title": "Emerald Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -58.1796875,
+        "lng": 132.859375,
+        "id": 1195061850,
+        "title": "Emerald Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -76.96875,
+        "lng": 143.2109375,
+        "id": -1418470599,
+        "title": "Emperio de Banks",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -85.5234375,
+        "lng": 86.2734375,
+        "id": -377344906,
+        "title": "Evergreen Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saddle",
+        "color": "#efa604"
+    },
+    {
+        "lat": -53.7890625,
+        "lng": 107.390625,
+        "id": -19538734,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -83.3515625,
+        "lng": 132.0859375,
+        "id": 1256774905,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -78.0859375,
+        "lng": 153.328125,
+        "id": 154870715,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -104.359375,
+        "lng": 54.078125,
+        "id": 1239189674,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -108.8515625,
+        "lng": 25.1484375,
+        "id": 93800655,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -29.60706182522816,
+        "lng": 118.01601404253557,
+        "id": 333818357,
+        "title": "Amberino Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -84.84375,
+        "lng": 99.4453125,
+        "id": -969348901,
+        "title": "Blackwater Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -27.140625,
+        "lng": 89.546875,
+        "id": 1146103732,
+        "title": "Dunkelhain Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -84,
+        "lng": 132.6796875,
+        "id": -1978300058,
+        "title": "Rhodes Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -108.671875,
+        "lng": 25.5625,
+        "id": -264103455,
+        "title": "Tumbleweed Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -55.53125,
+        "lng": 157.6484375,
+        "id": -1778125981,
+        "title": "Van Horn Fischhändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#055639"
+    },
+    {
+        "lat": -27.09375,
+        "lng": 89.90625,
+        "id": 1029130117,
+        "title": "Fischverarbeiter",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_butcher",
+        "color": "#098357"
+    },
+    {
+        "lat": -82.5546875,
+        "lng": 141.671875,
+        "id": -1235107845,
+        "title": "Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -55.00716461408089,
+        "lng": 71.73071094691599,
+        "id": -1735478444,
+        "title": "Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -87.984375,
+        "lng": 80.375,
+        "id": 329132226,
+        "title": "Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -75.4921875,
+        "lng": 151.796875,
+        "id": -1473658056,
+        "title": "Flotte Biene",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_2",
+        "color": "#e5ab3b"
+    },
+    {
+        "lat": -29.560140966551096,
+        "lng": 118.21598627356403,
+        "id": -196087274,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -50.9296875,
+        "lng": 106.5078125,
+        "id": 1519152940,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -26.296875,
+        "lng": 90.3828125,
+        "id": -808941377,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -43.234375,
+        "lng": 156.9296875,
+        "id": 781775457,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -55.078125,
+        "lng": 156.96875,
+        "id": -1836586407,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -83.96875,
+        "lng": 131.65625,
+        "id": -1109867412,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -69.71875,
+        "lng": 83.4140625,
+        "id": 2131123156,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -81.8984375,
+        "lng": 152.515625,
+        "id": 1393429586,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -84.8828125,
+        "lng": 98.6484375,
+        "id": 1754163161,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -104.296875,
+        "lng": 54.1640625,
+        "id": 1156688770,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -109.140625,
+        "lng": 25.9375,
+        "id": -1930086945,
+        "title": "Friseur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_barber",
+        "color": "#510538"
+    },
+    {
+        "lat": -59.3125,
+        "lng": 133.3671875,
+        "id": -682901391,
+        "title": "Fuchsbau Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -42.6484375,
+        "lng": 154.8125,
+        "id": 134515299,
+        "title": "Förster & Minenbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#c1d5aa"
+    },
+    {
+        "lat": -62.26748948457209,
+        "lng": 75.23874369867633,
+        "id": 594243362,
+        "title": "Förster & Minenbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#c1d5aa"
+    },
+    {
+        "lat": -114.28125,
+        "lng": 18.890625,
+        "id": 349825458,
+        "title": "Förster & Minenbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#c1d5aa"
+    },
+    {
+        "lat": -51.9140625,
+        "lng": 107.6015625,
+        "id": 1029372304,
+        "title": "Försterei Bedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#c1d5aa"
+    },
+    {
+        "lat": -120.0234375,
+        "lng": 27.4140625,
+        "id": -898914734,
+        "title": "Garcia Farm",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -29.1171875,
+        "lng": 118.140625,
+        "id": -1995453576,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -53.90625,
+        "lng": 108.4296875,
+        "id": -314279964,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -83.609375,
+        "lng": 130.3046875,
+        "id": -607007740,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -79.3203125,
+        "lng": 151.4375,
+        "id": -5900332,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -81.8046875,
+        "lng": 150.875,
+        "id": -1133120917,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -86.328125,
+        "lng": 147.296875,
+        "id": 1648731852,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -104.3671875,
+        "lng": 54.4921875,
+        "id": 948262156,
+        "title": "Garderobe",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_wardrobe",
+        "color": "#04576e"
+    },
+    {
+        "lat": -70.578125,
+        "lng": 105.1171875,
+        "id": -1996689745,
+        "title": "Gasthaus Nolan",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_grub",
+        "color": "#7b2f03"
+    },
+    {
+        "lat": -77.1953125,
+        "lng": 155.09375,
+        "id": -938069329,
+        "title": "Gefängnisinsel Anlegestelle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -54.75,
+        "lng": 156.8203125,
+        "id": -1122669950,
+        "title": "Gerberei Polarstern",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -54.90625,
+        "lng": 156.828125,
+        "id": -803728149,
+        "title": "Gerberei Polarstern",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal_skin",
+        "color": "#79340c"
+    },
+    {
+        "lat": -82.3046875,
+        "lng": 150.3828125,
+        "id": -1654949987,
+        "title": "City Hall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mvp",
+        "color": "gray"
+    },
+    {
+        "lat": -81.953125,
+        "lng": 150.46875,
+        "id": -888577140,
+        "title": "St. Denis Gerichtshof",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_proc_bank",
+        "color": "gray"
+    },
+    {
+        "lat": -82.25,
+        "lng": 98.8984375,
+        "id": 130367810,
+        "title": "Blackwater Gerichtshof",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_proc_bank",
+        "color": "gray"
+    },
+    {
+        "lat": -87.578125,
+        "lng": 152.5859375,
+        "id": 891403021,
+        "title": "Guarma",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -48.1484375,
+        "lng": 143.578125,
+        "id": -623084747,
+        "title": "Gus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_animal_trapper",
+        "color": "#327f9e"
+    },
+    {
+        "lat": -72.06238006202506,
+        "lng": 95.61000380358952,
+        "id": 424079939,
+        "title": "Gus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_animal_trapper",
+        "color": "#327f9e"
+    },
+    {
+        "lat": -61.46559281046894,
+        "lng": 67.19133180104318,
+        "id": 353843290,
+        "title": "Gus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_animal_trapper",
+        "color": "#327f9e"
+    },
+    {
+        "lat": -93.3984375,
+        "lng": 76.3125,
+        "id": 1709561129,
+        "title": "Gus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_animal_trapper",
+        "color": "#327f9e"
+    },
+    {
+        "lat": -49,
+        "lng": 105.1875,
+        "id": -1882818060,
+        "title": "Haustier Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal",
+        "color": "#e56453"
+    },
+    {
+        "lat": -51.390625,
+        "lng": 157.703125,
+        "id": -2055572091,
+        "title": "Haustier Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal",
+        "color": "#e56453"
+    },
+    {
+        "lat": -83.6327930167607,
+        "lng": 96.3906599074704,
+        "id": 1939478760,
+        "title": "Haustier Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal",
+        "color": "#e56453"
+    },
+    {
+        "lat": -110.90625,
+        "lng": 25.2421875,
+        "id": 1893249546,
+        "title": "Haustier Händler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal",
+        "color": "#e56453"
+    },
+    {
+        "lat": -109.2734375,
+        "lng": 26,
+        "id": 930134286,
+        "title": "Herringtons Gemischtwarenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -66.7109375,
+        "lng": 89.5546875,
+        "id": -783131533,
+        "title": "Holzkontor",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#1e2f0a"
+    },
+    {
+        "lat": -43.39271355221529,
+        "lng": 114.01558578149908,
+        "id": 43929362,
+        "title": "Hopi",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -82.6640625,
+        "lng": 152.25,
+        "id": -470186967,
+        "title": "Hotel Rooms",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_hotel_bed",
+        "color": "#461135"
+    },
+    {
+        "lat": -51.6875,
+        "lng": 106.2734375,
+        "id": 1766318758,
+        "title": "Hotel Rooms",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_hotel_bed",
+        "color": "#461135"
+    },
+    {
+        "lat": -58.0546875,
+        "lng": 71.2421875,
+        "id": -2124937033,
+        "title": "Hubertus Hunting",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_taxidermist",
+        "color": "#4e5645"
+    },
+    {
+        "lat": -57.9296875,
+        "lng": 71.59375,
+        "id": 1313588958,
+        "title": "Hubertus Hunting",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -36.270608935344285,
+        "lng": 105.33511040549466,
+        "id": -1437282502,
+        "title": "Indian Tobacco",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -51.6875,
+        "lng": 107.4609375,
+        "id": 1972349932,
+        "title": "Beckys Brews and Barrels",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -104.03125,
+        "lng": 54.1640625,
+        "id": 1988624906,
+        "title": "Joe's Candygun",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.375,
+        "lng": 54.0390625,
+        "id": -1558958343,
+        "title": "Johnson Schmiede",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_blacksmith",
+        "color": "#240fef"
+    },
+    {
+        "lat": -103.4921875,
+        "lng": 54.2578125,
+        "id": -1997809863,
+        "title": "Johnson Schmiede",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.75,
+        "lng": 99.078125,
+        "id": -1813536028,
+        "title": "Blackwater Kino",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -84.6484375,
+        "lng": 153.109375,
+        "id": 1373346852,
+        "title": "St. Denis Kino",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -52.5703125,
+        "lng": 105.8359375,
+        "id": -1426574896,
+        "title": "Valentine Kino",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -82.0625,
+        "lng": 96.1640625,
+        "id": -1934009713,
+        "title": "Blackwater Kirche",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_castor",
+        "color": "darkblue"
+    },
+    {
+        "lat": -51.1796875,
+        "lng": 107.8828125,
+        "id": -980445840,
+        "title": "Valentine Kirche",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_castor",
+        "color": "darkblue"
+    },
+    {
+        "lat": -56.0234375,
+        "lng": 156.21875,
+        "id": 1008884730,
+        "title": "Van Horn Kirche",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_castor",
+        "color": "darkblue"
+    },
+    {
+        "lat": -59.7201640351526,
+        "lng": 87.25700339455948,
+        "id": -2106005908,
+        "title": "Knusperhaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_feed",
+        "color": "#ffcd00"
+    },
+    {
+        "lat": -59.92920836431304,
+        "lng": 86.18327570387177,
+        "id": -91697694,
+        "title": "Knusperhaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -42.2421875,
+        "lng": 156.8671875,
+        "id": 424664979,
+        "title": "Annesburg Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -103.4453125,
+        "lng": 53.9375,
+        "id": -1852798696,
+        "title": "Armadillo Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -84.171875,
+        "lng": 96.4296875,
+        "id": -1239421047,
+        "title": "Blackwater Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -69.4609375,
+        "lng": 105.96875,
+        "id": 955930311,
+        "title": "Flat Neck Station Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -101.0703125,
+        "lng": 75.1875,
+        "id": -1843758955,
+        "title": "MacFarlane's Ranch Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -83.703125,
+        "lng": 132.9921875,
+        "id": 1551266216,
+        "title": "Rhodes Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -83.7734375,
+        "lng": 155.3125,
+        "id": 1717835629,
+        "title": "St. Denis Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -69.6640625,
+        "lng": 83.953125,
+        "id": -856361266,
+        "title": "Strawberry Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -111.1015625,
+        "lng": 25.671875,
+        "id": 429471790,
+        "title": "Tumbleweed Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -53.5234375,
+        "lng": 108.5390625,
+        "id": 1629806561,
+        "title": "Valentine Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -51.0703125,
+        "lng": 157.1484375,
+        "id": -1910785410,
+        "title": "Van Horn Kutschenlieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "#37565e"
+    },
+    {
+        "lat": -57.328125,
+        "lng": 71.671875,
+        "id": 1528644833,
+        "title": "Lavendel Ranch Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -104.203125,
+        "lng": 55.1953125,
+        "id": -1779534391,
+        "title": "Lone Star Pawn",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -100.75,
+        "lng": 73.671875,
+        "id": -1380229886,
+        "title": "MacFarlane's Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -101.5,
+        "lng": 73.7578125,
+        "id": -1523805781,
+        "title": "MacFarlane's Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -28.40625,
+        "lng": 118.625,
+        "id": -1766440796,
+        "title": "Make Up & Nette Dinge",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_king",
+        "color": "gray"
+    },
+    {
+        "lat": -82.71875,
+        "lng": 151.3046875,
+        "id": 1542885734,
+        "title": "Make Up & Nette Dinge & Kleider",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_king",
+        "color": "gray"
+    },
+    {
+        "lat": -67.3203125,
+        "lng": 107.875,
+        "id": -159473521,
+        "title": "Markttag",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_teamsters",
+        "color": "gray"
+    },
+    {
+        "lat": -63.734375,
+        "lng": 128.421875,
+        "id": -1390117450,
+        "title": "Midgards Brauhalle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -69.296875,
+        "lng": 83.1640625,
+        "id": 1357637030,
+        "title": "Midnight Needle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_hat",
+        "color": "yellow"
+    },
+    {
+        "lat": -42.3828125,
+        "lng": 155.875,
+        "id": 1703463521,
+        "title": "Mine Branson und Pinto",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#989898"
+    },
+    {
+        "lat": -42.4765625,
+        "lng": 155.9609375,
+        "id": -2002528119,
+        "title": "Mine Branson und Pinto",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -114.0390625,
+        "lng": 17.9453125,
+        "id": 1288176635,
+        "title": "Mine Tumbleweed Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -101.359375,
+        "lng": 73.734375,
+        "id": 1182526388,
+        "title": "Montana Hunting Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_taxidermist",
+        "color": "#4e5645"
+    },
+    {
+        "lat": -76.66099424233497,
+        "lng": 153.38213497197057,
+        "id": -568407774,
+        "title": "Moonlight Diner",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_grub",
+        "color": "#7b2f03"
+    },
+    {
+        "lat": -51.2109375,
+        "lng": 106.5234375,
+        "id": 2142855262,
+        "title": "Muddy Taverne",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -86.0234375,
+        "lng": 152.0859375,
+        "id": 1975597089,
+        "title": "Möbelgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_fence_building",
+        "color": "gray"
+    },
+    {
+        "lat": -103.21875,
+        "lng": 54.2109375,
+        "id": 1009438350,
+        "title": "Möbelgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_fence_building",
+        "color": "gray"
+    },
+    {
+        "lat": -104.28125,
+        "lng": 55.109375,
+        "id": 1378527099,
+        "title": "Lone Star Pawn",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.9140625,
+        "lng": 54.2421875,
+        "id": -891805725,
+        "title": "Joe's Candygun",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_gunsmith",
+        "color": "cadetblue"
+    },
+    {
+        "lat": -101.2890625,
+        "lng": 73.5859375,
+        "id": 744070623,
+        "title": "Montana Hunting Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.171875,
+        "lng": 98.96875,
+        "id": -1358145627,
+        "title": "Franky's Gemischtwarenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -26.3984375,
+        "lng": 90.6015625,
+        "id": -2066542145,
+        "title": "Dunkelhain Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -76.453125,
+        "lng": 153.5078125,
+        "id": -451288789,
+        "title": "Moonlight Diner",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -42.3359375,
+        "lng": 156.7109375,
+        "id": 715636893,
+        "title": "Nordlicht Handel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -42.3671875,
+        "lng": 156.8125,
+        "id": 1657288388,
+        "title": "Nordlicht Handel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -53.21875,
+        "lng": 119.1875,
+        "id": -294304775,
+        "title": "Ölfelder Verarbeitung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "gray"
+    },
+    {
+        "lat": -54.453125,
+        "lng": 119.8828125,
+        "id": -738279703,
+        "title": "Ölfelder Sammelpunkt",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "gray"
+    },
+    {
+        "lat": -54.7734375,
+        "lng": 120.5078125,
+        "id": 189780997,
+        "title": "Ölfelder Sammelpunkt",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "gray"
+    },
+    {
+        "lat": -54.671875,
+        "lng": 119.734375,
+        "id": -1241913582,
+        "title": "Ölfelder Verarbeitung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "gray"
+    },
+    {
+        "lat": -50.0390625,
+        "lng": 123.34375,
+        "id": 1711237358,
+        "title": "Oil Fields Ranch Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -84.1171875,
+        "lng": 131.8828125,
+        "id": -103114731,
+        "title": "Old Miller Guns",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_gunsmith",
+        "color": "cadetblue"
+    },
+    {
+        "lat": -84,
+        "lng": 131.96875,
+        "id": -1224901605,
+        "title": "Old Miller Guns",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -25.703125,
+        "lng": 90.2578125,
+        "id": -362507332,
+        "title": "Old Pine Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#1e2f0a"
+    },
+    {
+        "lat": -25.7578125,
+        "lng": 90.390625,
+        "id": -314949044,
+        "title": "Old Pine Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -83.453125,
+        "lng": 150.71875,
+        "id": 928629726,
+        "title": "St. Denis Opernhaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -85.5,
+        "lng": 155.9453125,
+        "id": -212365381,
+        "title": "Pattels Plaza",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_vip",
+        "color": "gray"
+    },
+    {
+        "lat": -50.4375,
+        "lng": 124.046875,
+        "id": -399580572,
+        "title": "Dreamland Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -58.60264102081369,
+        "lng": 98.80565831290068,
+        "id": -888067167,
+        "title": "Wildberry Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -85.015625,
+        "lng": 85.890625,
+        "id": -320154451,
+        "title": "Evergreen Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.25990932433213,
+        "lng": 117.61531587520533,
+        "id": 990748408,
+        "title": "Pirate Island",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -59.50089121884409,
+        "lng": 81.02349771225009,
+        "id": -15531173,
+        "title": "Auf Eigene Gefahr",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -57.2265625,
+        "lng": 133.109375,
+        "id": 1060792547,
+        "title": "Emerald - Kurs 1",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -104.90625,
+        "lng": 39.8984375,
+        "id": -763785202,
+        "title": "Eselrennen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -66.75,
+        "lng": 120.421875,
+        "id": -824194354,
+        "title": "Heartlands Run",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -106.203125,
+        "lng": 75.2578125,
+        "id": 1296726052,
+        "title": "Manteca",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -88.1688987641692,
+        "lng": 131.52204507271006,
+        "id": 1440442784,
+        "title": "Rhodes Rundlauf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playlist_races",
+        "color": "#791508"
+    },
+    {
+        "lat": -84.2890625,
+        "lng": 140.453125,
+        "id": -848977267,
+        "title": "Royal Hunting Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -83.8046875,
+        "lng": 131.375,
+        "id": 313048655,
+        "title": "Rhodes Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -83.1328125,
+        "lng": 120.890625,
+        "id": 966014060,
+        "title": "Rhodes Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -83.3875885902076,
+        "lng": 131.3546904945582,
+        "id": 1779221520,
+        "title": "Rhodes Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -83.7421875,
+        "lng": 133.4296875,
+        "id": 1532748081,
+        "title": "Rhodes Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -104.4609375,
+        "lng": 53.8203125,
+        "id": 1490475330,
+        "title": "Riverside Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "#44344c"
+    },
+    {
+        "lat": -104.3203125,
+        "lng": 53.8046875,
+        "id": -158691295,
+        "title": "Riverside Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -52.6875,
+        "lng": 119.03125,
+        "id": -934565689,
+        "title": "Black Horizon Company",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -78.140625,
+        "lng": 151.796875,
+        "id": -703348061,
+        "title": "Royal Steel Co.",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_blacksmith",
+        "color": "#240fef"
+    },
+    {
+        "lat": -77.9921875,
+        "lng": 151.8671875,
+        "id": -2131845797,
+        "title": "Royal Steel Co.",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -59.618903722121615,
+        "lng": 99.13143219567537,
+        "id": -83358082,
+        "title": "RR Baugesellschaft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#989898"
+    },
+    {
+        "lat": -83.65625,
+        "lng": 152.3203125,
+        "id": 954269104,
+        "title": "St. Denis Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -82.9921875,
+        "lng": 157.1484375,
+        "id": -1676210788,
+        "title": "St. Denis Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -84.2578125,
+        "lng": 155.03125,
+        "id": -1409495007,
+        "title": "St. Denis Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -82.640625,
+        "lng": 146.484375,
+        "id": -224198404,
+        "title": "St. Denis Haus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -86.2109375,
+        "lng": 150.25,
+        "id": -1719345355,
+        "title": "St. Denis Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -84.1875,
+        "lng": 155.6640625,
+        "id": -1415822986,
+        "title": "St. Denise Construction",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#697e50"
+    },
+    {
+        "lat": -69.3515625,
+        "lng": 83.6953125,
+        "id": -1215469254,
+        "title": "Saloon Blackberry",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -72.4765625,
+        "lng": 83.1796875,
+        "id": 707785061,
+        "title": "GoldDevils Amber",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -83.140625,
+        "lng": 153.28125,
+        "id": -1412927130,
+        "title": "Schreibwaren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_riggs_camp",
+        "color": "#38626e"
+    },
+    {
+        "lat": -109.4609375,
+        "lng": 25.4765625,
+        "id": -1165946082,
+        "title": "Schreibwaren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_riggs_camp",
+        "color": "#38626e"
+    },
+    {
+        "lat": -66.5,
+        "lng": 129.984375,
+        "id": -1522050391,
+        "title": "Schreinerei Nolan",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#1e2f0a"
+    },
+    {
+        "lat": -43.25,
+        "lng": 156.46875,
+        "id": 94431240,
+        "title": "Annesburg Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -103.984375,
+        "lng": 55.046875,
+        "id": -926116188,
+        "title": "Armadillo Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -83.265625,
+        "lng": 99.5390625,
+        "id": 174822690,
+        "title": "Blackwater Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -83.8359375,
+        "lng": 132.4140625,
+        "id": 1705860302,
+        "title": "Rhodes Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -83.9140625,
+        "lng": 150.3984375,
+        "id": 705765950,
+        "title": "St. Denis Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -69.046875,
+        "lng": 83.1875,
+        "id": -1919803074,
+        "title": "Strawberry Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -109.1015625,
+        "lng": 25.453125,
+        "id": -1413420047,
+        "title": "Tumbleweed Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -51.1328125,
+        "lng": 107.0390625,
+        "id": -2109747714,
+        "title": "Valentine Sheriff Department",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_1",
+        "color": "#2c1203"
+    },
+    {
+        "lat": -77.8046875,
+        "lng": 153.953125,
+        "id": -62611814,
+        "title": "Singingg Sunflower",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bank_debt",
+        "color": "#05acf5"
+    },
+    {
+        "lat": -77.8359375,
+        "lng": 154.1171875,
+        "id": -175410575,
+        "title": "Singing Sunflower",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -73.484375,
+        "lng": 162.3515625,
+        "id": 1836968321,
+        "title": "Sisika",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_game_hill",
+        "color": "gray"
+    },
+    {
+        "lat": -25.7265625,
+        "lng": 90.78125,
+        "id": 786204521,
+        "title": "Skadis Ruf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -51.296875,
+        "lng": 105.6328125,
+        "id": -793320272,
+        "title": "Valentine Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -29.017199601859343,
+        "lng": 118.13890200573742,
+        "id": -1561035239,
+        "title": "Stammesladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "blue"
+    },
+    {
+        "lat": -70.109375,
+        "lng": 82.71875,
+        "id": 1354141911,
+        "title": "Steel and Honor",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_gunsmith",
+        "color": "cadetblue"
+    },
+    {
+        "lat": -70.21875,
+        "lng": 82.65625,
+        "id": 1479037954,
+        "title": "Steel and Honor",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -70.234375,
+        "lng": 82.984375,
+        "id": 1563569287,
+        "title": "Strawberry Construction",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#697e50"
+    },
+    {
+        "lat": -69.7265625,
+        "lng": 84.0859375,
+        "id": 544530307,
+        "title": "Strawberry Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -70.4375,
+        "lng": 83.6875,
+        "id": 1614552837,
+        "title": "Strawberry Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -100.390625,
+        "lng": 73.40625,
+        "id": -996152366,
+        "title": "Sunset Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saddle",
+        "color": "#efa604"
+    },
+    {
+        "lat": -100.9921875,
+        "lng": 73.5546875,
+        "id": -2024531619,
+        "title": "Sunset Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -71.625,
+        "lng": 127.671875,
+        "id": -1018067231,
+        "title": "Der Kräuter-Zwerg",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -81.9296875,
+        "lng": 154.71875,
+        "id": 1919924557,
+        "title": "The Whispering Cup",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -57.46875,
+        "lng": 129.46875,
+        "id": -515863741,
+        "title": "Tabak Feld",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -86.1875,
+        "lng": 99.3671875,
+        "id": -1846163198,
+        "title": "???",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -69.60274621945901,
+        "lng": 83.50311883682708,
+        "id": 234656981,
+        "title": "Tante Emma Laden",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -37.6015625,
+        "lng": 120.375,
+        "id": 1050420243,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -53.8515625,
+        "lng": 108.5390625,
+        "id": 1800931779,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -56.78125,
+        "lng": 134.9375,
+        "id": 1135733456,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -26.8203125,
+        "lng": 91.0078125,
+        "id": -1452953393,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -43.578125,
+        "lng": 156.9453125,
+        "id": -2084821747,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -57.3984375,
+        "lng": 91.1171875,
+        "id": -1261694494,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -69.1953125,
+        "lng": 106.09375,
+        "id": -1500208281,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -54.7734375,
+        "lng": 157.6796875,
+        "id": -1656380128,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -72.5390625,
+        "lng": 94.2890625,
+        "id": -442241455,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -83.7109375,
+        "lng": 130.3828125,
+        "id": -698991393,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -69.515625,
+        "lng": 83.921875,
+        "id": 847903796,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -84.203125,
+        "lng": 97.703125,
+        "id": 1565024123,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -85.359375,
+        "lng": 153.7265625,
+        "id": -1747980201,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -101.1484375,
+        "lng": 72.515625,
+        "id": -1813900842,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -104.0625,
+        "lng": 53.3671875,
+        "id": 1737611413,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -109.5234375,
+        "lng": 25.3125,
+        "id": 1699988649,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -117.5859375,
+        "lng": 30.1328125,
+        "id": -278877023,
+        "title": "Telegramme",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_post_office",
+        "color": "#1800ff"
+    },
+    {
+        "lat": -70.59375,
+        "lng": 105.5078125,
+        "id": -10416480,
+        "title": "Gasthaus Nolan",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -55.9296875,
+        "lng": 137.734375,
+        "id": -960041727,
+        "title": "The Blue Owl Bakery",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -56.51840319785978,
+        "lng": 138.91090582503367,
+        "id": 1778818749,
+        "title": "The Blue Owl Bakery",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_feed",
+        "color": "#ffcd00"
+    },
+    {
+        "lat": -84.87572782799451,
+        "lng": 132.16409375000893,
+        "id": -1666717120,
+        "title": "The Burnt Rose",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -84.6015625,
+        "lng": 140.421875,
+        "id": 1654321057,
+        "title": "The Royal Hunting Club",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_taxidermist",
+        "color": "#4e5645"
+    },
+    {
+        "lat": -99.5546875,
+        "lng": 89.59375,
+        "id": -1233367209,
+        "title": "The Whiskey Barrel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -100.25,
+        "lng": 74.7578125,
+        "id": -1027799616,
+        "title": "AGUA de RIOS",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_donate_food",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -81.7734375,
+        "lng": 154.78125,
+        "id": 523898583,
+        "title": "The Whispering Cup",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_donate_food",
+        "color": "aquagreen"
+    },
+    {
+        "lat": -83.5625,
+        "lng": 150.8046875,
+        "id": -341054816,
+        "title": "St. Denis Opernhaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -38.7109375,
+        "lng": 108.8046875,
+        "id": 1664013510,
+        "title": "Tierfrucht Crafting",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ball",
+        "color": "gray"
+    },
+    {
+        "lat": -82.28125,
+        "lng": 153.1171875,
+        "id": 1857499597,
+        "title": "Tintenwerk",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_newspaper",
+        "color": "gray"
+    },
+    {
+        "lat": -82.03125,
+        "lng": 153.2890625,
+        "id": -767209254,
+        "title": "Tintenwerk",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -63.484375,
+        "lng": 128.296875,
+        "id": -1722862724,
+        "title": "Midgards Brauhalle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine",
+        "color": "#cbf637"
+    },
+    {
+        "lat": -99.2421875,
+        "lng": 89.546875,
+        "id": -911543120,
+        "title": "Tipsy Pickle Brew",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine",
+        "color": "#a035d2"
+    },
+    {
+        "lat": -99.1015625,
+        "lng": 89.3359375,
+        "id": 694673088,
+        "title": "Tipsy Pickle Brew",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -103.890625,
+        "lng": 53.765625,
+        "id": -1752057166,
+        "title": "Tucker Saloon",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -109.3828125,
+        "lng": 25.3359375,
+        "id": 16426278,
+        "title": "Tumbleweed Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -108.15625,
+        "lng": 25.9453125,
+        "id": 166214573,
+        "title": "Tumbleweed Construction",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#697e50"
+    },
+    {
+        "lat": -109.265625,
+        "lng": 25.7109375,
+        "id": 445240153,
+        "title": "Tumbleweed Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -110.8671875,
+        "lng": 25.4921875,
+        "id": 443652484,
+        "title": "Tumbleweed Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -59.04152622149826,
+        "lng": 149.406543119341,
+        "id": -2062039640,
+        "title": "U.S. Army Fort Brennand",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal_quality_01",
+        "color": "darkgreen"
+    },
+    {
+        "lat": -116.70242694154057,
+        "lng": 46.20258843725824,
+        "id": -903416649,
+        "title": "U.S. Army Fort Mercer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_animal_quality_01",
+        "color": "darkgreen"
+    },
+    {
+        "lat": -56.1953125,
+        "lng": 157.2265625,
+        "id": 440843295,
+        "title": "Uwe Brauns Laden Voller Wunder",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -56.2421875,
+        "lng": 157.1015625,
+        "id": -338192655,
+        "title": "Uwe Brauns Laden Voller Wunder",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -51.5703125,
+        "lng": 106.5390625,
+        "id": 1017311208,
+        "title": "Valentine Bank",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -51.6796875,
+        "lng": 106.0546875,
+        "id": 2125053472,
+        "title": "Valentine Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -58.5546875,
+        "lng": 98.1640625,
+        "id": 1456341604,
+        "title": "Valentine Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -54.6171875,
+        "lng": 157.734375,
+        "id": 1143180021,
+        "title": "Van Horn Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -51.296875,
+        "lng": 157.2109375,
+        "id": 1504946349,
+        "title": "Van Horn Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -55.609375,
+        "lng": 158.3515625,
+        "id": 577973205,
+        "title": "Van Horn Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -42.5390625,
+        "lng": 155.546875,
+        "id": -333590939,
+        "title": "Waffenöl",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -104.203125,
+        "lng": 53.3359375,
+        "id": -908115415,
+        "title": "Waffenöl",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -51.2109375,
+        "lng": 107.4140625,
+        "id": 198738625,
+        "title": "Valentine Kirche",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -28.6988080608364,
+        "lng": 118.1735340680943,
+        "id": -170726810,
+        "title": "Wapiti Geldversteck",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "red"
+    },
+    {
+        "lat": -51.1015625,
+        "lng": 106.2734375,
+        "id": 1535920158,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -82.6328125,
+        "lng": 155.34375,
+        "id": -884670972,
+        "title": "St. Denis Warenankauf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "#d01392"
+    },
+    {
+        "lat": -108.96875,
+        "lng": 26.0390625,
+        "id": -1475574333,
+        "title": "Tumbleweed Warenankauf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tithing",
+        "color": "#d01392"
+    },
+    {
+        "lat": -42.40625,
+        "lng": 156.734375,
+        "id": 1449315702,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -56.2265625,
+        "lng": 157.1640625,
+        "id": -207068768,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -83.6953125,
+        "lng": 131.953125,
+        "id": -186724883,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -69.67716820253831,
+        "lng": 83.36750544543814,
+        "id": -1036944499,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -84.1640625,
+        "lng": 99.0625,
+        "id": 1324243104,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -84.0546875,
+        "lng": 155.1484375,
+        "id": -1842849939,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -104.1953125,
+        "lng": 55.2421875,
+        "id": -1100843021,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -109.15625,
+        "lng": 26.1484375,
+        "id": -1153345872,
+        "title": "Warenhandel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#d01392"
+    },
+    {
+        "lat": -83.5625,
+        "lng": 131.8828125,
+        "id": -1455191091,
+        "title": "Waynes Warehouse",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -83.6796875,
+        "lng": 131.8671875,
+        "id": 127763915,
+        "title": "Waynes Warehouse",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_market_stall",
+        "color": "blue"
+    },
+    {
+        "lat": -43.125,
+        "lng": 157.0078125,
+        "id": -776794544,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -84.078125,
+        "lng": 131.9140625,
+        "id": -1117764581,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -70.1484375,
+        "lng": 82.6640625,
+        "id": 1105204166,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -83.703125,
+        "lng": 99.0390625,
+        "id": 624379522,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -83.5234375,
+        "lng": 153.5234375,
+        "id": -1100465252,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -103.8828125,
+        "lng": 54.375,
+        "id": -1032366227,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -109.5859375,
+        "lng": 25.7578125,
+        "id": -1282116949,
+        "title": "Waffenladen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_playstyle_offensive",
+        "color": "#022337"
+    },
+    {
+        "lat": -52.3203125,
+        "lng": 77.3671875,
+        "id": -1382500499,
+        "title": "Weingut Hudson",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_moonshine_vat",
+        "color": "#44344c"
+    },
+    {
+        "lat": -53.2109375,
+        "lng": 77.328125,
+        "id": 137189956,
+        "title": "Weingut Hudson",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -113.9140625,
+        "lng": 18.5625,
+        "id": 959539439,
+        "title": "Western Mining",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_ugc",
+        "color": "#989898"
+    },
+    {
+        "lat": -113.6640625,
+        "lng": 18.453125,
+        "id": 1408483142,
+        "title": "Western Mining",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -70.80971942323838,
+        "lng": 122.53479284910837,
+        "id": -305150708,
+        "title": "Whispering Pines",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_event_appleseed",
+        "color": "#1e2f0a"
+    },
+    {
+        "lat": -70.18224657096758,
+        "lng": 122.34536708238511,
+        "id": -1742460923,
+        "title": "Whispering Pines",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -58.1328125,
+        "lng": 98.609375,
+        "id": 1462472182,
+        "title": "Wildberry Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saddle",
+        "color": "#efa604"
+    },
+    {
+        "lat": -69.8203125,
+        "lng": 83.78125,
+        "id": 1817661973,
+        "title": "Wilde Biene",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -69.828125,
+        "lng": 83.6328125,
+        "id": -312570711,
+        "title": "Wilde Biene",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_special_series_2",
+        "color": "#e5ab3b"
+    },
+    {
+        "lat": -103.203125,
+        "lng": 53.3515625,
+        "id": -1389404072,
+        "title": "Backstube",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -77.4609375,
+        "lng": 143.484375,
+        "id": 1443927581,
+        "title": "Emperio de Banks",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -69.390625,
+        "lng": 83.1875,
+        "id": 2022060526,
+        "title": "Midnight Needle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -56.40625,
+        "lng": 71.6484375,
+        "id": 1464358228,
+        "title": "Wolfsbane Hollow",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -56.9453125,
+        "lng": 72.0625,
+        "id": -406104467,
+        "title": "Wolfsbane Hollow Ranch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saddle",
+        "color": "#efa604"
+    },
+    {
+        "lat": -88.77814941842774,
+        "lng": 95.35023326833276,
+        "id": 1719939992,
+        "title": "Zum Dornröschen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_grub",
+        "color": "#7b2f03"
+    },
+    {
+        "lat": -88.89818747961323,
+        "lng": 95.55029670364189,
+        "id": 1367244433,
+        "title": "Zum Dornröschen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -42.59375,
+        "lng": 157.2109375,
+        "id": -529574040,
+        "title": "Zum Goldenen Fass",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -82.5390625,
+        "lng": 122.0234375,
+        "id": 1704797512,
+        "title": "Zum Goldenen Rauch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -82.90625,
+        "lng": 122.0078125,
+        "id": 1444607276,
+        "title": "Zum Goldenen Rauch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#1e1e1e"
+    },
+    {
+        "lat": -86.125,
+        "lng": 99.6171875,
+        "id": -1638306014,
+        "title": "Zum Goldenen Tabakblatt",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_store",
+        "color": "#1e1e1e"
+    },
+    {
+        "lat": -52.7109375,
+        "lng": 77.71875,
+        "id": -667409742,
+        "title": "Zum Goldenen Tropfen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_donate_food",
+        "color": "aquagreen"
+    },
+    {
+        "lat": -52.9921875,
+        "lng": 77.6015625,
+        "id": 1321960092,
+        "title": "Zum Goldenen Tropfen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -84.65459041375388,
+        "lng": 85.74868887664452,
+        "id": -819995481,
+        "title": "Zum Nüchternen Sandkorn",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_donate_food",
+        "color": "aquagreen"
+    },
+    {
+        "lat": -84.45008602816684,
+        "lng": 85.87820832084965,
+        "id": 753786169,
+        "title": "Zum Nüchternen Sandkorn",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -57.7890625,
+        "lng": 133.7734375,
+        "id": -21364728,
+        "title": "The Sparkling Emerald",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_saloon",
+        "color": "darkorange"
+    },
+    {
+        "lat": -42.5703125,
+        "lng": 156.671875,
+        "id": -34004227,
+        "title": "Annesburg Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -104.5,
+        "lng": 53.375,
+        "id": 721806094,
+        "title": "Armadillo Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -81.4375,
+        "lng": 128.7109375,
+        "id": -411451710,
+        "title": "Rhodes Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -81.3671875,
+        "lng": 128.78125,
+        "id": -1620643394,
+        "title": "Rhodes Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -78.640625,
+        "lng": 152.390625,
+        "id": 664330237,
+        "title": "St. Denis Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -82.7265625,
+        "lng": 153.6171875,
+        "id": 266101267,
+        "title": "St. Denis Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -78.4375,
+        "lng": 152.3046875,
+        "id": -1343254752,
+        "title": "St. Denis Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -73.71875,
+        "lng": 83.0546875,
+        "id": 757634690,
+        "title": "Strawberry Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -109.6484375,
+        "lng": 25.921875,
+        "id": 633171077,
+        "title": "Tumbleweed Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -54.8515625,
+        "lng": 109.03125,
+        "id": -268095294,
+        "title": "Valentine Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -54.671875,
+        "lng": 108.96875,
+        "id": -1700055755,
+        "title": "Valentine Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -80.359375,
+        "lng": 90.65625,
+        "id": -1475391750,
+        "title": "Blackwater Ärzte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_supplies_health",
+        "color": "#ff1f01"
+    },
+    {
+        "lat": -42.9296875,
+        "lng": 157.0703125,
+        "id": 494557685,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -54.7109375,
+        "lng": 157.5859375,
+        "id": 127622030,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -85.0078125,
+        "lng": 132.109375,
+        "id": -1893723614,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -69.3671875,
+        "lng": 83.03125,
+        "id": 2071134246,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -83.9375,
+        "lng": 98.5078125,
+        "id": -1436800090,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -82.5859375,
+        "lng": 152.203125,
+        "id": 999009957,
+        "title": "Badehaus",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_bath_house",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -84.75,
+        "lng": 99.3046875,
+        "id": -1771944460,
+        "title": "Theater",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -83.78125,
+        "lng": 150.8125,
+        "id": -895751596,
+        "title": "Theater",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -84.6640625,
+        "lng": 153.015625,
+        "id": -1796454469,
+        "title": "Theater",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_theatre",
+        "color": "beige"
+    },
+    {
+        "lat": -51.5234375,
+        "lng": 106.2734375,
+        "id": 145334561,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -25.9296875,
+        "lng": 90.21875,
+        "id": -486605949,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -42.8515625,
+        "lng": 157.0625,
+        "id": -329657638,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -55.20138786507209,
+        "lng": 157.04087137512175,
+        "id": 1806263915,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -83.6222154856465,
+        "lng": 131.96760543979212,
+        "id": -1562304992,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -69.6242459034597,
+        "lng": 83.44688889405606,
+        "id": 635676163,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -83.63577072078837,
+        "lng": 99.43884397558907,
+        "id": 1357778884,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -81.71642660442204,
+        "lng": 150.95183630469603,
+        "id": 350574023,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -104.32806361212285,
+        "lng": 54.43914217807016,
+        "id": -2141355757,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -109.169921875,
+        "lng": 26.1005859375,
+        "id": -1602769858,
+        "title": "Bekleidungsgeschäft",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_tailor",
+        "color": "#5c0508"
+    },
+    {
+        "lat": -76.32080618773992,
+        "lng": 152.4330301059267,
+        "id": 666470000,
+        "title": "Blackwood Schmuckmanufaktur",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -28.965810089974937,
+        "lng": 117.80710450509245,
+        "id": -2127245534,
+        "title": "Wapiti Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -28.8429221267731,
+        "lng": 118.19252584422549,
+        "id": -996755022,
+        "title": "Wapiti Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -29.46318086373262,
+        "lng": 118.03605401327329,
+        "id": 1150198054,
+        "title": "Farmbedarf",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_summer_horse",
+        "color": "#7e625f"
+    },
+    {
+        "lat": -130.0920930016797,
+        "lng": 30.77031949065845,
+        "id": -162842090,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -127.49002388670156,
+        "lng": 32.389510970502926,
+        "id": 196794189,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -126.54691586686234,
+        "lng": 43.38865028621835,
+        "id": -1565045491,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -119.93379698076069,
+        "lng": 57.84206475893532,
+        "id": -1763881208,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -120.99053247286972,
+        "lng": 66.08573787210841,
+        "id": 1884627057,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -114.24106062004434,
+        "lng": 67.7958313297687,
+        "id": -297981358,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -113.98539880743732,
+        "lng": 80.94252987138312,
+        "id": -1860092810,
+        "title": "Bootshändler",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -55.59295768881721,
+        "lng": 157.7306369362039,
+        "id": -231651127,
+        "title": "Fischverarbeiter",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_butcher",
+        "color": "#098357"
+    },
+    {
+        "lat": -83.46719603150932,
+        "lng": 131.4294732424477,
+        "id": -161284750,
+        "title": "Fischverarbeiter",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_butcher",
+        "color": "#098357"
+    },
+    {
+        "lat": -84.94855914635431,
+        "lng": 99.4557046953748,
+        "id": 1653940875,
+        "title": "Fischverarbeiter",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_butcher",
+        "color": "#098357"
+    },
+    {
+        "lat": -104.371019633376,
+        "lng": 54.77139162964256,
+        "id": 1059680378,
+        "title": "Fischverarbeiter",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_shop_butcher",
+        "color": "#098357"
+    },
+    {
+        "lat": -64.12637286652884,
+        "lng": 28.90362031954434,
+        "id": 329276414,
+        "title": "Saint Denis",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_riverboat",
+        "color": "lightred"
+    },
+    {
+        "lat": -64.24061805909531,
+        "lng": 33.142628656132224,
+        "id": 447656353,
+        "title": "Weed Field 3",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -69.66702572782357,
+        "lng": 32.44810040188112,
+        "id": -397778585,
+        "title": "Guarma Stall",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_stable",
+        "color": "green"
+    },
+    {
+        "lat": -67.63536831118249,
+        "lng": 31.727608474573895,
+        "id": 325927057,
+        "title": "Weed Field 1",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -68.90758829093218,
+        "lng": 30.805898081081775,
+        "id": -675112174,
+        "title": "Weed Field 2",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -64.97355877028043,
+        "lng": 28.905329089451882,
+        "id": 347764479,
+        "title": "Guarma Fleischer",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_mp_butcher_table",
+        "color": "pink"
+    },
+    {
+        "lat": -83.52509235245603,
+        "lng": 133.20254807144076,
+        "id": -944878256,
+        "title": "Verarbeiter Baumwolle",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_wagon",
+        "color": "gray"
+    },
+    {
+        "lat": -42.82365110281586,
+        "lng": 158.2060921401166,
+        "id": -399154362,
+        "title": "Annesburg Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -56.50642045778322,
+        "lng": 158.05752786916148,
+        "id": 1530970958,
+        "title": "Van Horn Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -88.09118446284359,
+        "lng": 150.56988861302298,
+        "id": -1071937336,
+        "title": "Saint Denis Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -83.24444742478984,
+        "lng": 123.8255407878729,
+        "id": 385240595,
+        "title": "Rhodes Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -83.45085673527834,
+        "lng": 100.20844589769261,
+        "id": -1263136056,
+        "title": "Blackwater Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -99.49939646030029,
+        "lng": 90.0492785488255,
+        "id": 1818969979,
+        "title": "Thieves Landing Bootslieferung",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_tugboat",
+        "color": "#2c525c"
+    },
+    {
+        "lat": -105.88329521781574,
+        "lng": 37.01093870020919,
+        "id": 1562519482,
+        "title": "Zur Wüstenblüte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_ambient_herd",
+        "color": "beige"
+    },
+    {
+        "lat": -106.19147117798403,
+        "lng": 36.757439120070764,
+        "id": -565839987,
+        "title": "Zur Wüstenblüte",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_decision",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -32.74074967685634,
+        "lng": 123.10329002211228,
+        "id": 496216484,
+        "title": "Cherokee",
+        "description": "Lager",
+        "shape": "pushpin",
+        "icon": "camps",
+        "color": "brown"
+    },
+    {
+        "lat": -25.7109375,
+        "lng": 117.34375,
+        "id": 1497620095,
+        "title": "Seneca Wurzel",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "plants",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -73.8984375,
+        "lng": 79.765625,
+        "id": -405258790,
+        "title": "Fliegenpilze",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "plants",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -94.43476435478566,
+        "lng": 128.65744681529097,
+        "id": -679510936,
+        "title": "Fliegenpilz Verarbeiter",
+        "description": "50er Stacks Fliegenpilze -> 25 getrocknete Fliegenpilze",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -43.101145780255116,
+        "lng": 121.97912951157289,
+        "id": -1623593640,
+        "title": "Getrocknete Fliegenpilze Verarbeiter",
+        "description": "30er Stack getrocknete Fliegenpilze -> 10 Magic Mushrooms",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -40.79859799476231,
+        "lng": 166.78626854760773,
+        "id": -2072593238,
+        "title": "Engelwurz",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "plants",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -98.2103774323966,
+        "lng": 148.61242789649125,
+        "id": 1038745840,
+        "title": "Oleander Salbei",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "plants",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -74.93564227770759,
+        "lng": 67.47156194315026,
+        "id": -111107857,
+        "title": "Ayahuasca Verarbeiter",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -55.28678559260082,
+        "lng": 87.6894675838077,
+        "id": -1295282710,
+        "title": "Koka",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "plants",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -27.8203125,
+        "lng": 122.1484375,
+        "id": 789202759,
+        "title": "Sakari x Nokoma Funkelort",
+        "description": "",
+        "shape": "default",
+        "icon": "fme",
+        "color": "lightred"
+    },
+    {
+        "lat": -77.9743974302221,
+        "lng": 86.76251492782889,
+        "id": -200379390,
+        "title": "Fliegenpilze verkäufer",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "darkpurple"
+    },
+    {
+        "lat": -39.7560864311285,
+        "lng": 109.7331704469958,
+        "id": 1272481884,
+        "title": "Hopi",
+        "description": "Lager",
+        "shape": "pushpin",
+        "icon": "camps",
+        "color": "beige"
+    },
+    {
+        "lat": -43.369473326108356,
+        "lng": 139.1724974210068,
+        "id": 1833306872,
+        "title": "Sioux",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "camps",
+        "color": "lightgreen"
+    },
+    {
+        "lat": -122.28195802311487,
+        "lng": 56.59822661240396,
+        "id": 1520816606,
+        "title": "Verarbeiter XY",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "orange"
+    },
+    {
+        "lat": -52.6596730372861,
+        "lng": 142.43813944137656,
+        "id": 615919533,
+        "title": "Verarbeiter XY",
+        "description": "",
+        "shape": "pushpin",
+        "icon": "gfh",
+        "color": "orange"
+    },
+    {
+        "lat": -86.12372600375475,
+        "lng": 69.59493010404425,
+        "id": -1360902674,
+        "title": "Ahowan",
+        "description": "Lager",
+        "shape": "pushpin",
+        "icon": "camps",
+        "color": "darkorange"
+    },
+    {
+        "lat": -67.50063822591329,
+        "lng": 67.85505685144314,
+        "id": 574951884,
+        "title": "Leer",
+        "description": "Lager",
+        "shape": "pushpin",
+        "icon": "camps",
+        "color": "red"
+    },
+    {
+        "lat": -90.80026968620741,
+        "lng": 88.51892493550204,
+        "id": 1008575663,
+        "title": "Kürbis",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -75.54859227618522,
+        "lng": 81.39037374770803,
+        "id": 1298247574,
+        "title": "Brombeeren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -60.607934532750434,
+        "lng": 95.94023055428636,
+        "id": 21481309,
+        "title": "Erdbeeren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -58.66876748530453,
+        "lng": 99.40087618059722,
+        "id": -116903543,
+        "title": "Hagebutten",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -53.8125,
+        "lng": 111.390625,
+        "id": 578476106,
+        "title": "Seidenpflanze / Blood Flower",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -54.934886957127524,
+        "lng": 135.77455345298262,
+        "id": 1061621022,
+        "title": "Himbeeren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -50.696037834488735,
+        "lng": 143.79360495845114,
+        "id": 1039850550,
+        "title": "Schnittlauch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -67.1484375,
+        "lng": 149.75,
+        "id": 1962514759,
+        "title": "Knoblauch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -76.5,
+        "lng": 142.8203125,
+        "id": -1833732958,
+        "title": "Apfel",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -76.7734375,
+        "lng": 142.984375,
+        "id": -1285865473,
+        "title": "Orangen",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -77.0390625,
+        "lng": 143.1015625,
+        "id": -554345548,
+        "title": "Birne",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -87.1461322547673,
+        "lng": 139.5302431657179,
+        "id": 1021642961,
+        "title": "Kürbis",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -89.609375,
+        "lng": 135.4765625,
+        "id": -627083492,
+        "title": "Thymian",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -84.64509125148633,
+        "lng": 126.00367000303953,
+        "id": -1235725998,
+        "title": "Schnittlauch",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -55.26232278990228,
+        "lng": 90.46526112697745,
+        "id": -63970480,
+        "title": "Brombeeren",
+        "description": "",
+        "shape": "none",
+        "icon": "blip_plant",
+        "color": "#99b544"
+    },
+    {
+        "lat": -43.061342434583246,
+        "lng": 86.53195013248003,
+        "id": 1850775504,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -36.359375,
+        "lng": 120.0625,
+        "id": 1063138092,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -32.610949631678,
+        "lng": 135.93553836058305,
+        "id": -2042668298,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -42.60783227793853,
+        "lng": 137.05961831670203,
+        "id": -883929084,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -33.4140625,
+        "lng": 152.8203125,
+        "id": 590869013,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -59.0234375,
+        "lng": 116.140625,
+        "id": -1182523110,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -68.203125,
+        "lng": 118.7578125,
+        "id": -1779363578,
+        "title": "Aussicht / Flaschenbaum",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -54.7734375,
+        "lng": 100.234375,
+        "id": -1427435783,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -65.83980210062528,
+        "lng": 97.1343786022643,
+        "id": 162538503,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -60.78827075074073,
+        "lng": 90.85960647707138,
+        "id": -1192359493,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -59.5,
+        "lng": 81.46875,
+        "id": 1902362454,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -101.93535550936973,
+        "lng": 61.782808636415034,
+        "id": 1546799273,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -120.54521188083439,
+        "lng": 42.132199674628204,
+        "id": -1387915675,
+        "title": "Aussicht",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_photo_studio",
+        "color": "lightblue"
+    },
+    {
+        "lat": -98.69929579855801,
+        "lng": 57.8391368072016,
+        "id": 1834413388,
+        "title": "Einzelner Baum",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -63.984375,
+        "lng": 81.734375,
+        "id": -2074395706,
+        "title": "Sasquatch",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -63.4140625,
+        "lng": 80.6171875,
+        "id": 510139552,
+        "title": "Eichhörnchen",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -55.4609375,
+        "lng": 101.8046875,
+        "id": -1089132286,
+        "title": "Keller",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -47.842495594443015,
+        "lng": 147.78913951183276,
+        "id": -1729244220,
+        "title": "Wasserfall mit Höhle",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -37.3217202040716,
+        "lng": 148.35141851212214,
+        "id": -1153407501,
+        "title": "Runengrab",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -31.24121522700376,
+        "lng": 146.8030671121261,
+        "id": 1064847244,
+        "title": "Asteroid",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -30.672296273808286,
+        "lng": 92.49415484228287,
+        "id": 2147091688,
+        "title": "Eingefrorenes Paar? Random?",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -17.437662891543695,
+        "lng": 87.34175712301176,
+        "id": 63938429,
+        "title": "Grollen Gletscher",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -30.030921635970913,
+        "lng": 80.82044384804726,
+        "id": 1829082437,
+        "title": "Verlassene Hütte",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -37.659214139122646,
+        "lng": 83.2426459216055,
+        "id": -635206177,
+        "title": "Rutschiges Eis",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    },
+    {
+        "lat": -37.209846333620895,
+        "lng": 83.72489429824154,
+        "id": -1717560721,
+        "title": "Waichichu Lager",
+        "description": "",
+        "shape": "default",
+        "icon": "blip_mp_deliver_target",
+        "color": "lightblue"
+    }
+]
