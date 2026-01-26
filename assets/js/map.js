@@ -306,6 +306,8 @@ const MapBase = {
         Location.locations.filter(locationMarkerFilter);
       } else if (CampCollection.quickParams.indexOf(quickParam) !== -1) {
         CampCollection.locations.filter(locationMarkerFilter);
+      } else if (HospitalityCollection.quickParams.indexOf(quickParam) !== -1) {
+        HospitalityCollection.locations.filter(locationMarkerFilter);
       } else if (Shop.quickParams.indexOf(quickParam) !== -1) {
         Shop.locations.filter(locationMarkerFilter);
       } else if (Encounter.quickParams.indexOf(quickParam) !== -1) {
@@ -385,6 +387,7 @@ const MapBase = {
 
   disableAll: function (toShow = false) {
     CampCollection.locations.forEach(camp => camp.onMap = toShow);
+    HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
     CondorEgg.condorEggOnMap = toShow;
     Encounter.locations.forEach(encounter => encounter.onMap = toShow);
     GunForHire.locations.forEach(gfh => gfh.onMap = toShow);

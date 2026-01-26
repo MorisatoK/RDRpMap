@@ -1230,6 +1230,13 @@ input.input-text.pickr-userpin {
     --bs-btn-active-border-color: transparent;
 }
 
+.side-menu .collection-value .hospitality-location-btn,
+.side-menu .collection-value .hospitality-display-btn {
+    --bs-btn-active-color: #777;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+}
+
 .side-menu .collection-sell,
 .disable-collected-items,
 .collection-collect-all,

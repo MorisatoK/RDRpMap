@@ -109,12 +109,13 @@ function init() {
     const activities = Activities.init();
     const singleplayer = Singleplayer.init();
     const shops = Shops.init();
+    const hospitality = HospitalityCollection.init();
     // const gfh = GunForHire.init();
     const legendary = Legendary.init();
     // const discoverables = Discoverable.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, legendary, overlays, singleplayer, infrastructure, government, activities, shops ]);
+    return Promise.all([animals, locations, legendary, overlays, singleplayer, infrastructure, government, activities, shops, hospitality ]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -370,6 +371,7 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  HospitalityCollection.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -392,6 +394,7 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  HospitalityCollection.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -430,6 +433,7 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  HospitalityCollection.onSettingsChanged();
 
   // MadamNazar.addMadamNazar();
   Pins.loadPins();
@@ -453,6 +457,7 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Government.onSettingsChanged();
   Activities.onSettingsChanged();
   Shops.onSettingsChanged();
+  HospitalityCollection.onSettingsChanged();
   // Treasure.onSettingsChanged();
 
   Pins.loadPins();

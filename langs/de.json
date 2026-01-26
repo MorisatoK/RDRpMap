@@ -1759,5 +1759,13 @@
   "map.shops.pets.name": "Haustiere",
   "map.shops.stationery.name": "Schreibwaren",
   "map.shops.equipment.name": "Försterei & Minenbedarf",
-  "map.shops.hotel.name": "Hotel"
+  "map.shops.hotel.name": "Hotel",
+  "menu.redriver": "Red River Roleplay",
+  "menu.business": "Unternehmen",
+  "menu.hospitality": "Gastgewerbe",
+  "menu.location_btn": "Standort",
+  "menu.display_btn": "Auslage",
+  "map.hospitality.drinks.name": "Getränke",
+  "map.hospitality.saloon.name": "Saloon",
+  "map.hospitality.restaurant.name": "Restaurant"
 }

@@ -1,0 +1,48 @@
+[
+  {
+    "key": "drinks",
+    "locationIcon": "blip_donate_food",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "AGUA de RIOS", "x": -100.25, "y": 74.7578125, "type": "location"},
+      {"text": "AGUA de RIOS", "x": -100.328125, "y": 74.6875, "type": "display"},
+      {"text": "The Whispering Cup", "x": -81.7734375, "y": 154.78125, "type": "location"},
+      {"text": "The Whispering Cup", "x": -81.9296875, "y": 154.71875, "type": "display"},
+      {"text": "Zum Goldenen Tropfen", "x": -52.7109375, "y": 77.71875, "type": "location"},
+      {"text": "Zum Goldenen Tropfen", "x": -52.9921875, "y": 77.6015625, "type": "display"},
+      {"text": "Zum Nüchternen Sandkorn", "x": -84.65459041375388, "y": 85.74868887664452, "type": "location"},
+      {"text": "Zum Nüchternen Sandkorn", "x": -84.45008602816684, "y": 85.87820832084965, "type": "display"}
+    ]
+  },
+  {
+    "key": "saloon",
+    "locationIcon": "blip_saloon",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Zum Kopflosen Einhorn", "x": -82.6484375, "y": 152.1875, "type": "location"},
+      {"text": "Old Landers Saloon", "x": -55.453125, "y": 157.0625, "type": "location"},
+      {"text": "Ace und Ale", "x": -84.0859375, "y": 98.6875, "type": "location"},
+      {"text": "Muddy Taverne", "x": -51.2109375, "y": 106.5234375, "type": "location"},
+      {"text": "Saloon Blackberry", "x": -69.3515625, "y": 83.6953125, "type": "location"},
+      {"text": "Skadis Ruf", "x": -25.7265625, "y": 90.78125, "type": "location"},
+      {"text": "The Burnt Rose", "x": -84.87572782799451, "y": 132.16409375000893, "type": "location"},
+      {"text": "The Whiskey Barrel", "x": -99.5546875, "y": 89.59375, "type": "location"},
+      {"text": "Tucker Saloon", "x": -103.890625, "y": 53.765625, "type": "location"},
+      {"text": "Zum Goldenen Fass", "x": -42.59375, "y": 157.2109375, "type": "location"},
+      {"text": "The Sparkling Emerald", "x": -57.7890625, "y": 133.7734375, "type": "location"}
+    ]
+  },
+  {
+    "key": "restaurant",
+    "locationIcon": "blip_grub",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Gasthaus Nolan", "x": -70.578125, "y": 105.1171875, "type": "location"},
+      {"text": "Gasthaus Nolan", "x": -70.59375, "y": 105.5078125, "type": "display"},
+      {"text": "Moonlight Diner", "x": -76.66099424233497, "y": 153.38213497197057, "type": "location"},
+      {"text": "Moonlight Diner", "x": -76.453125, "y": 153.5078125, "type": "display"},
+      {"text": "Zum Dornröschen", "x": -88.77814941842774, "y": 95.35023326833276, "type": "location"},
+      {"text": "Zum Dornröschen", "x": -88.89818747961323, "y": 95.55029670364189, "type": "display"}
+    ]
+  }
+]

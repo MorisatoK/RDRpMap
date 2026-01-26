@@ -172,6 +172,7 @@ class Menu {
         // Encounter.locations,
         // PlantsCollection.locations,
         // CampCollection.locations,
+        HospitalityCollection.locations,
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
@@ -198,6 +199,7 @@ class Menu {
       // CondorEgg.condorEggOnMap = false;
       // Salvage.salvageOnMap = false;
       // CampCollection.onMap = false;
+      // HospitalityCollection.onMap = false;
     });
 
     document.querySelector('.menu-show-all').addEventListener('click', function () {
@@ -207,6 +209,7 @@ class Menu {
         // Encounter.locations,
         // PlantsCollection.locations,
         // CampCollection.locations,
+        HospitalityCollection.locations,
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
@@ -234,6 +237,7 @@ class Menu {
       // CondorEgg.condorEggOnMap = true;
       // Salvage.salvageOnMap = true;
       // CampCollection.onMap = true;
+      // HospitalityCollection.onMap = true;
     });
 
     // document.querySelector('.camps-small-btn').addEventListener('click', function () {
@@ -249,6 +253,18 @@ class Menu {
     //   CampCollection.isWilderness = !CampCollection.isWilderness;
     //   CampCollection.refresh();
     // });
+    
+    document.querySelector('.singleplayer-hide-btn').addEventListener('click', function () {
+      Singleplayer.locations.forEach((_singleplayer) => {
+        if (_singleplayer.onMap) _singleplayer.onMap = !_singleplayer.onMap;
+      });
+    });
+
+    document.querySelector('.singleplayer-show-btn').addEventListener('click', function () {
+      Singleplayer.locations.forEach((_singleplayer) => {
+        if (!_singleplayer.onMap) _singleplayer.onMap = !_singleplayer.onMap;
+      });
+    });
 
     document.querySelector('.infrastructure-hide-btn').addEventListener('click', function () {
       Infrastructure.locations.forEach((infra) => {
@@ -263,26 +279,59 @@ class Menu {
     });
 
     document.querySelector('.government-hide-btn').addEventListener('click', function () {
-      Government.locations.forEach((infra) => {
-        if (infra.onMap) infra.onMap = !infra.onMap;
+      Government.locations.forEach((gov) => {
+        if (gov.onMap) gov.onMap = !gov.onMap;
       });
     });
 
     document.querySelector('.government-show-btn').addEventListener('click', function () {
-      Government.locations.forEach((infra) => {
-        if (!infra.onMap) infra.onMap = !infra.onMap;
+      Government.locations.forEach((gov) => {
+        if (!gov.onMap) gov.onMap = !gov.onMap;
+      });
+    });
+
+    document.querySelector('.activities-hide-btn').addEventListener('click', function () {
+      Activities.locations.forEach((act) => {
+        if (act.onMap) act.onMap = !act.onMap;
+      });
+    });
+
+    document.querySelector('.activities-show-btn').addEventListener('click', function () {
+      Activities.locations.forEach((act) => {
+        if (!act.onMap) act.onMap = !act.onMap;
       });
     });
 
     document.querySelector('.shops-hide-btn').addEventListener('click', function () {
-      Shops.locations.forEach((infra) => {
-        if (infra.onMap) infra.onMap = !infra.onMap;
+      Shops.locations.forEach((shop) => {
+        if (shop.onMap) shop.onMap = !shop.onMap;
       });
     });
 
     document.querySelector('.shops-show-btn').addEventListener('click', function () {
-      Shops.locations.forEach((infra) => {
-        if (!infra.onMap) infra.onMap = !infra.onMap;
+      Shops.locations.forEach((shop) => {
+        if (!shop.onMap) shop.onMap = !shop.onMap;
+      });
+    });
+
+    document.querySelector('.hospitality-location-btn').addEventListener('click', function () {
+      HospitalityCollection.isLocation = !HospitalityCollection.isLocation;
+      HospitalityCollection.refresh();
+    });
+    document.querySelector('.hospitality-display-btn').addEventListener('click', function () {
+      HospitalityCollection.isDisplay = !HospitalityCollection.isDisplay;
+      HospitalityCollection.refresh();
+    });
+
+    document.querySelector('.hospitality-hide-btn').addEventListener('click', function () {
+      HospitalityCollection.locations.forEach((_hosp) => {
+        if (_hosp.onMap) _hosp.onMap = !_hosp.onMap;
+      });
+    });
+
+    document.querySelector('.hospitality-show-btn').addEventListener('click', function () {
+      HospitalityCollection.locations.forEach((_hosp) => {
+        if (!_hosp.onMap) _hosp.onMap = !_hosp.onMap;
       });
     });
 
@@ -359,18 +408,6 @@ class Menu {
     //     if (!_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
     //   });
     // });
-
-    document.querySelector('.singleplayer-hide-btn').addEventListener('click', function () {
-      Singleplayer.locations.forEach((_singleplayer) => {
-        if (_singleplayer.onMap) _singleplayer.onMap = !_singleplayer.onMap;
-      });
-    });
-
-    document.querySelector('.singleplayer-show-btn').addEventListener('click', function () {
-      Singleplayer.locations.forEach((_singleplayer) => {
-        if (!_singleplayer.onMap) _singleplayer.onMap = !_singleplayer.onMap;
-      });
-    });
 
     document.addEventListener('keydown', (event) => {
       if (event.ctrlKey && event.key === ' ') {
