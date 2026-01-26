@@ -171,8 +171,8 @@ Object.entries({
   showTooltipsMap: { default: true },
   // showDailies: { default: false },
   showCustomizationSettings: { default: true },
-  legendarySpawnIconType: { default: 'head' },
-  legendarySpawnIconSize: { default: 1 },
+  // legendarySpawnIconType: { default: 'head' },
+  // legendarySpawnIconSize: { default: 1 },
 }).forEach(([name, config]) => SettingProxy.addSetting(Settings, name, config));
 
 // Completed daily challenges settings (file dailies.js)

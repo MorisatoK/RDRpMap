@@ -152,7 +152,7 @@ const MapBase = {
 
       Discoverable.updateLayers();
       Overlay.onSettingsChanged();
-      Legendary.onSettingsChanged();
+      // Legendary.onSettingsChanged();
     });
 
     MapBase.map.on('click', function (e) {
@@ -323,12 +323,12 @@ const MapBase = {
             animal.isEnabled = true;
           });
         });
-      } else if (Legendary.quickParams.indexOf(quickParam) !== -1) {
-        Legendary.animals.filter(item => {
-          if (item.text !== quickParam) return;
-          item.onMap = true;
-          MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
-        });
+      // } else if (Legendary.quickParams.indexOf(quickParam) !== -1) {
+      //   Legendary.animals.filter(item => {
+      //     if (item.text !== quickParam) return;
+      //     item.onMap = true;
+      //     MapBase.map.setView({ lat: item.x, lng: item.y }, 5);
+      //   });
       } else if (PlantsCollection.quickParams.indexOf(quickParam) !== -1) {
         Plants.onMap = true;
         PlantsCollection.locations.filter(item => {
@@ -386,17 +386,17 @@ const MapBase = {
   },
 
   disableAll: function (toShow = false) {
-    CampCollection.locations.forEach(camp => camp.onMap = toShow);
+    // CampCollection.locations.forEach(camp => camp.onMap = toShow);
     HospitalityCollection.locations.forEach(hosp => hosp.onMap = toShow);
-    CondorEgg.condorEggOnMap = toShow;
-    Encounter.locations.forEach(encounter => encounter.onMap = toShow);
-    GunForHire.locations.forEach(gfh => gfh.onMap = toShow);
+    // CondorEgg.condorEggOnMap = toShow;
+    // Encounter.locations.forEach(encounter => encounter.onMap = toShow);
+    // GunForHire.locations.forEach(gfh => gfh.onMap = toShow);
     Location.locations.forEach(location => location.onMap = toShow);
-    Legendary.animals.forEach(animal => animal.onMap = toShow);
-    MadamNazar.onMap = toShow;
-    Salvage.salvageOnMap = toShow;
-    Shop.locations.forEach(shop => shop.onMap = toShow);
-    PlantsCollection.locations.forEach(plants => plants.onMap = toShow);
+    // Legendary.animals.forEach(animal => animal.onMap = toShow);
+    // MadamNazar.onMap = toShow;
+    // Salvage.salvageOnMap = toShow;
+    // Shop.locations.forEach(shop => shop.onMap = toShow);
+    // PlantsCollection.locations.forEach(plants => plants.onMap = toShow);
     Singleplayer.locations.forEach(sp => sp.onMap = toShow);
   },
 

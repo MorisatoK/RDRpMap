@@ -2794,7 +2794,7 @@ span.daily-checkbox {
 
 /* end dark mode styling */
 
-#legendary-accordion .accordion-item:first-child {
+/* #legendary-accordion .accordion-item:first-child {
     filter: brightness(2);
 }
 
@@ -2822,11 +2822,11 @@ span.daily-checkbox {
 
 .legendary-properties p {
     max-width: 60%;
-}
+}*/
 
 /*Legendary animals popup text color*/
 
-.legendary-spawn-time,
+/*.legendary-spawn-time,
 .legendary-preferred-weather {
     color: #5de033;
 }
@@ -2864,7 +2864,7 @@ span.daily-checkbox {
     -ms-user-select: none;
     -khtml-user-select: none;
     user-select: none;
-}
+} */
 
 button.full-popup-width,
 button.reload-nazar {

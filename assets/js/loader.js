@@ -59,7 +59,7 @@ class Loader {
 
 const urls = [
   'data/lang_progress.json',
-  'data/animal_legendary.json',
+  // 'data/animal_legendary.json',
   'data/animal_spawns.json',
   //'data/camps.json',
   //'data/fme_condor_egg.json',
