@@ -66,5 +66,33 @@
       {"text": "Garderobe", "x": -86.328125, "y": 147.296875},
       {"text": "Garderobe", "x": -104.3671875, "y": 54.4921875}
     ]
+  },
+  {
+    "key": "stable",
+    "icon": "blip_stable",
+    "locations": [
+      {"text": "Evergreen Ranch", "x": -85.4296875, "y": 86.4765625},
+      {"text": "Annesburg Stall", "x": -41.4453125, "y": 157.4609375},
+      {"text": "Armadillo Stall", "x": -103.53867609980048, "y": 53.86066825781063},
+      {"text": "Blackwater Stall", "x": -84.80879043174424, "y": 97.6941038951308},
+      {"text": "Calliga Hall", "x": -84.85683285600726, "y": 140.22870685650568},
+      {"text": "Cholla Springs Ranch", "x": -105.1585411162593, "y": 36.22714677204466},
+      {"text": "Dunkelhain Ranch", "x": -22.015625, "y": 102.96875},
+      {"text": "Emerald Stall", "x": -58.1796875, "y": 132.859375},
+      {"text": "Lavendel Ranch Stall", "x": -57.328125, "y": 71.671875},
+      {"text": "MacFarlane's Stall", "x": -100.75, "y": 73.671875},
+      {"text": "Mine Tumbleweed Stall", "x": -114.0390625, "y": 17.9453125},
+      {"text": "Dunkelhain Stall", "x": -26.3984375, "y": 90.6015625},
+      {"text": "Oil Fields Ranch Stall", "x": -50.0390625, "y": 123.34375},
+      {"text": "Rhodes Stall", "x": -83.7421875, "y": 133.4296875},
+      {"text": "St. Denis Stall", "x": -86.2109375, "y": 150.25},
+      {"text": "Valentine Stall", "x": -51.296875, "y": 105.6328125},
+      {"text": "Strawberry Stall", "x": -70.4375, "y": 83.6875},
+      {"text": "Tumbleweed Stall", "x": -110.8671875, "y": 25.4921875},
+      {"text": "Valentine Ranch", "x": -58.5546875, "y": 98.1640625},
+      {"text": "Van Horn Ranch", "x": -51.296875, "y": 157.2109375},
+      {"text": "Wapiti Stall", "x": -28.965810089974937, "y": 117.80710450509245},
+      {"text": "Guarma Stall", "x": -69.66702572782357, "y": 32.44810040188112}
+    ]
   }
 ]

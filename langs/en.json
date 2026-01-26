@@ -1824,5 +1824,6 @@
   "map.infrastructure.balloonrental.name": "Ballon Rental",
   "map.infrastructure.boats.name": "Boat Dealer",
   "map.infrastructure.bank.name": "Bank",
-  "map.infrastructure.wardrobe.name": "Wardrobe"
+  "map.infrastructure.wardrobe.name": "Wardrobe",
+  "map.infrastructure.stable.name": "Stable"
 }
