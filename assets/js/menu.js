@@ -175,6 +175,9 @@ class Menu {
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
+        Infrastructure.locations,
+        Government.locations,
+        Activities.locations,
       ];
 
       collections
@@ -206,6 +209,9 @@ class Menu {
         Location.locations,
         Legendary.animals,
         Singleplayer.locations,
+        Infrastructure.locations,
+        Government.locations,
+        Activities.locations,
       ];
 
       collections
