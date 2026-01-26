@@ -41,18 +41,18 @@ class Location {
   reinitMarker() {
     this.layer.clearLayers();
     this.markers.forEach(marker => {
-      const shadow = Settings.isShadowsEnabled ?
-        `<img class="shadow" width="${35 * Settings.markerSize}" height="${16 * Settings.markerSize}" src="./assets/images/markers-shadow.png" alt="Shadow">` : '';
+      //const shadow = Settings.isShadowsEnabled ?
+      //  `<img class="shadow" width="${35 * Settings.markerSize}" height="${16 * Settings.markerSize}" src="./assets/images/markers-shadow.png" alt="Shadow">` : '';
+      const boxPx = 35 * Settings.markerSize;
       const tempMarker = L.marker([marker.lat, marker.lng], {
         opacity: Settings.markerOpacity,
         icon: new L.DivIcon.DataMarkup({
-          iconSize: [35 * Settings.markerSize, 45 * Settings.markerSize],
-          iconAnchor: [17 * Settings.markerSize, 42 * Settings.markerSize],
-          popupAnchor: [1 * Settings.markerSize, -29 * Settings.markerSize],
-          html: `<div>
-            <img class="icon" src="assets/images/icons/${this.key}.png" alt="Icon">
-            <img class="background" src="assets/images/icons/marker_${MapBase.colorOverride || this.color}.png" alt="Background">
-            ${shadow}
+          iconSize: [boxPx, boxPx],
+          iconAnchor: [boxPx / 2, boxPx / 2],
+          popupAnchor: [0, -boxPx / 2],
+          html: `<div class="pin-icon-only">
+            <span class="pin-icon-only__shadow" aria-hidden="true"></span>
+            <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${this.icon ? this.icon : this.key}.png')" aria-hidden="true"></span>
           </div>`,
           marker: this.key,
           tippy: marker.title,
