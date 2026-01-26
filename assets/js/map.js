@@ -150,7 +150,6 @@ const MapBase = {
       Settings.baseLayer = e.name;
       MapBase.setMapBackground();
 
-      Discoverable.updateLayers();
       Overlay.onSettingsChanged();
       // Legendary.onSettingsChanged();
     });

@@ -377,18 +377,6 @@ class Menu {
     //   });
     // });
 
-    // document.querySelector('.discoverables-hide-btn').addEventListener('click', function () {
-    //   Discoverable.locations.forEach((_discoveable) => {
-    //     if (_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
-    //   });
-    // });
-
-    // document.querySelector('.discoverables-show-btn').addEventListener('click', function () {
-    //   Discoverable.locations.forEach((_discoveable) => {
-    //     if (!_discoveable.onMap) _discoveable.onMap = !_discoveable.onMap;
-    //   });
-    // });
-
     document.addEventListener('keydown', (event) => {
       if (event.ctrlKey && event.key === ' ') {
         document.querySelector('.menu-toggle').click();

@@ -61,7 +61,6 @@ const urls = [
   // 'data/animal_legendary.json',
   'data/animal_spawns.json',
   //'data/camps.json',
-  'data/discoverables.json',
   //'data/encounters.json',
   //'data/fasttravels.json',
   'data/hm.json',

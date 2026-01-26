@@ -103,7 +103,6 @@ function init() {
     const shops = Shops.init();
     const hospitality = HospitalityCollection.init();
     // const legendary = Legendary.init();
-    // const discoverables = Discoverable.init();
     const overlays = Overlay.init();
 
     return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, hospitality ]);
@@ -377,7 +376,6 @@ document.getElementById('overlay-opacity').addEventListener('change', function (
   Settings.overlayOpacity = Number(this.value);
   // Legendary.onSettingsChanged();
   Overlay.onSettingsChanged();
-  Discoverable.updateLayers();
 });
 
 document.getElementById('tooltip').addEventListener('change', function () {
