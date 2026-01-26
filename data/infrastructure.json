@@ -140,5 +140,16 @@
       {"text": "Wapiti Fleischer", "x": -28.8429221267731, "y": 118.19252584422549},
       {"text": "Guarma Fleischer", "x": -64.97355877028043, "y": 28.905329089451882}
     ]
+  },
+  {
+    "key": "fishprocessor",
+    "icon": "blip_shop_butcher",
+    "locations": [
+      {"text": "Fischverarbeiter", "x": -27.09375, "y": 89.90625},
+      {"text": "Fischverarbeiter", "x": -55.59295768881721, "y": 157.7306369362039},
+      {"text": "Fischverarbeiter", "x": -83.46719603150932, "y": 131.4294732424477},
+      {"text": "Fischverarbeiter", "x": -84.94855914635431, "y": 99.4557046953748},
+      {"text": "Fischverarbeiter", "x": -104.371019633376, "y": 54.77139162964256}
+    ]
   }
 ]

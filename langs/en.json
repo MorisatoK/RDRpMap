@@ -1827,5 +1827,6 @@
   "map.infrastructure.wardrobe.name": "Wardrobe",
   "map.infrastructure.stable.name": "Stable",
   "map.infrastructure.telegram.name": "Telegram Station",
-  "map.infrastructure.butcher.name": "Butcher"
+  "map.infrastructure.butcher.name": "Butcher",
+  "map.infrastructure.fishprocessor.name": "Fish Processor"
 }

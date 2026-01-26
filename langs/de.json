@@ -1748,5 +1748,6 @@
   "map.infrastructure.wardrobe.name": "Garderobe",
   "map.infrastructure.stable.name": "Stall",
   "map.infrastructure.telegram.name": "Telegrammstation",
-  "map.infrastructure.butcher.name": "Fleischer"
+  "map.infrastructure.butcher.name": "Fleischer",
+  "map.infrastructure.fishprocessor.name": "Fischverarbeiter"
 }
