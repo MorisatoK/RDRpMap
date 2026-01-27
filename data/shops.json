@@ -155,5 +155,28 @@
       {"text": "Hotelzimmer", "x": -82.6640625, "y": 152.25},
       {"text": "Hotelzimmer", "x": -51.6875, "y": 106.2734375}
     ]
+  },
+  {
+    "key": "variety",
+    "icon": "blip_shop_store",
+    "locations": [
+      {"text": "Warenhandel", "x": -51.1015625, "y": 106.2734375},
+      {"text": "Warenhandel", "x": -42.40625, "y": 156.734375},
+      {"text": "Warenhandel", "x": -56.2265625, "y": 157.1640625},
+      {"text": "Warenhandel", "x": -83.6953125, "y": 131.953125},
+      {"text": "Warenhandel", "x": -69.67716820253831, "y": 83.36750544543814},
+      {"text": "Warenhandel", "x": -84.1640625, "y": 99.0625},
+      {"text": "Warenhandel", "x": -84.0546875, "y": 155.1484375},
+      {"text": "Warenhandel", "x": -104.1953125, "y": 55.2421875},
+      {"text": "Warenhandel", "x": -109.15625, "y": 26.1484375}
+    ]
+  },
+  {
+    "key": "pigeon",
+    "icon": "blip_shop_market_stall",
+    "locations": [
+      {"text": "Brieftaubenzucht", "x": -81.5859375, "y": 153.5390625},
+      {"text": "Brieftaubenzucht", "x": -103.7421875, "y": 54.5703125}
+    ]
   }
 ]

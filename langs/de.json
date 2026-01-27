@@ -668,6 +668,8 @@
   "map.shops.stationery.name": "Schreibwaren",
   "map.shops.equipment.name": "Försterei & Minenbedarf",
   "map.shops.hotel.name": "Hotel",
+  "map.shops.variety.name": "Gemischtwaren",
+  "map.shops.pigeon.name": "Brieftaubenzucht",
   "menu.businesses": "Unternehmen",
   "menu.location_btn": "Standort",
   "menu.display_btn": "Auslage",
