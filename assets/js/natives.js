@@ -78,7 +78,7 @@ class Natives {
     NativesCollection.markers.forEach(marker => NativesCollection.layer.addLayer(marker));
 
     if (!MapBase.isPreviewMode) {
-      state ? localStorage.setItem(`rdo.${this.key}`, 'true') : localStorage.removeItem(`rdo.${this.key}`);
+      state ? localStorage.setItem(`rdrp.${this.key}`, 'true') : localStorage.removeItem(`rdrp.${this.key}`);
     }
 
     NativesCollection.setMenuState(state);
@@ -87,7 +87,7 @@ class Natives {
   }
 
   get onMap() {
-    return !!localStorage.getItem(`rdo.${this.key}`);
+    return !!localStorage.getItem(`rdrp.${this.key}`);
   }
 }
 
@@ -141,7 +141,7 @@ class NativesCollection {
       this.layer.remove();
     }
 
-    if (!MapBase.isPreviewMode) localStorage.setItem('rdo.natives', JSON.stringify(state));
+    if (!MapBase.isPreviewMode) localStorage.setItem('rdrp.natives', JSON.stringify(state));
 
     NativesCollection.locations.forEach((_loc) => {
       if (_loc.onMap) _loc.onMap = state;
@@ -151,7 +151,7 @@ class NativesCollection {
   }
   
   static get onMap() {
-      const value = JSON.parse(localStorage.getItem('rdo.natives'));
+      const value = JSON.parse(localStorage.getItem('rdrp.natives'));
       return value || value == null;
   }
 }

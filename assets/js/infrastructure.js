@@ -87,18 +87,21 @@ class Infrastructure {
       this.layer.addTo(MapBase.map);
       this.element.querySelector('span').classList.remove('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.setItem(`rdo.${this.key}`, 'true');
+        localStorage.setItem(`rdrp.${this.key}`, 'true');
     } else {
       this.layer.remove();
       this.element.querySelector('span').classList.add('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.removeItem(`rdo.${this.key}`);
+        localStorage.setItem(`rdrp.${this.key}`, 'false');
     }
     MapBase.updateTippy('infrastructure');
   }
 
   get onMap() {
-    return !!localStorage.getItem(`rdo.${this.key}`);
+    const value = localStorage.getItem(`rdrp.${this.key}`);
+    if (value === 'false') return false;
+    if (value === null && !MapBase.isPreviewMode) localStorage.setItem(`rdrp.${this.key}`, 'true');
+    return true;
   }
 
   static onLanguageChanged() {

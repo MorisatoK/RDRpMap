@@ -77,18 +77,18 @@ class Religion {
       this.layer.addTo(MapBase.map);
       this.element.classList.remove('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.setItem(`rdo.religion`, 'true');
+        localStorage.setItem(`rdrp.religion`, 'true');
     } else {
       this.layer.remove();
       this.element.classList.add('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.setItem(`rdo.religion`, 'false');
+        localStorage.setItem(`rdrp.religion`, 'false');
     }
     MapBase.updateTippy('religion');
   }
 
   get onMap() {
-    const value = JSON.parse(localStorage.getItem(`rdo.religion`));
+    const value = JSON.parse(localStorage.getItem(`rdrp.religion`));
     return value || (value == null && !this.disabled);
   }
 

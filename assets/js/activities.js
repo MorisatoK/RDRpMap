@@ -79,17 +79,17 @@ class Activities {
       this.layer.addTo(MapBase.map);
       this.element.querySelector('span').classList.remove('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.setItem(`rdo.${this.key}`, 'true');
+        localStorage.setItem(`rdrp.${this.key}`, 'true');
     } else {
       this.layer.remove();
       this.element.querySelector('span').classList.add('disabled');
       if (!MapBase.isPreviewMode)
-        localStorage.removeItem(`rdo.${this.key}`);
+        localStorage.removeItem(`rdrp.${this.key}`);
     }
     MapBase.updateTippy('activities');
   }
   get onMap() {
-    return !!localStorage.getItem(`rdo.${this.key}`);
+    return !!localStorage.getItem(`rdrp.${this.key}`);
   }
 
   static onLanguageChanged() {

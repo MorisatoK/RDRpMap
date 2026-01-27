@@ -92,7 +92,7 @@ class Healthcare {
     HealthcareCollection.markers.forEach(marker => HealthcareCollection.layer.addLayer(marker));
 
     if (!MapBase.isPreviewMode) {
-      state ? localStorage.setItem(`rdo.${this.key}`, 'true') : localStorage.removeItem(`rdo.${this.key}`);
+      state ? localStorage.setItem(`rdrp.${this.key}`, 'true') : localStorage.setItem(`rdrp.${this.key}`, 'false');
     }
     this.element.querySelector('span').classList.toggle('disabled', !state);
 
@@ -100,7 +100,10 @@ class Healthcare {
   }
 
   get onMap() {
-    return !!localStorage.getItem(`rdo.${this.key}`);
+    const value = localStorage.getItem(`rdrp.${this.key}`);
+    if (value === 'false') return false;
+    if (value === null && !MapBase.isPreviewMode) localStorage.setItem(`rdrp.${this.key}`, 'true');
+    return true;
   }
 }
 
@@ -153,7 +156,7 @@ class HealthcareCollection {
     }
     this.context.classList.toggle('disabled', !state);
 
-    if (!MapBase.isPreviewMode) localStorage.setItem('rdo.healthcare', JSON.stringify(state));
+    if (!MapBase.isPreviewMode) localStorage.setItem('rdrp.healthcare', JSON.stringify(state));
 
     HealthcareCollection.locations.forEach((_hosp) => {
       if (_hosp.onMap) _hosp.onMap = state;
@@ -163,7 +166,7 @@ class HealthcareCollection {
   }
   
   static get onMap() {
-      const value = JSON.parse(localStorage.getItem('rdo.healthcare'));
+      const value = JSON.parse(localStorage.getItem('rdrp.healthcare'));
       return value || value == null;
   }
 }

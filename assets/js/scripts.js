@@ -63,14 +63,6 @@ function init() {
   if (['ja', 'ko', 'zh-Hans', 'zh-Hant'].includes(Settings.language))
     MapBase.setFallbackFonts();
 
-  //Convert old settings if any
-  Object.keys(localStorage).forEach(key => {
-    if (key.startsWith('rdo:')) {
-      localStorage.setItem(`rdo.${key.split(':')[1]}`, localStorage.getItem(key));
-      localStorage.removeItem(key);
-    }
-  });
-
   Menu.init();
   MapBase.init();
 
@@ -226,7 +218,7 @@ const scrollerArrowTop = document.querySelector('.scroller-arrow-tp');
 const scrollerLineBottom = document.querySelector('.scroller-line-bt');
 const scrollerArrowBottom = document.querySelector('.scroller-arrow-bt');
 const backToTop = document.getElementById('back-to-top');
-const draggableBackToTop = draggify(backToTop, { storageKey: 'rdo.backToTopPosition' });
+const draggableBackToTop = draggify(backToTop, { storageKey: 'rdrp.backToTopPosition' });
 let wasAtTop = true;
 let wasAtBottom = false;
 let lastScrollY = sideMenu.scrollTop;
@@ -458,7 +450,7 @@ document.addEventListener('contextmenu', function (e) {
 
 document.getElementById('delete-all-settings').addEventListener('click', function () {
   for (const key in localStorage) {
-    if (key.startsWith('rdo.'))
+    if (key.startsWith('rdrp.'))
       localStorage.removeItem(key);
   }
 
@@ -545,13 +537,13 @@ document.getElementById('cookie-export').addEventListener('click', function () {
     // Remove irrelevant properties (from COPY of localStorage, only to do not export them):
     storage = Object.assign({}, localStorage);
     delete storage['pinned-items'];
-    delete storage['rdo.pinned-items'];
+    delete storage['rdrp.pinned-items'];
     delete storage['routes.customRoute'];
     delete storage['importantItems'];
     delete storage['enabled-categories'];
 
     for (var key in storage) {
-      if (!key.startsWith('rdo.')) {
+      if (!key.startsWith('rdrp.')) {
         delete storage[key];
       }
     }
