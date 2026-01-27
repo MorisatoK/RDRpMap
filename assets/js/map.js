@@ -304,6 +304,8 @@ const MapBase = {
         Infrastructure.locations.filter(locationMarkerFilter);
       } else if (Entertainment.quickParams.indexOf(quickParam) !== -1) {
         Entertainment.locations.filter(locationMarkerFilter);
+      } else if (Religion.quickParams.indexOf(quickParam) !== -1) {
+        Religion.locations.filter(locationMarkerFilter);
       } else if (AnimalCollection.quickParams.indexOf(quickParam) !== -1) {
         AnimalCollection.collection.filter(collection => {
           collection.animals.filter(animal => {

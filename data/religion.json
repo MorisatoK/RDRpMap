@@ -1,0 +1,13 @@
+[
+  {
+    "key": "theatre",
+    "icon": "blip_ambient_theatre",
+    "locations": [
+      {"text": "Blackwater Kirche", "x": -82.0625, "y": 96.1640625},
+      {"text": "Valentine Kirche", "x": -51.1796875, "y": 107.8828125},
+      {"text": "Van Horn Kirche", "x": -56.0234375, "y": 156.21875},
+      {"text": "Valentine Kirche", "x": -51.2109375, "y": 107.4140625, "icon": "blip_decision"},
+      {"text": "Rhodes Kirche", "x": -82.59375, "y": 131.3203125}
+    ]
+  }
+]

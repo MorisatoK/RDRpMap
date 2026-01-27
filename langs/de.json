@@ -718,5 +718,6 @@
   "map.entertainment.theatre.name": "Theater",
   "map.entertainment.opera.name": "Opernhaus",
   "map.entertainment.cinema.name": "Kino",
-  "map.entertainment.casino.name": "Casino"
+  "map.entertainment.casino.name": "Casino",
+  "menu.religion": "Religion"
 }
