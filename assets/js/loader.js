@@ -67,6 +67,7 @@ const urls = [
   'data/entertainment.json',
   'data/religion.json',
   'data/businesses.json',
+  'data/natives.json',
   'data/healthcare.json',
   'data/singleplayer.json',
 ];

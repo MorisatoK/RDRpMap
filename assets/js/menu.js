@@ -168,6 +168,7 @@ class Menu {
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
         BusinessCollection.locations,
+        NativesCollection.locations,
         HealthcareCollection.locations,
         Location.locations,
         Singleplayer.locations,
@@ -196,6 +197,7 @@ class Menu {
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
         BusinessCollection.locations,
+        NativesCollection.locations,
         HealthcareCollection.locations,
         Location.locations,
         Singleplayer.locations,
@@ -319,6 +321,27 @@ class Menu {
     document.querySelector('.businesses-show-btn').addEventListener('click', function () {
       BusinessCollection.locations.forEach((_hosp) => {
         if (!_hosp.onMap) _hosp.onMap = !_hosp.onMap;
+      });
+    });
+
+    document.querySelector('.natives-location-btn').addEventListener('click', function () {
+      NativesCollection.isLocation = !NativesCollection.isLocation;
+      NativesCollection.refresh();
+    });
+    document.querySelector('.natives-display-btn').addEventListener('click', function () {
+      NativesCollection.isDisplay = !NativesCollection.isDisplay;
+      NativesCollection.refresh();
+    });
+
+    document.querySelector('.natives-hide-btn').addEventListener('click', function () {
+      NativesCollection.locations.forEach((_nat) => {
+        if (_nat.onMap) _nat.onMap = !_nat.onMap;
+      });
+    });
+
+    document.querySelector('.natives-show-btn').addEventListener('click', function () {
+      NativesCollection.locations.forEach((_nat) => {
+        if (!_nat.onMap) _nat.onMap = !_nat.onMap;
       });
     });
 

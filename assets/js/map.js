@@ -296,6 +296,8 @@ const MapBase = {
         Location.locations.filter(locationMarkerFilter);
       } else if (BusinessCollection.quickParams.indexOf(quickParam) !== -1) {
         BusinessCollection.locations.filter(locationMarkerFilter);
+      } else if (NativesCollection.quickParams.indexOf(quickParam) !== -1) {
+        NativesCollection.locations.filter(locationMarkerFilter);
       } else if (HealthcareCollection.quickParams.indexOf(quickParam) !== -1) {
         HealthcareCollection.locations.filter(locationMarkerFilter);
       } else if (Singleplayer.quickParams.indexOf(quickParam) !== -1) {

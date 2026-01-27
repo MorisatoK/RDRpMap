@@ -92,10 +92,11 @@ function init() {
     const shops = Shops.init();
     const plants = Plants.init();
     const businesses = BusinessCollection.init();
+    const natives = NativesCollection.init();
     const healthcare = HealthcareCollection.init();
     const overlays = Overlay.init();
 
-    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, plants, businesses, healthcare, entertainment, religion ]);
+    return Promise.all([animals, locations, overlays, singleplayer, infrastructure, government, activities, shops, plants, businesses, healthcare, entertainment, religion, natives ]);
   }).then(() => {
     Loader.resolveMapModelLoaded();
     MapBase.afterLoad();
@@ -314,6 +315,7 @@ document.getElementById('marker-size').addEventListener('change', function () {
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
   BusinessCollection.onSettingsChanged();
+  NativesCollection.onSettingsChanged();
   HealthcareCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -332,6 +334,7 @@ document.getElementById('marker-opacity').addEventListener('change', function ()
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
   BusinessCollection.onSettingsChanged();
+  NativesCollection.onSettingsChanged();
   HealthcareCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -367,6 +370,7 @@ document.getElementById('marker-cluster').addEventListener('change', function ()
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
   BusinessCollection.onSettingsChanged();
+  NativesCollection.onSettingsChanged();
   HealthcareCollection.onSettingsChanged();
 
   Pins.loadPins();
@@ -389,6 +393,7 @@ document.getElementById('enable-marker-shadows').addEventListener('change', func
   Shops.onSettingsChanged();
   Plants.onSettingsChanged();
   BusinessCollection.onSettingsChanged();
+  NativesCollection.onSettingsChanged();
   HealthcareCollection.onSettingsChanged();
 
   Pins.loadPins();
