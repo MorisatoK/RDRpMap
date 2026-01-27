@@ -1,20 +1,20 @@
-class Business {
+class Healthcare {
   constructor(preliminary) {
     Object.assign(this, preliminary);
 
     this.element = document.createElement('div');
     this.element.className = 'collectible-wrapper';
-    Object.assign(this.element.dataset, { help: 'item', type: this.key, tippyContent: Language.get(`map.businesses.${this.key}.name`) });
+    Object.assign(this.element.dataset, { help: 'item', type: this.key, tippyContent: Language.get(`map.healthcare.${this.key}.name`) });
     this.element.innerHTML = `
       <img class="collectible-icon" src="./assets/images/icons/${this.locationIcon}.png">
       <span class="collectible-text ${!this.onMap ? 'disabled' : ''}">
-        <p class="collectible" data-text="map.businesses.${this.key}.name"></p>
+        <p class="collectible" data-text="map.healthcare.${this.key}.name"></p>
       </span>
     `;
     this.element.addEventListener('click', () => this.onMap = !this.onMap);
     Language.translateDom(this.element);
 
-    BusinessCollection.context.appendChild(this.element);
+    HealthcareCollection.context.appendChild(this.element);
 
     this.onLanguageChanged();
 
@@ -26,7 +26,7 @@ class Business {
   onLanguageChanged() {
     this.dataMarkers = [];
     this.locations.forEach((item) => {
-      const marker = new Marker(item.text, item.x, item.y, 'businesses', this.key, item.type);
+      const marker = new Marker(item.text, item.x, item.y, 'healthcare', this.key, item.type);
       marker.type = item.type;
       marker.locationIcon = item.locationIcon;
       marker.displayIcon = item.displayIcon;
@@ -41,8 +41,8 @@ class Business {
     const boxPx = 35 * Settings.markerSize;
 
     this.dataMarkers.forEach((marker) => {
-      if (!BusinessCollection.isLocation && marker.type === 'location') return;
-      if (!BusinessCollection.isDisplay && marker.type === 'display') return;
+      if (!HealthcareCollection.isLocation && marker.type === 'location') return;
+      if (!HealthcareCollection.isDisplay && marker.type === 'display') return;
 
       const tempMarker = L.marker([marker.lat, marker.lng], {
         opacity: Settings.markerOpacity,
@@ -75,28 +75,28 @@ class Business {
   }
 
   set onMap(state) {
-    if (!MapBase.isPreviewMode && !BusinessCollection.onMap) return false;
+    if (!MapBase.isPreviewMode && !HealthcareCollection.onMap) return false;
     
     if (state) {
-      if (!BusinessCollection.enabledCategories.includes(this.key)) {
-        BusinessCollection.markers = BusinessCollection.markers.concat(this.markers);
-        BusinessCollection.enabledCategories.push(this.key);
+      if (!HealthcareCollection.enabledCategories.includes(this.key)) {
+        HealthcareCollection.markers = HealthcareCollection.markers.concat(this.markers);
+        HealthcareCollection.enabledCategories.push(this.key);
       }
     } else {
-      BusinessCollection.markers = BusinessCollection.markers.filter((el) => !this.markers.includes(el));
-      BusinessCollection.enabledCategories = BusinessCollection.enabledCategories.filter((el) => el !== this.key);
+      HealthcareCollection.markers = HealthcareCollection.markers.filter((el) => !this.markers.includes(el));
+      HealthcareCollection.enabledCategories = HealthcareCollection.enabledCategories.filter((el) => el !== this.key);
       MapBase.map.closePopup();
     }
 
-    BusinessCollection.layer.clearLayers();
-    BusinessCollection.markers.forEach(marker => BusinessCollection.layer.addLayer(marker));
+    HealthcareCollection.layer.clearLayers();
+    HealthcareCollection.markers.forEach(marker => HealthcareCollection.layer.addLayer(marker));
 
     if (!MapBase.isPreviewMode) {
       state ? localStorage.setItem(`rdo.${this.key}`, 'true') : localStorage.removeItem(`rdo.${this.key}`);
     }
     this.element.querySelector('span').classList.toggle('disabled', !state);
 
-    MapBase.updateTippy('businesses');
+    MapBase.updateTippy('healthcare');
   }
 
   get onMap() {
@@ -104,7 +104,7 @@ class Business {
   }
 }
 
-class BusinessCollection {
+class HealthcareCollection {
   static init() {
     this.isLocation = true;
     this.isDisplay = true;
@@ -113,23 +113,23 @@ class BusinessCollection {
     this.markers = [];
     this.quickParams = [];
 
-    BusinessCollection.layer.addTo(MapBase.map);
+    HealthcareCollection.layer.addTo(MapBase.map);
 
     this.locations = [];
-    this.context = document.querySelector('.menu-hidden[data-type=businesses]');
+    this.context = document.querySelector('.menu-hidden[data-type=healthcare]');
 
-    return Loader.promises['businesses'].consumeJson((data) => {
+    return Loader.promises['healthcare'].consumeJson((data) => {
       data.forEach((item) => {
-        this.locations.push(new Business(item));
+        this.locations.push(new Healthcare(item));
         this.quickParams.push(item.key);
       });
-      console.info('%c[Businesses] Loaded!', 'color: #bada55; background: #242424');
+      console.info('%c[Healthcare] Loaded!', 'color: #bada55; background: #242424');
       Menu.reorderMenu(this.context);
     });
   }
 
   static onLanguageChanged() {
-    BusinessCollection.locations.forEach(hosp => hosp.onLanguageChanged());
+    HealthcareCollection.locations.forEach(hosp => hosp.onLanguageChanged());
     Menu.reorderMenu(this.context);
   }
 
@@ -142,7 +142,7 @@ class BusinessCollection {
     
     this.layer.clearLayers();
     this.markers.forEach(marker => this.layer.addLayer(marker));
-    MapBase.updateTippy('businesses');
+    MapBase.updateTippy('healthcare');
   }
 
   static set onMap(state) {
@@ -153,17 +153,17 @@ class BusinessCollection {
     }
     this.context.classList.toggle('disabled', !state);
 
-    if (!MapBase.isPreviewMode) localStorage.setItem('rdo.businesses', JSON.stringify(state));
+    if (!MapBase.isPreviewMode) localStorage.setItem('rdo.healthcare', JSON.stringify(state));
 
-    BusinessCollection.locations.forEach((_hosp) => {
+    HealthcareCollection.locations.forEach((_hosp) => {
       if (_hosp.onMap) _hosp.onMap = state;
     });
 
-    MapBase.updateTippy('businesses');
+    MapBase.updateTippy('healthcare');
   }
   
   static get onMap() {
-      const value = JSON.parse(localStorage.getItem('rdo.businesses'));
+      const value = JSON.parse(localStorage.getItem('rdo.healthcare'));
       return value || value == null;
   }
 }

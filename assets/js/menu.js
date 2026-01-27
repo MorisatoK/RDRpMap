@@ -168,6 +168,7 @@ class Menu {
     document.querySelector('.menu-hide-all').addEventListener('click', function () {
       const collections = [
         BusinessCollection.locations,
+        HealthcareCollection.locations,
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
@@ -193,6 +194,7 @@ class Menu {
     document.querySelector('.menu-show-all').addEventListener('click', function () {
       const collections = [
         BusinessCollection.locations,
+        HealthcareCollection.locations,
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
@@ -301,6 +303,27 @@ class Menu {
     document.querySelector('.businesses-show-btn').addEventListener('click', function () {
       BusinessCollection.locations.forEach((_hosp) => {
         if (!_hosp.onMap) _hosp.onMap = !_hosp.onMap;
+      });
+    });
+
+    document.querySelector('.healthcare-location-btn').addEventListener('click', function () {
+      HealthcareCollection.isLocation = !HealthcareCollection.isLocation;
+      HealthcareCollection.refresh();
+    });
+    document.querySelector('.healthcare-display-btn').addEventListener('click', function () {
+      HealthcareCollection.isDisplay = !HealthcareCollection.isDisplay;
+      HealthcareCollection.refresh();
+    });
+
+    document.querySelector('.healthcare-hide-btn').addEventListener('click', function () {
+      HealthcareCollection.locations.forEach((health) => {
+        if (health.onMap) health.onMap = !health.onMap;
+      });
+    });
+
+    document.querySelector('.healthcare-show-btn').addEventListener('click', function () {
+      HealthcareCollection.locations.forEach((health) => {
+        if (!health.onMap) health.onMap = !health.onMap;
       });
     });
 

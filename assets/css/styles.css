@@ -1181,7 +1181,9 @@ input.input-text.pickr-userpin {
 }
 
 .side-menu .collection-value .businesses-location-btn,
-.side-menu .collection-value .businesses-display-btn {
+.side-menu .collection-value .businesses-display-btn,
+.side-menu .collection-value .healthcare-location-btn,
+.side-menu .collection-value .healthcare-display-btn {
     --bs-btn-active-color: #777;
     --bs-btn-active-bg: transparent;
     --bs-btn-active-border-color: transparent;

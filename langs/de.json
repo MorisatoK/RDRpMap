@@ -710,5 +710,8 @@
   "map.plants.strawberry.name": "Erdbeere",
   "map.plants.thyme.name": "Thymian",
   "map.plants.tobacco.name": "Tabak",
-  "map.plants.weed.name": "Hanf"
+  "map.plants.weed.name": "Hanf",
+  "menu.healthcare": "Gesundheit",
+  "map.healthcare.pharmacy.name": "Apotheke",
+  "map.healthcare.doctors.name": "Ärztehaus"
 }

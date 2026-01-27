@@ -1,0 +1,30 @@
+[
+  {
+    "key": "pharmacy",
+    "locationIcon": "blip_shop_doctor",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "St. Denis Apotheke", "x": -82.7578125, "y": 153.5390625, "type": "location"},
+      {"text": "Tumbleweed Apotheke", "x": -109.5546875, "y": 25.921875, "type": "location"}
+    ]
+  },
+  {
+    "key": "doctors",
+    "locationIcon": "blip_supplies_health",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Annesburg Ärzte", "x": -42.5703125, "y": 156.671875, "type": "location"},
+      {"text": "Armadillo Ärzte", "x": -104.5, "y": 53.375, "type": "location"},
+      {"text": "Rhodes Ärzte", "x": -81.4375, "y": 128.7109375, "type": "display"},
+      {"text": "Rhodes Ärzte", "x": -81.3671875, "y": 128.78125, "type": "location"},
+      {"text": "St. Denis Ärzte", "x": -78.640625, "y": 152.390625, "type": "location"},
+      {"text": "St. Denis Ärzte", "x": -82.7265625, "y": 153.6171875, "type": "location"},
+      {"text": "St. Denis Ärzte", "x": -78.4375, "y": 152.3046875, "type": "display"},
+      {"text": "Strawberry Ärzte", "x": -73.71875, "y": 83.0546875, "type": "location"},
+      {"text": "Tumbleweed Ärzte", "x": -109.6484375, "y": 25.921875, "type": "location"},
+      {"text": "Valentine Ärzte", "x": -54.8515625, "y": 109.03125, "type": "location"},
+      {"text": "Valentine Ärzte", "x": -54.671875, "y": 108.96875, "type": "display"},
+      {"text": "Blackwater Ärzte", "x": -80.359375, "y": 90.65625, "type": "location"}
+    ]
+  }
+]
