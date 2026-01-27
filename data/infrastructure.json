@@ -159,5 +159,13 @@
       {"text": "American Railroad Armadillo", "x": -103.9140625, "y": 53.296875},
       {"text": "American Railroad St. Denis", "x": -86.8203125, "y": 152.3671875}
     ]
+  },
+  {
+    "key": "processor",
+    "icon": "blip_mg_five_finger_fillet",
+    "locations": [
+      {"text": "Tierfrucht Crafting", "x": -38.7109375, "y": 108.8046875, "icon": "blip_ball"},
+      {"text": "Verarbeiter Baumwolle", "x": -83.52509235245603, "y": 133.20254807144076, "icon": "blip_ambient_wagon"}
+    ]
   }
 ]

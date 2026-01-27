@@ -639,6 +639,7 @@
   "map.infrastructure.butcher.name": "Fleischer",
   "map.infrastructure.fishprocessor.name": "Fischverarbeiter",
   "map.infrastructure.railroad.name": "Eisenbahn",
+  "map.infrastructure.processor.name": "Verarbeiter",
   "menu.government": "Regierung",
   "map.government.army.name": "U.S. Army",
   "map.government.sherrif.name": "Sheriff Department",

@@ -41,7 +41,11 @@ class Infrastructure {
 
   onLanguageChanged() {
     this.markers = [];
-    this.locations.forEach(item => this.markers.push(new Marker(item.text, item.x, item.y, 'infrastructure', this.key)));
+    this.locations.forEach((item) => {
+      const marker = new Marker(item.text, item.x, item.y, 'infrastructure', this.key);
+      marker.icon = item.icon;
+      this.markers.push(marker);
+    });
 
     this.reinitMarker();
   }
@@ -59,7 +63,7 @@ class Infrastructure {
             popupAnchor: [0, -boxPx / 2],
             html: `<div class="pin-icon-only">
               <span class="pin-icon-only__shadow" aria-hidden="true"></span>
-              <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${this.icon ? this.icon : this.key}.png')" aria-hidden="true"></span>
+              <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${this.getMarkerIcon(marker)}.png')" aria-hidden="true"></span>
             </div>`,
             marker: this.key,
             tippy: marker.title,
@@ -72,6 +76,10 @@ class Infrastructure {
           Layers.oms.addMarker(tempMarker);
       }
     );
+  }
+
+  getMarkerIcon(marker) {
+    return marker.icon || this.icon || this.key;
   }
 
   set onMap(state) {
@@ -88,6 +96,7 @@ class Infrastructure {
     }
     MapBase.updateTippy('infrastructure');
   }
+
   get onMap() {
     return !!localStorage.getItem(`rdo.${this.key}`);
   }
