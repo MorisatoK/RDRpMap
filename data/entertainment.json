@@ -1,0 +1,38 @@
+[
+  {
+    "key": "theatre",
+    "icon": "blip_ambient_theatre",
+    "locations": [
+      {"text": "Theater", "x": -84.75, "y": 99.3046875},
+      {"text": "Theater", "x": -83.78125, "y": 150.8125},
+      {"text": "Theater", "x": -84.6640625, "y": 153.015625},
+      {"text": "Theater", "x": -52.7265625, "y": 105.875}
+    ]
+  },
+  {
+    "key": "opera",
+    "icon": "blip_mp_gun_for_hire",
+    "locations": [
+      {"text": "St. Denis Opernhaus", "x": -83.453125, "y": 150.71875},
+      {"text": "St. Denis Opernhaus", "x": -83.5625, "y": 150.8046875, "icon": "blip_decision"}
+    ]
+  },
+  {
+    "key": "cinema",
+    "icon": "blip_job_board",
+    "locations": [
+      {"text": "Blackwater Kino", "x": -84.75, "y": 99.078125},
+      {"text": "St. Denis Kino", "x": -84.6484375, "y": 153.109375},
+      {"text": "Valentine Kino", "x": -52.5703125, "y": 105.8359375}
+    ]
+  },
+  {
+    "key": "casino",
+    "icon": "blip_mg_poker",
+    "locations": [
+      {"text": "Casino Schiff Anleger", "x": -87.78125, "y": 152.765625},
+      {"text": "Colter Casino", "x": -83.80526952581954, "y": 162.38218136874437},
+      {"text": "Pattels Plaza", "x": -85.5, "y": 155.9453125, "icon": "blip_ambient_vip"}
+    ]
+  }
+]

@@ -64,6 +64,7 @@ const urls = [
   'data/infrastructure.json',
   'data/government.json',
   'data/activities.json',
+  'data/entertainment.json',
   'data/businesses.json',
   'data/healthcare.json',
   'data/singleplayer.json',

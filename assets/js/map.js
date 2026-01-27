@@ -300,6 +300,10 @@ const MapBase = {
         HealthcareCollection.locations.filter(locationMarkerFilter);
       } else if (Singleplayer.quickParams.indexOf(quickParam) !== -1) {
         Singleplayer.locations.filter(locationMarkerFilter);
+      } else if (Infrastructure.quickParams.indexOf(quickParam) !== -1) {
+        Infrastructure.locations.filter(locationMarkerFilter);
+      } else if (Entertainment.quickParams.indexOf(quickParam) !== -1) {
+        Entertainment.locations.filter(locationMarkerFilter);
       } else if (AnimalCollection.quickParams.indexOf(quickParam) !== -1) {
         AnimalCollection.collection.filter(collection => {
           collection.animals.filter(animal => {

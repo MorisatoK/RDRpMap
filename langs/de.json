@@ -713,5 +713,10 @@
   "map.plants.weed.name": "Hanf",
   "menu.healthcare": "Gesundheit",
   "map.healthcare.pharmacy.name": "Apotheke",
-  "map.healthcare.doctors.name": "Ärztehaus"
+  "map.healthcare.doctors.name": "Ärztehaus",
+  "menu.entertainment": "Unterhaltung",
+  "map.entertainment.theatre.name": "Theater",
+  "map.entertainment.opera.name": "Opernhaus",
+  "map.entertainment.cinema.name": "Kino",
+  "map.entertainment.casino.name": "Casino"
 }

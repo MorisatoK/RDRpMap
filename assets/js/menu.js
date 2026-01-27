@@ -172,6 +172,7 @@ class Menu {
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
+        Entertainment.locations,
         Government.locations,
         Activities.locations,
         Shops.locations,
@@ -198,6 +199,7 @@ class Menu {
         Location.locations,
         Singleplayer.locations,
         Infrastructure.locations,
+        Entertainment.locations,
         Government.locations,
         Activities.locations,
         Shops.locations,
@@ -234,6 +236,18 @@ class Menu {
     document.querySelector('.infrastructure-show-btn').addEventListener('click', function () {
       Infrastructure.locations.forEach((infra) => {
         if (!infra.onMap) infra.onMap = !infra.onMap;
+      });
+    });
+
+    document.querySelector('.entertainment-hide-btn').addEventListener('click', function () {
+      Entertainment.locations.forEach((ent) => {
+        if (ent.onMap) ent.onMap = !ent.onMap;
+      });
+    });
+
+    document.querySelector('.entertainment-show-btn').addEventListener('click', function () {
+      Entertainment.locations.forEach((ent) => {
+        if (!ent.onMap) ent.onMap = !ent.onMap;
       });
     });
 
