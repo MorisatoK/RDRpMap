@@ -13,7 +13,7 @@ class Marker {
         case 'sightseeing':
           return Language.get('map.sightseeing.name') + (this.text === 'hidden' ? ' - ' + Language.get('map.sightseeing.hidden') : '');
         default:
-          return this.text ? this.text : '';
+          return this.text ? this.text : Language.get(`map.${this.category}.name`);
       }
     })();
     this.description = (() => '')();

@@ -720,5 +720,7 @@
   "map.entertainment.cinema.name": "Kino",
   "map.entertainment.casino.name": "Casino",
   "menu.religion": "Religion",
-  "menu.natives": "Indigene"
+  "menu.natives": "Indigene",
+  "menu.scenery": "Aussicht",
+  "map.scenery.name": "Aussicht"
 }
