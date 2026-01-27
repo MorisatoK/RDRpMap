@@ -38,19 +38,19 @@ const MapBase = {
         attribution: '<a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>',
         maxNativeZoom: 8,
       }),
-      'map.layers.detailed': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/detailed/{z}/{x}_{y}.webp', {
+      'map.layers.detailed': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://img.madcowmedia.de/rdrpmap/') + 'webp/detailed/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundaryRdrRp,
         attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
         maxNativeZoom: 7,
       }),
-      'map.layers.dark': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
+      'map.layers.dark': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://img.madcowmedia.de/rdrpmap/') + 'webp/darkmode/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundaryRdrRp,
         attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
         maxNativeZoom: 7,
       }),
-      'map.layers.black': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://map-tiles.b-cdn.net/assets/rdr3/') + 'webp/black/{z}/{x}_{y}.webp', {
+      'map.layers.black': L.tileLayer((isLocalHost() || isInternal() ? 'assets/maps/' : 'https://img.madcowmedia.de/rdrpmap/') + 'webp/black/{z}/{x}_{y}.webp', {
         noWrap: true,
         bounds: mapBoundaryRdrRp,
         attribution: '<a href="https://github.com/MorisatoK" target="_blank">MorisatoK</a>',
