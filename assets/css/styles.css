@@ -1180,8 +1180,8 @@ input.input-text.pickr-userpin {
     margin-bottom: 6px;
 }
 
-.side-menu .collection-value .hospitality-location-btn,
-.side-menu .collection-value .hospitality-display-btn {
+.side-menu .collection-value .businesses-location-btn,
+.side-menu .collection-value .businesses-display-btn {
     --bs-btn-active-color: #777;
     --bs-btn-active-bg: transparent;
     --bs-btn-active-border-color: transparent;

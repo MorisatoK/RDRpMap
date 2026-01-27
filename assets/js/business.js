@@ -28,6 +28,8 @@ class Business {
     this.locations.forEach((item) => {
       const marker = new Marker(item.text, item.x, item.y, 'businesses', this.key, item.type);
       marker.type = item.type;
+      marker.locationIcon = item.locationIcon;
+      marker.displayIcon = item.displayIcon;
       this.dataMarkers.push(marker);
     });
 
@@ -50,7 +52,7 @@ class Business {
           popupAnchor: [0, -boxPx / 2],
           html: `<div class="pin-icon-only">
             <span class="pin-icon-only__shadow" aria-hidden="true"></span>
-            <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${marker.type === 'location' ? this.locationIcon : this.displayIcon}.png')" aria-hidden="true"></span>
+            <span class="pin-icon-only__ico" style="background-image:url('assets/images/icons/${this.getMarkerIcon(marker)}.png')" aria-hidden="true"></span>
           </div>`,
           marker: this.key,
           tippy: marker.title,
@@ -60,6 +62,16 @@ class Business {
       tempMarker.bindPopup(marker.updateMarkerContent.bind(marker, () => this.onMap = false), { minWidth: 300, maxWidth: 400 });
       this.markers.push(tempMarker);
     });
+  }
+
+  getMarkerIcon(marker) {
+    if (marker.type === 'location') {
+      return marker.locationIcon || this.locationIcon;
+    }
+    if (marker.type === 'display') {
+      return marker.displayIcon || this.displayIcon;
+    }
+    return this.key;
   }
 
   set onMap(state) {

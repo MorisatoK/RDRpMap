@@ -44,5 +44,272 @@
       {"text": "Zum Dornröschen", "x": -88.77814941842774, "y": 95.35023326833276, "type": "location"},
       {"text": "Zum Dornröschen", "x": -88.89818747961323, "y": 95.55029670364189, "type": "display"}
     ]
+  },
+  {
+    "key": "ranch",
+    "locationIcon": "blip_saddle",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Dreamland Ranch", "x": -50.171875, "y": 123.6171875, "type": "location"},
+      {"text": "Dreamland Ranch", "x": -50.4375, "y": 124.046875, "type": "display"},
+      {"text": "Evergreen Ranch", "x": -85.5234375, "y": 86.2734375, "type": "location"},
+      {"text": "Evergreen Ranch", "x": -85.015625, "y": 85.890625, "type": "display"},
+      {"text": "Sunset Ranch", "x": -100.390625, "y": 73.40625, "type": "location"},
+      {"text": "Sunset Ranch", "x": -100.9921875, "y": 73.5546875, "type": "display"},
+      {"text": "Wildberry Ranch", "x": -58.1328125, "y": 98.609375, "type": "location"},
+      {"text": "Wildberry Ranch", "x": -58.60264102081369, "y": 98.80565831290068, "type": "display"},
+      {"text": "Wolfsbane Hollow Ranch", "x": -56.9453125, "y": 72.0625, "type": "location"},
+      {"text": "Wolfsbane Hollow Ranch", "x": -56.40625, "y": 71.6484375, "type": "display"}
+    ]
+  },
+  {
+    "key": "smoking",
+    "locationIcon": "blip_shop_store",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Zum Goldenen Rauch", "x": -82.90625,"y": 122.0078125, "type": "location"},
+      {"text": "Zum Goldenen Rauch", "x": -82.5390625, "y": 122.0234375, "type": "display"},
+      {"text": "Zum Goldenen Tabakblatt", "x": -86.125,"y": 99.6171875, "type": "location"},
+      {"text": "Zum Goldenen Tabakblatt", "x": -86.1875, "y": 99.3671875, "type": "display"}
+    ]
+  },
+  {
+    "key": "mixedgoods",
+    "locationIcon": "blip_shop_market_stall",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Franky's Gemischtwarenladen", "x": -84.15625, "y": 99.1171875, "type": "location"},
+      {"text": "Franky's Gemischtwarenladen", "x": -84.171875, "y": 98.96875, "type": "display"},
+      {"text": "Herringtons Gemischtwarenladen", "x": -109.201171875, "y": 26.0546875, "type": "location"},
+      {"text": "Herringtons Gemischtwarenladen", "x": -109.2734375, "y": 26, "type": "display"},
+      {"text": "Billys Bazar", "x": -51.015625, "y": 106.265625, "type": "location"},
+      {"text": "Billys Bazar", "x": -51.1875, "y": 106.3125, "type": "display"},
+      {"text": "Lone Star Pawn", "x": -104.203125, "y": 55.1953125, "type": "location"},
+      {"text": "Lone Star Pawn", "x": -104.28125, "y": 55.109375, "type": "display"},
+      {"text": "Nordlicht Handel", "x": -42.3359375, "y": 156.7109375, "type": "location"},
+      {"text": "Nordlicht Handel", "x": -42.3671875, "y": 156.8125, "type": "display"},
+      {"text": "Tante Emma Laden", "x": -69.60274621945901, "y": 83.50311883682708, "type": "location"},
+      {"text": "Tante Emma Laden", "x": -69.55809302961143, "y": 83.43531214113261, "type": "display"},
+      {"text": "Uwe Brauns Laden Voller Wunder", "x": -56.2421875, "y": 157.1015625, "type": "location"},
+      {"text": "Uwe Brauns Laden Voller Wunder", "x": -56.1953125, "y": 157.2265625, "type": "display"},
+      {"text": "Waynes Warehouse", "x": -83.6796875, "y": 131.8671875, "type": "location"},
+      {"text": "Waynes Warehouse", "x": -83.5625, "y": 131.8828125, "type": "display"}
+    ]
+  },
+  {
+    "key": "tailor",
+    "locationIcon": "blip_hat",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Atelier du Lys", "x": -79.328125, "y": 151.71875, "type": "location"},
+      {"text": "Atelier du Lys", "x": -79.2421875, "y": 151.8828125, "type": "display"},
+      {"text": "Midnight Needle", "x": -69.296875, "y": 83.1640625, "type": "location"},
+      {"text": "Midnight Needle", "x": -69.390625, "y": 83.1875, "type": "display"}
+    ]
+  },
+  {
+    "key": "jeweler",
+    "locationIcon": "blip_mp_job_exclusive_large",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "GoldDevils Amber", "x": -72.3203125, "y": 83.0078125, "type": "location"},
+      {"text": "GoldDevils Amber", "x": -72.4765625, "y": 83.1796875, "type": "display"},
+      {"text": "Blackwood Schmuckmanufaktur", "x": -76.0703125, "y": 152.359375, "type": "location"},
+      {"text": "Blackwood Schmuckmanufaktur", "x": -76.32080618773992, "y": 152.4330301059267, "type": "display"}
+    ]
+  },
+  {
+    "key": "farm",
+    "locationIcon": "blip_ambient_herd",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Fuchsbau Farm", "x": -59.546875, "y": 133.203125, "type": "location"},
+      {"text": "Fuchsbau Farm", "x": -59.3125, "y": 133.3671875, "type": "display"},
+      {"text": "Farm Garcia", "x": -120.375, "y": 27.0625, "type": "location"},
+      {"text": "Garcia Farm", "x": -120.0234375, "y": 27.4140625, "type": "display"},
+      {"text": "Black Sheep Farm", "x": -77.31255924599807, "y": 132.68301351918612, "type": "location"},
+      {"text": "Black Sheep Farm", "x": -76.828125, "y": 134.0546875, "type": "display"},
+      {"text": "Broke Back Farm", "x": -52.265625, "y": 76.8125, "type": "location"},
+      {"text": "Broke Back Farm", "x": -52.9765625, "y": 77.1640625, "type": "display"},
+      {"text": "Emperio de Banks", "x": -76.96875, "y": 143.2109375, "type": "location"},
+      {"text": "Emperio de Banks", "x": -77.4609375, "y": 143.484375, "type": "display"},
+      {"text": "Zur Wüstenblüte", "x": -105.88329521781574, "y": 37.01093870020919, "type": "location"},
+      {"text": "Zur Wüstenblüte", "x": -106.19147117798403, "y": 36.757439120070764, "type": "display"}
+    ]
+  },
+  {
+    "key": "candy",
+    "locationIcon": "blip_mp_location_c",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Candy Kitchen", "x": -51.109375, "y": 106.03125, "type": "location"},
+      {"text": "Candy Kitchen", "x": -51.25, "y": 106.0703125, "type": "display"},
+      {"text": "Der Kräuter-Zwerg", "x": -71.59375, "y": 127.9375, "type": "location"},
+      {"text": "Der Kräuter-Zwerg", "x": -71.625, "y": 127.671875, "type": "display"},
+      {"text": "Die Austin Eishalle", "x": -83.34375, "y": 151.8046875, "type": "location", "locationIcon": "blip_mp_location_a"},
+      {"text": "Die Austin Eismanufaktur", "x": -26.71875, "y": 90.140625, "type": "location", "locationIcon": "blip_mp_location_a"},
+      {"text": "Die Austin Eismanufaktur", "x": -26.8203125, "y": 90.25, "type": "display"}
+    ]
+  },
+  {
+    "key": "bakery",
+    "locationIcon": "blip_summer_feed",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Backstube", "x": -103.2421875, "y": 53.3828125, "type": "location"},
+      {"text": "Backstube", "x": -103.203125, "y": 53.3515625, "type": "display"},
+      {"text": "Knusperhaus", "x": -59.7201640351526, "y": 87.25700339455948, "type": "location"},
+      {"text": "Knusperhaus", "x": -59.92920836431304, "y": 86.18327570387177, "type": "display"},
+      {"text": "The Blue Owl Bakery", "x": -56.51840319785978, "y": 138.91090582503367, "type": "location"},
+      {"text": "The Blue Owl Bakery", "x": -55.9296875, "y": 137.734375, "type": "display"}
+    ]
+  },
+  {
+    "key": "huntingclub",
+    "locationIcon": "blip_taxidermist",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Hubertus Hunting", "x": -58.0546875, "y": 71.2421875, "type": "location"},
+      {"text": "Hubertus Hunting", "x": -57.9296875, "y": 71.59375, "type": "display"},
+      {"text": "Montana Hunting Company", "x": -101.359375, "y": 73.734375, "type": "location"},
+      {"text": "Montana Hunting Company", "x": -101.2890625, "y": 73.5859375, "type": "display"},
+      {"text": "The Royal Hunting Club", "x": -84.6015625, "y": 140.421875, "type": "location"},
+      {"text": "Royal Hunting Company", "x": -84.2890625, "y": 140.453125, "type": "display"}
+    ]
+  },
+  {
+    "key": "winery",
+    "locationIcon": "blip_moonshine_vat",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Blut der Traube", "x": -75.125, "y": 128.390625, "type": "location"},
+      {"text": "Blut der Traube", "x": -74.875, "y": 128.671875, "type": "display"},
+      {"text": "Riverside Company", "x": -104.4609375, "y": 53.8203125, "type": "location"},
+      {"text": "Riverside Company", "x": -104.3203125, "y": 53.8046875, "type": "display"},
+      {"text": "Weingut Hudson", "x": -52.3203125, "y": 77.3671875, "type": "location"},
+      {"text": "Weingut Hudson", "x": -53.2109375, "y": 77.328125, "type": "display"}
+    ]
+  },
+  {
+    "key": "mining",
+    "locationIcon": "blip_mp_ugc",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Mine Branson und Pinto", "x": -42.3828125, "y": 155.875, "type": "location"},
+      {"text": "Mine Branson und Pinto", "x": -42.4765625, "y": 155.9609375, "type": "display"},
+      {"text": "Western Mining", "x": -113.9140625, "y": 18.5625, "type": "location"},
+      {"text": "Western Mining", "x": -113.6640625, "y": 18.453125, "type": "display"}
+    ]
+  },
+  {
+    "key": "forestry",
+    "locationIcon": "blip_event_appleseed",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Blue Company", "x": -37.375, "y": 155.296875, "type": "location"},
+      {"text": "Blue Company", "x": -37.703125, "y": 155.3203125, "type": "display"},
+      {"text": "Holzkontor", "x": -66.7109375, "y": 89.5546875, "type": "location"},
+      {"text": "Holzkontor", "x": -67.17977579894901, "y": 89.85452746292025, "type": "display"},
+      {"text": "Old Pine Company", "x": -25.703125, "y": 90.2578125, "type": "location"},
+      {"text": "Old Pine Company", "x": -25.7578125, "y": 90.390625, "type": "display"},
+      {"text": "Schreinerei Nolan", "x": -66.5, "y": 129.984375, "type": "location"},
+      {"text": "Schreinerei Nolan", "x": -66.1484375, "y": 129.921875, "type": "display"},
+      {"text": "Whispering Pines", "x": -70.80971942323838, "y": 122.53479284910837, "type": "location"},
+      {"text": "Whispering Pines", "x": -70.18224657096758, "y": 122.34536708238511, "type": "display"}
+    ]
+  },
+  {
+    "key": "apiary",
+    "locationIcon": "blip_special_series_2",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Flotte Biene", "x": -75.4921875, "y": 151.796875, "type": "location"},
+      {"text": "Flotte Biene", "x": -75.3827911268335, "y": 151.53899685384573, "type": "display"},
+      {"text": "Wilde Biene", "x": -69.828125, "y": 83.6328125, "type": "location"},
+      {"text": "Wilde Biene", "x": -69.8203125, "y": 83.78125, "type": "display"}
+    ]
+  },
+  {
+    "key": "tannery",
+    "locationIcon": "blip_animal_skin",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Barton Tannery", "x": -104.40625, "y": 54.6328125, "type": "location"},
+      {"text": "Barton Tannery", "x": -104.3125, "y": 54.6953125, "type": "display"},
+      {"text": "Gerberei Polarstern", "x": -54.90625, "y": 156.828125, "type": "location"},
+      {"text": "Gerberei Polarstern", "x": -54.75, "y": 156.8203125, "type": "display"}
+    ]
+  },
+  {
+    "key": "blacksmith",
+    "locationIcon": "blip_shop_blacksmith",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Bärenherz Schmiede", "x": -57.71875, "y": 133.3125, "type": "location"},
+      {"text": "Bärenherz Schmiede", "x": -57.796875, "y": 133.4453125, "type": "display"},
+      {"text": "Johnson Schmiede", "x": -103.375, "y": 54.0390625, "type": "location"},
+      {"text": "Johnson Schmiede", "x": -103.4921875, "y": 54.2578125, "type": "display"},
+      {"text": "Royal Steel Co.", "x": -78.140625, "y": 151.796875, "type": "location"},
+      {"text": "Royal Steel Co.", "x": -77.9921875, "y": 151.8671875, "type": "display"}
+    ]
+  },
+  {
+    "key": "flowers",
+    "locationIcon": "blip_bank_debt",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Blooming Hope", "x": -42.7578125, "y": 156.609375, "type": "location"},
+      {"text": "Blooming Hope", "x": -42.828125, "y": 156.7421875, "type": "display"},
+      {"text": "Singing Sunflower", "x": -77.8046875, "y": 153.953125, "type": "location"},
+      {"text": "Singing Sunflower", "x": -77.8359375, "y": 154.1171875, "type": "display"}
+    ]
+  },
+  {
+    "key": "gunsmith",
+    "locationIcon": "blip_shop_gunsmith",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Battle Buddys", "x": -51.46875, "y": 106.9375, "type": "location"},
+      {"text": "Battle Buddys", "x": -51.46875, "y": 107.0625, "type": "display"},
+      {"text": "Joe's Candygun", "x": -103.9140625, "y": 54.2421875, "type": "location"},
+      {"text": "Joe's Candygun", "x": -104.03125, "y": 54.1640625, "type": "display"},
+      {"text": "Old Miller Guns", "x": -84.1171875, "y": 131.8828125, "type": "location"},
+      {"text": "Old Miller Guns", "x": -84, "y": 131.96875, "type": "display"},
+      {"text": "Steel and Honor", "x": -70.109375, "y": 82.71875, "type": "location"},
+      {"text": "Steel and Honor", "x": -70.21875, "y": 82.65625, "type": "display"}
+    ]
+  },
+  {
+    "key": "brewery",
+    "locationIcon": "blip_moonshine",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Midgards Brauhalle", "x": -63.484375, "y": 128.296875, "type": "location"},
+      {"text": "Midgards Brauhalle", "x": -63.734375, "y": 128.421875, "type": "display"},
+      {"text": "Beckys Brews and Barrels", "x": -51.640625, "y": 107.5625, "type": "location"},
+      {"text": "Beckys Brews and Barrels", "x": -51.6875, "y": 107.4609375, "type": "display"},
+      {"text": "Tipsy Pickle Brew", "x": -99.2421875, "y": 89.546875, "type": "location"},
+      {"text": "Tipsy Pickle Brew", "x": -99.1015625, "y": 89.3359375, "type": "display"}
+    ]
+  },
+  {
+    "key": "printhouse",
+    "locationIcon": "blip_ambient_newspaper",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Tintenwerk", "x": -82.28125, "y": 153.1171875, "type": "location"},
+      {"text": "Tintenwerk", "x": -82.03125, "y": 153.2890625, "type": "display"}
+    ]
+  },
+  {
+    "key": "misc_businesses",
+    "locationIcon": "blip_ambient_secret",
+    "displayIcon": "blip_decision",
+    "locations": [
+      {"text": "Black Horizon Company", "x": -53.954867041664265, "y": 119.01168655242026, "type": "location", "locationIcon": "blip_ambient_herd_straggler"},
+      {"text": "Black Horizon Company", "x": -52.6875, "y": 119.03125, "type": "display"},
+      {"text": "Markttag", "x": -67.3203125, "y": 107.875, "type": "location", "locationIcon": "blip_teamsters"},
+      {"text": "RR Baugesellschaft", "x": -59.618903722121615, "y": 99.13143219567537, "type": "location", "locationIcon": "blip_mp_ugc"}
+    ]
   }
 ]
