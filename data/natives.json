@@ -4,8 +4,8 @@
     "locationIcon": "blip_camp_tent",
     "displayIcon": "blip_decision",
     "locations": [
-      {"text": "Sioux", "x": -43.369473326108356, "y": 139.1724974210068, "type": "location"},
-      {"text": "Sioux", "x": -49.5703125, "y": 136.484375, "type": "display"},
+      {"text": "Comanchen", "x": -38.0928, "y": 128.3082, "type": "location"},
+      {"text": "Comanchen", "x": -49.5703125, "y": 136.484375, "type": "display"},
       {"text": "Cherokee", "x": -38.34375, "y": 120.9765625, "type": "display"},
       {"text": "Cherokee", "x": -32.74074967685634, "y": 123.10329002211228, "type": "location"},
       {"text": "Hopi", "x": -43.39271355221529, "y": 114.01558578149908, "type": "display"},
