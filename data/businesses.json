@@ -42,7 +42,9 @@
       {"text": "Moonlight Diner", "x": -76.66099424233497, "y": 153.38213497197057, "type": "location"},
       {"text": "Moonlight Diner", "x": -76.453125, "y": 153.5078125, "type": "display"},
       {"text": "Zum Dornröschen", "x": -88.77814941842774, "y": 95.35023326833276, "type": "location"},
-      {"text": "Zum Dornröschen", "x": -88.89818747961323, "y": 95.55029670364189, "type": "display"}
+      {"text": "Zum Dornröschen", "x": -88.89818747961323, "y": 95.55029670364189, "type": "display"},
+      {"text": "Jade Dragon", "x": -83.62844663754461, "y": 153.45489247374954, "type": "location"},
+      {"text": "Jade Dragon", "x": -83.57160575068025, "y": 153.31020657991294, "type": "display"}
     ]
   },
   {
@@ -309,6 +311,7 @@
       {"text": "Black Horizon Company", "x": -53.954867041664265, "y": 119.01168655242026, "type": "location", "locationIcon": "blip_ambient_herd_straggler"},
       {"text": "Black Horizon Company", "x": -52.6875, "y": 119.03125, "type": "display"},
       {"text": "Markttag", "x": -67.3203125, "y": 107.875, "type": "location", "locationIcon": "blip_teamsters"},
+      {"text": "Fight Club Golden Glove", "x": -86.70302188157198, "y": 146.97503137121117, "type": "location", "locationIcon": "blip_trophy"},
       {"text": "RR Baugesellschaft", "x": -59.618903722121615, "y": 99.13143219567537, "type": "location", "locationIcon": "blip_mp_ugc"}
     ]
   }
